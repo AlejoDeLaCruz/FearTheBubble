@@ -11,7 +11,7 @@ public class Death : MonoBehaviour
     public AudioClip[] deathSounds; // Los clips de sonido que se reproducirán al chocar
     public float transitionDuration = 2f;  // Duración de la transición en segundos
 
-    private int collisionCount = 0; // Contador de cuántas veces ha chocado el jugador
+    private int collisionCount = 1; // Contador de cuántas veces ha chocado el jugador
 
     // Esta función se llama cuando un objeto entra en contacto con este objeto
     private void OnCollisionEnter(Collision collision)
@@ -42,15 +42,16 @@ public class Death : MonoBehaviour
         // Activa la pantalla negra (si no está activada ya)
         blackScreen.gameObject.SetActive(true);
 
-        // Hace la pantalla negra opaca (de 0 a 1) durante la duración de la transición
+        // Hace la pantalla opaca (de 0 a 1) durante la duración de la transición
         float elapsedTime = 0f;
         while (elapsedTime < transitionDuration)
         {
-            blackScreen.color = new Color(0f, 0f, 0f, Mathf.Lerp(0f, 1f, elapsedTime / transitionDuration));
+            // Cambia la opacidad sin afectar el sprite
+            blackScreen.color = new Color(blackScreen.color.r, blackScreen.color.g, blackScreen.color.b, Mathf.Lerp(0f, 1f, elapsedTime / transitionDuration));
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        blackScreen.color = new Color(0f, 0f, 0f, 1f); // Asegura que esté completamente negro
+        blackScreen.color = new Color(blackScreen.color.r, blackScreen.color.g, blackScreen.color.b, 1f); // Asegura que esté completamente opaco
 
         // Teletransporta al jugador a la posición del punto de respawn
         player.transform.position = respawnPoint.position;
@@ -62,11 +63,12 @@ public class Death : MonoBehaviour
         elapsedTime = 0f;
         while (elapsedTime < transitionDuration)
         {
-            blackScreen.color = new Color(0f, 0f, 0f, Mathf.Lerp(1f, 0f, elapsedTime / transitionDuration));
+            // Cambia la opacidad sin afectar el sprite
+            blackScreen.color = new Color(blackScreen.color.r, blackScreen.color.g, blackScreen.color.b, Mathf.Lerp(1f, 0f, elapsedTime / transitionDuration));
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        blackScreen.color = new Color(0f, 0f, 0f, 0f); // Asegura que esté completamente transparente
+        blackScreen.color = new Color(blackScreen.color.r, blackScreen.color.g, blackScreen.color.b, 0f); // Asegura que esté completamente transparente
 
         // Desactiva la pantalla negra
         blackScreen.gameObject.SetActive(false);
