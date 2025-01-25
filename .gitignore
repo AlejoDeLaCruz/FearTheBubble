@@ -1,0 +1,15 @@
+# Archivos de configuración de Unity que se deben ignorar
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+.vs/
+.idea/
+.DS_Store
+
+# Configuración específica de usuarios y plataformas
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
