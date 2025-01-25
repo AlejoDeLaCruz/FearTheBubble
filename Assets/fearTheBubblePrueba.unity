@@ -678,8 +678,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxForce: 1
-  minForce: 0.05
+  minForce: 0.01
   forceChargeRate: 2
+  maxSpeed: 1
 --- !u!54 &436232411
 Rigidbody:
   m_ObjectHideFlags: 0
