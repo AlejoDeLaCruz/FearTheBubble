@@ -8,8 +8,10 @@ public class Death : MonoBehaviour
     public Canvas canvas;           // El Canvas que contiene la pantalla negra
     public Image blackScreen;       // La Image negra que cubrirá la pantalla
     public AudioSource audioSource; // El componente AudioSource que reproducirá el sonido
-    public AudioClip deathSound;    // El clip de sonido que se reproducirá al morir
+    public AudioClip[] deathSounds; // Los clips de sonido que se reproducirán al chocar
     public float transitionDuration = 2f;  // Duración de la transición en segundos
+
+    private int collisionCount = 0; // Contador de cuántas veces ha chocado el jugador
 
     // Esta función se llama cuando un objeto entra en contacto con este objeto
     private void OnCollisionEnter(Collision collision)
@@ -17,14 +19,21 @@ public class Death : MonoBehaviour
         // Verifica si el objeto que colisionó es el jugador
         if (collision.gameObject.CompareTag("Player"))
         {
-            // Reproduce el sonido
-            if (audioSource != null && deathSound != null)
+            // Incrementa el contador de colisiones
+            collisionCount++;
+
+            // Reproduce el sonido correspondiente según el número de colisiones
+            if (audioSource != null && deathSounds.Length > collisionCount - 1)
             {
-                audioSource.PlayOneShot(deathSound);
+                audioSource.PlayOneShot(deathSounds[collisionCount - 1]);
             }
 
-            // Inicia la secuencia de muerte (transición)
-            StartCoroutine(DeathSequence(collision.gameObject));
+            // Si el jugador ha chocado 3 veces, inicia la secuencia de muerte
+            if (collisionCount == 3)
+            {
+                // Inicia la secuencia de muerte (transición)
+                StartCoroutine(DeathSequence(collision.gameObject));
+            }
         }
     }
 
@@ -61,5 +70,8 @@ public class Death : MonoBehaviour
 
         // Desactiva la pantalla negra
         blackScreen.gameObject.SetActive(false);
+
+        // Reinicia el contador de colisiones
+        collisionCount = 0;
     }
 }
