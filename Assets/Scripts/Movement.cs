@@ -5,10 +5,10 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     [Header("Force Settings")]
-    public float maxForce = 1f; // Fuerza máxima que se puede acumular
+    public float maxForce = 0.05f; // Fuerza máxima que se puede acumular
     public float minForce = 0.01f;  // Fuerza mínima aplicada al soltar rápidamente
     public float forceChargeRate = 2f; // Velocidad de carga de la fuerza por segundo
-    public float maxSpeed = 1f; // Velocidad máxima de la esfera
+    public float maxSpeed = 0.05f; // Velocidad máxima de la esfera
 
     private float currentForce = 0f; // Fuerza acumulada mientras se mantiene el clic
     private bool isCharging = false; // Indica si el jugador está acumulando fuerza
