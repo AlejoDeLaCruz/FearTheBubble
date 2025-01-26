@@ -1,34 +1,38 @@
 using UnityEngine;
+using UnityEngine.UI; // Necesario para trabajar con Image
 using System.Collections;
 
 public class TakeObject : MonoBehaviour
 {
-    public Canvas canvas;                 // El Canvas inicial que contiene la imagen a mostrar
-    public Canvas secondaryCanvas;       // El Canvas secundario que se muestra por X segundos
-    public float secondaryCanvasDuration = 3f; // Duración en segundos del Canvas secundario
-    public MonoBehaviour playerMovement; // Referencia al script de movimiento del jugador (habilitar/deshabilitar)
+    [Header("Configuración de Imágenes")]
+    public Image primaryImage;              // Imagen principal que se muestra inicialmente
+    public Image secondaryImage;            // Imagen secundaria que se muestra por X segundos
+    public float secondaryImageDuration = 3f; // Duración en segundos de la imagen secundaria
 
-    private bool isPlayerStopped = false; // Indica si el movimiento del jugador está desactivado
+    [Header("Movimiento del Jugador")]
+    public MonoBehaviour playerMovement;    // Referencia al script de movimiento del jugador (habilitar/deshabilitar)
+
+    private bool isPlayerStopped = false;   // Indica si el movimiento del jugador está desactivado
 
     private void Start()
     {
-        // Asegúrate de que los Canvas estén inicialmente desactivados
-        if (canvas != null)
+        // Asegúrate de que las imágenes estén inicialmente desactivadas
+        if (primaryImage != null)
         {
-            canvas.gameObject.SetActive(false);
+            primaryImage.gameObject.SetActive(false);
         }
         else
         {
-            Debug.LogWarning("Canvas inicial no asignado en el Inspector.");
+            Debug.LogWarning("Imagen principal no asignada en el Inspector.");
         }
 
-        if (secondaryCanvas != null)
+        if (secondaryImage != null)
         {
-            secondaryCanvas.gameObject.SetActive(false);
+            secondaryImage.gameObject.SetActive(false);
         }
         else
         {
-            Debug.LogWarning("Canvas secundario no asignado en el Inspector.");
+            Debug.LogWarning("Imagen secundaria no asignada en el Inspector.");
         }
 
         // Verifica que el script de movimiento del jugador esté asignado
@@ -43,10 +47,10 @@ public class TakeObject : MonoBehaviour
         // Verifica si el objeto que colisionó tiene el tag "Player"
         if (collision.gameObject.CompareTag("Player"))
         {
-            if (canvas != null && playerMovement != null)
+            if (primaryImage != null && playerMovement != null)
             {
-                // Activa el Canvas inicial
-                canvas.gameObject.SetActive(true);
+                // Activa la imagen principal
+                primaryImage.gameObject.SetActive(true);
 
                 // Desactiva el movimiento del jugador
                 playerMovement.enabled = false;
@@ -60,8 +64,11 @@ public class TakeObject : MonoBehaviour
         // Verifica si el jugador está detenido y presiona la tecla E
         if (isPlayerStopped && Input.GetKeyDown(KeyCode.E))
         {
-            // Desactiva el Canvas inicial
-            canvas.gameObject.SetActive(false);
+            // Desactiva la imagen principal
+            if (primaryImage != null)
+            {
+                primaryImage.gameObject.SetActive(false);
+            }
 
             // Reactiva el movimiento del jugador
             if (playerMovement != null)
@@ -70,23 +77,23 @@ public class TakeObject : MonoBehaviour
                 isPlayerStopped = false;
             }
 
-            // Inicia la rutina para mostrar el Canvas secundario
-            if (secondaryCanvas != null)
+            // Inicia la rutina para mostrar la imagen secundaria
+            if (secondaryImage != null)
             {
-                StartCoroutine(ShowSecondaryCanvas());
+                StartCoroutine(ShowSecondaryImage());
             }
         }
     }
 
-    private IEnumerator ShowSecondaryCanvas()
+    private IEnumerator ShowSecondaryImage()
     {
-        // Activa el Canvas secundario
-        secondaryCanvas.gameObject.SetActive(true);
+        // Activa la imagen secundaria
+        secondaryImage.gameObject.SetActive(true);
 
         // Espera durante la duración especificada
-        yield return new WaitForSeconds(secondaryCanvasDuration);
+        yield return new WaitForSeconds(secondaryImageDuration);
 
-        // Desactiva el Canvas secundario
-        secondaryCanvas.gameObject.SetActive(false);
+        // Desactiva la imagen secundaria
+        secondaryImage.gameObject.SetActive(false);
     }
 }

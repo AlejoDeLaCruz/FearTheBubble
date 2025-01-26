@@ -11,7 +11,7 @@ public class Death : MonoBehaviour
     public AudioClip[] deathSounds; // Los clips de sonido que se reproducirán al chocar
     public float transitionDuration = 2f;  // Duración de la transición en segundos
 
-    private int collisionCount = 1; // Contador de cuántas veces ha chocado el jugador
+    private int collisionCount = 0; // Contador de cuántas veces ha chocado el jugador
 
     // Esta función se llama cuando un objeto entra en contacto con este objeto
     private void OnCollisionEnter(Collision collision)
@@ -23,9 +23,23 @@ public class Death : MonoBehaviour
             collisionCount++;
 
             // Reproduce el sonido correspondiente según el número de colisiones
-            if (audioSource != null && deathSounds.Length > collisionCount - 1)
+            if (audioSource != null && deathSounds.Length >= collisionCount)
             {
-                audioSource.PlayOneShot(deathSounds[collisionCount - 1]);
+                AudioClip soundToPlay = deathSounds[collisionCount - 1];
+
+                // Reproduce el primer y segundo sonido en bucle
+                if (collisionCount == 1 || collisionCount == 2)
+                {
+                    audioSource.clip = soundToPlay;
+                    audioSource.loop = true;
+                    audioSource.Play();
+                }
+                // Reproduce el tercer sonido sin bucle
+                else if (collisionCount == 3)
+                {
+                    audioSource.PlayOneShot(soundToPlay);
+                    audioSource.loop = false; // Asegura que no se repita
+                }
             }
 
             // Si el jugador ha chocado 3 veces, inicia la secuencia de muerte
