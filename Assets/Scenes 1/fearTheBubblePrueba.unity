@@ -11769,6 +11769,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 608750794}
   m_LocalEulerAnglesHint: {x: 0, y: -9.613, z: 0}
+--- !u!1 &499277372
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 499277373}
+  m_Layer: 0
+  m_Name: JuguetesContainer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &499277373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499277372}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 30.531324, y: -61.191143, z: 89.00897}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1274253310}
+  - {fileID: 929235524}
+  - {fileID: 1466869250}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &504909821
 GameObject:
   m_ObjectHideFlags: 0
@@ -20376,7 +20410,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929235519}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -20428,12 +20462,12 @@ Transform:
   m_GameObject: {fileID: 929235519}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 102.65, y: 0.25999996, z: 11.62}
+  m_LocalPosition: {x: 72.118675, y: 61.45114, z: -77.38897}
   m_LocalScale: {x: 0.26813117, y: 0.26813117, z: 0.26813117}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1627950197}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 499277373}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &932498710
 GameObject:
@@ -27470,7 +27504,7 @@ GameObject:
   - component: {fileID: 1274253307}
   - component: {fileID: 1274253311}
   m_Layer: 0
-  m_Name: BoyaContainer
+  m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27506,7 +27540,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274253306}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -27558,12 +27592,12 @@ Transform:
   m_GameObject: {fileID: 1274253306}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.213, y: 0.25999996, z: 4.849}
+  m_LocalPosition: {x: -21.318325, y: 61.45114, z: -84.15997}
   m_LocalScale: {x: 0.26813117, y: 0.26813117, z: 0.26813117}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1415559576}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 499277373}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1274253311
 MonoBehaviour:
@@ -31660,7 +31694,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1466869245}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -31712,12 +31746,12 @@ Transform:
   m_GameObject: {fileID: 1466869245}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 178.4, y: 0.25999996, z: 4.5}
+  m_LocalPosition: {x: 147.86867, y: 61.45114, z: -84.50897}
   m_LocalScale: {x: 0.26813117, y: 0.26813117, z: 0.26813117}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1787479010}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 499277373}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1469481461
 GameObject:
@@ -45254,9 +45288,6 @@ SceneRoots:
   - {fileID: 55703687}
   - {fileID: 138927505}
   - {fileID: 488541646}
-  - {fileID: 1274253310}
-  - {fileID: 929235524}
-  - {fileID: 1466869250}
   - {fileID: 1909509378}
   - {fileID: 1522733768}
   - {fileID: 685459629}
@@ -45264,3 +45295,4 @@ SceneRoots:
   - {fileID: 608750794}
   - {fileID: 690567817}
   - {fileID: 901413579}
+  - {fileID: 499277373}
