@@ -7,6 +7,8 @@ public class Follow : MonoBehaviour
 {
     public Transform target;
 
+    public float offset = 0.5f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +18,6 @@ public class Follow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = target.position;
+        transform.position = new Vector3(target.position.x, target.position.y  - offset, target.position.z);
     }
 }
