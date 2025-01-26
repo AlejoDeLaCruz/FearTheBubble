@@ -7,9 +7,7 @@ public class GroundMovement : MonoBehaviour
 {
     [Header("Movement")]
     public float moveSpeed;
-
     public float groundDrag;
-
     public float jumpForce;
     public float airMultiplier;
     bool readyToJump;
@@ -34,23 +32,35 @@ public class GroundMovement : MonoBehaviour
 
     Rigidbody rb;
 
+    [Header("Buttons")]
+    public GameObject activationButton; // El botón para activar el movimiento
+    public GameObject exitButton; // El botón para salir del juego
+
+    private bool isActivated = false; // Indica si el movimiento está activado
+
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 
         readyToJump = true;
+
+        // Desactivamos el movimiento inicialmente
+        isActivated = false;
     }
 
     private void Update()
     {
-        // ground check
+        // El script no funcionará hasta que esté activado
+        if (!isActivated) return;
+
+        // Ground check
         grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.3f, whatIsGround);
 
         MyInput();
         SpeedControl();
 
-        // handle drag
+        // Handle drag
         if (grounded)
             rb.drag = groundDrag;
         else
@@ -59,7 +69,10 @@ public class GroundMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        MovePlayer();
+        if (isActivated)
+        {
+            MovePlayer();
+        }
     }
 
     private void MyInput()
@@ -70,16 +83,15 @@ public class GroundMovement : MonoBehaviour
 
     private void MovePlayer()
     {
-        // calculate movement direction
+        // Calculate movement direction
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
-        // on ground
+        // On ground
         if (grounded)
         {
             rb.AddForce(moveDirection.normalized * moveSpeed * 5f, ForceMode.Force);
         }
-
-        // in air
+        // In air
         else if (!grounded)
         {
             rb.AddForce(moveDirection.normalized * moveSpeed * 1f * airMultiplier, ForceMode.Force);
@@ -90,7 +102,7 @@ public class GroundMovement : MonoBehaviour
     {
         Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
-        // limit velocity if needed
+        // Limit velocity if needed
         if (flatVel.magnitude > moveSpeed)
         {
             Vector3 limitedVel = flatVel.normalized * moveSpeed;
@@ -98,4 +110,25 @@ public class GroundMovement : MonoBehaviour
         }
     }
 
+    public void ActivateMovement()
+    {
+        // Este método es llamado por el botón
+        isActivated = true;
+
+        // Destruye el botón una vez activado
+        if (activationButton != null)
+        {
+            Destroy(activationButton);
+        }
+    }
+
+    public void ExitGame()
+    {
+        // Este método es llamado por el botón de salida
+        Debug.Log("Saliendo del juego...");
+        Application.Quit();
+
+        // Nota: En el editor de Unity, Application.Quit no cierra el editor.
+        // Para probar este comportamiento, puedes agregar un mensaje en el log como el de arriba.
+    }
 }
