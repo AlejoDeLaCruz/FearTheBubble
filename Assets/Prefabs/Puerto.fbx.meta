@@ -3,7 +3,12 @@ guid: 3cc2ec3b2048bae4c8f623884136bd4e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PuertoAltillo
+    second: {fileID: 2100000, guid: 45dfef82801c64b4b8f4e532bfe772bf, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
