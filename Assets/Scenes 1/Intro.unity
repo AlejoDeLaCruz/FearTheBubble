@@ -2068,6 +2068,7 @@ MonoBehaviour:
   orientation: {fileID: 1066265667}
   activationButton: {fileID: 93330419}
   exitButton: {fileID: 2131057801}
+  playerCam: {fileID: 1596882981}
 --- !u!54 &1566266833
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2254,6 +2255,7 @@ MonoBehaviour:
   sensX: 300
   sensY: 300
   orientation: {fileID: 1066265667}
+  isCameraActivated: 0
 --- !u!114 &1596882982
 MonoBehaviour:
   m_ObjectHideFlags: 0
