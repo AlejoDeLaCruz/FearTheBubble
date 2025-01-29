@@ -62,7 +62,7 @@ public class Movement : MonoBehaviour
         Vector3 forceDirection;
 
         // 🔥 Si está en modo tormenta, SIEMPRE usa una dirección aleatoria
-        if (modoTormenta && currentForce < 1.5f)
+        if (modoTormenta && currentForce < 1.4f)
         {
             float randomAngle = Random.Range(0f, 360f);
             forceDirection = Quaternion.Euler(0f, randomAngle, 0f) * Vector3.forward;
