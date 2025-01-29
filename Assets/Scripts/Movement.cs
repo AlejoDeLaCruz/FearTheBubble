@@ -5,14 +5,20 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
     [Header("Force Settings")]
-    public float maxForce = 0.05f; // Fuerza máxima que se puede acumular
-    public float minForce = 0.01f; // Fuerza mínima aplicada al soltar rápidamente
-    public float forceChargeRate = 2f; // Velocidad de carga de la fuerza por segundo
-    public float maxSpeed = 0.05f; // Velocidad máxima de la esfera
-    public float decelerationRate = 1f; // Velocidad con la que la esfera se desacelera
+    public float maxForce = 0.05f;
+    public float minForce = 0.01f;
+    public float forceChargeRate = 2f;
+    public float maxSpeed = 0.05f;
+    public float decelerationRate = 1f;
 
-    private float currentForce = 0f; // Fuerza acumulada mientras se mantiene el clic
-    private bool isCharging = false; // Indica si el jugador está acumulando fuerza
+    [Header("Tormenta Settings")]
+    public float maxForceTormenta = 1f;  // 🔥 Mucho más alto que el normal
+    public float minForceTormenta = 0.5f;
+    public float maxSpeedTormenta = 1f;
+    public bool modoTormenta = false;
+
+    private float currentForce = 0f;
+    private bool isCharging = false;
 
     private Rigidbody rb;
 
@@ -23,21 +29,18 @@ public class Movement : MonoBehaviour
 
     private void Update()
     {
-        // Detectar si el clic izquierdo del mouse está presionado
         if (Input.GetMouseButton(0))
         {
             isCharging = true;
             AccumulateForce();
         }
 
-        // Detectar si el clic izquierdo del mouse se suelta
         if (Input.GetMouseButtonUp(0))
         {
             isCharging = false;
             ApplyForce();
         }
 
-        // Si no se está acumulando fuerza, reducir gradualmente la velocidad de la esfera
         if (!isCharging)
         {
             DecelerateSphere();
@@ -46,31 +49,39 @@ public class Movement : MonoBehaviour
 
     private void AccumulateForce()
     {
-        // Aumentar la fuerza acumulada hasta el límite máximo
+        // 🔥 Si está en modo tormenta, usa los valores aumentados
+        float maxFuerzaActual = modoTormenta ? maxForceTormenta : maxForce;
+        float minFuerzaActual = modoTormenta ? minForceTormenta : minForce;
+
         currentForce += forceChargeRate * Time.deltaTime;
-        currentForce = Mathf.Clamp(currentForce, minForce, maxForce);
+        currentForce = Mathf.Clamp(currentForce, minFuerzaActual, maxFuerzaActual);
     }
 
     private void ApplyForce()
     {
-        // Aplicar la fuerza acumulada en la dirección hacia adelante
-        Vector3 forceDirection = Camera.main.transform.forward; // La dirección puede ajustarse según tus necesidades
+        Vector3 forceDirection;
+
+        // 🔥 Si está en modo tormenta, SIEMPRE usa una dirección aleatoria
+        if (modoTormenta && currentForce < 1.5f)
+        {
+            float randomAngle = Random.Range(0f, 360f);
+            forceDirection = Quaternion.Euler(0f, randomAngle, 0f) * Vector3.forward;
+        }
+        else
+        {
+            forceDirection = Camera.main.transform.forward;
+        }
+
         rb.AddForce(forceDirection * currentForce, ForceMode.Impulse);
-
-        // Limitar la velocidad máxima
         LimitSpeed();
-
-        // Reiniciar la fuerza acumulada
         currentForce = 0f;
     }
 
     private void DecelerateSphere()
     {
-        // Aplicar una desaceleración proporcional a la velocidad actual
         Vector3 currentVelocity = rb.velocity;
         Vector3 deceleration = -currentVelocity.normalized * decelerationRate * Time.deltaTime;
 
-        // No desacelerar más allá de 0 (evita invertir la dirección)
         if (currentVelocity.magnitude <= deceleration.magnitude)
         {
             rb.velocity = Vector3.zero;
@@ -83,11 +94,25 @@ public class Movement : MonoBehaviour
 
     private void LimitSpeed()
     {
-        Vector3 flatVelocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z); // Ignorar la componente Y para controlar la velocidad horizontal
-        if (flatVelocity.magnitude > maxSpeed)
+        float velocidadMaxima = modoTormenta ? maxSpeedTormenta : maxSpeed;
+        Vector3 flatVelocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+
+        if (flatVelocity.magnitude > velocidadMaxima)
         {
-            flatVelocity = flatVelocity.normalized * maxSpeed; // Limitar la velocidad
-            rb.velocity = new Vector3(flatVelocity.x, rb.velocity.y, flatVelocity.z); // Aplicar la velocidad limitada
+            flatVelocity = flatVelocity.normalized * velocidadMaxima;
+            rb.velocity = new Vector3(flatVelocity.x, rb.velocity.y, flatVelocity.z);
         }
+    }
+
+    public void ActivarModoTormenta()
+    {
+        modoTormenta = true;
+        Debug.Log("¡Modo tormenta activado!");
+    }
+
+    public void DesactivarModoTormenta()
+    {
+        modoTormenta = false;
+        Debug.Log("Modo tormenta desactivado.");
     }
 }
