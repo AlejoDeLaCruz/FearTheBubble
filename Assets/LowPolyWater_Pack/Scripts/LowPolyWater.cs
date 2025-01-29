@@ -1,8 +1,10 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
 namespace LowPolyWater
 {
-    public class LowPolyWater : MonoBehaviour
+    public class LowPolyWaterClass : MonoBehaviour
     {
         public float waveHeight = 0.5f;
         public float waveFrequency = 0.5f;
