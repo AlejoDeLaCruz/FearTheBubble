@@ -6,7 +6,7 @@ using System.Collections.Generic;
 public class ActivarModoTormenta : MonoBehaviour
 {
     [Header("Configuración de Transición")]
-    [SerializeField] private float duracionTransicion = 10f; // Tiempo en segundos para llegar a los valores máximos
+    [SerializeField] private float duracionTransicion = 5f; // Tiempo en segundos para llegar a los valores máximos
 
     private LowPolyWaterClass water;
     private Coroutine transicionCoroutine;
