@@ -7754,7 +7754,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 436232409}
-  Yoffset: 0.5
+  Yoffset: 0
   Xoffset: 0
   Zoffset: 0
 --- !u!1 &135118539
