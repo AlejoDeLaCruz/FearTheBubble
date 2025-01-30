@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.UI; // Necesario para trabajar con Image
+using UnityEngine.UI;
 using System.Collections;
 
 public class TakeObject : MonoBehaviour
@@ -10,13 +10,17 @@ public class TakeObject : MonoBehaviour
     public float secondaryImageDuration = 3f; // Duración en segundos de la imagen secundaria
 
     [Header("Movimiento del Jugador")]
-    public MonoBehaviour playerMovement;    // Referencia al script de movimiento del jugador (habilitar/deshabilitar)
+    public MonoBehaviour playerMovement;    // Referencia al script de movimiento del jugador (ej: FirstPersonController)
+    public Rigidbody playerRigidbody;       // Rigidbody del jugador (¡Asignar en el Inspector!)
 
-    private bool isPlayerStopped = false;   // Indica si el movimiento del jugador está desactivado
+    private bool isPlayerInTrigger = false; // Indica si el jugador está dentro del trigger
+    private bool isPlayerStopped = false;   // Indica si el movimiento está desactivado
+    private Vector3 originalVelocity;       // Guarda la velocidad inicial del jugador
+    private float originalAngularDrag;      // Guarda la fricción angular original
 
     private void Start()
     {
-        // Asegúrate de que las imágenes estén inicialmente desactivadas
+        // Asegurar que las imágenes estén desactivadas al inicio
         if (primaryImage != null)
         {
             primaryImage.gameObject.SetActive(false);
@@ -35,49 +39,75 @@ public class TakeObject : MonoBehaviour
             Debug.LogWarning("Imagen secundaria no asignada en el Inspector.");
         }
 
-        // Verifica que el script de movimiento del jugador esté asignado
+        // Verificaciones de componentes
         if (playerMovement == null)
         {
             Debug.LogError("El script de movimiento del jugador no está asignado en el Inspector.");
         }
+
+        if (playerRigidbody == null)
+        {
+            Debug.LogError("El Rigidbody del jugador no está asignado en el Inspector.");
+        }
+        else
+        {
+            originalAngularDrag = playerRigidbody.angularDrag;
+        }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        // Verifica si el objeto que colisionó tiene el tag "Player"
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            if (primaryImage != null && playerMovement != null)
-            {
-                // Activa la imagen principal
-                primaryImage.gameObject.SetActive(true);
+            isPlayerInTrigger = true;
 
-                // Desactiva el movimiento del jugador
-                playerMovement.enabled = false;
-                isPlayerStopped = true;
+            // Congelar movimiento BRUSCAMENTE
+            originalVelocity = playerRigidbody.velocity;
+            playerRigidbody.velocity = Vector3.zero;
+            playerRigidbody.angularVelocity = Vector3.zero;
+            playerRigidbody.constraints = RigidbodyConstraints.FreezeAll;
+
+            // Desactivar script de movimiento
+            playerMovement.enabled = false;
+            isPlayerStopped = true;
+
+            // Mostrar imagen principal
+            if (primaryImage != null)
+            {
+                primaryImage.gameObject.SetActive(true);
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isPlayerInTrigger = false;
+
+            // Restaurar movimiento si el jugador sale sin presionar E
+            if (isPlayerStopped)
+            {
+                RestoreMovement();
+                if (primaryImage != null) primaryImage.gameObject.SetActive(false);
             }
         }
     }
 
     private void Update()
     {
-        // Verifica si el jugador está detenido y presiona la tecla E
-        if (isPlayerStopped && Input.GetKeyDown(KeyCode.E))
+        if (isPlayerInTrigger && isPlayerStopped && Input.GetKeyDown(KeyCode.E))
         {
-            // Desactiva la imagen principal
+            // Restaurar movimiento
+            RestoreMovement();
+
+            // Ocultar imagen principal
             if (primaryImage != null)
             {
                 primaryImage.gameObject.SetActive(false);
             }
 
-            // Reactiva el movimiento del jugador
-            if (playerMovement != null)
-            {
-                playerMovement.enabled = true;
-                isPlayerStopped = false;
-            }
-
-            // Inicia la rutina para mostrar la imagen secundaria
+            // Mostrar imagen secundaria temporalmente
             if (secondaryImage != null)
             {
                 StartCoroutine(ShowSecondaryImage());
@@ -85,15 +115,21 @@ public class TakeObject : MonoBehaviour
         }
     }
 
+    private void RestoreMovement()
+    {
+        // Reactivar componentes
+        playerRigidbody.constraints = RigidbodyConstraints.None;
+        playerRigidbody.angularDrag = originalAngularDrag;
+        playerRigidbody.velocity = originalVelocity;
+
+        playerMovement.enabled = true;
+        isPlayerStopped = false;
+    }
+
     private IEnumerator ShowSecondaryImage()
     {
-        // Activa la imagen secundaria
         secondaryImage.gameObject.SetActive(true);
-
-        // Espera durante la duración especificada
         yield return new WaitForSeconds(secondaryImageDuration);
-
-        // Desactiva la imagen secundaria
         secondaryImage.gameObject.SetActive(false);
     }
 }
