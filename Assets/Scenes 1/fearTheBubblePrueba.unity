@@ -41361,7 +41361,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2cd8b1641c95d9b4fa3b29e2bba83ada, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duracionTransicion: 3
+  duracionTransicion: 5
+  prefabADesactivar: {fileID: 1291177957}
 --- !u!1 &736180324
 GameObject:
   m_ObjectHideFlags: 0
@@ -73027,6 +73028,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1291177957 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3cc2ec3b2048bae4c8f623884136bd4e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1770586450}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1291497798
 PrefabInstance:
   m_ObjectHideFlags: 0

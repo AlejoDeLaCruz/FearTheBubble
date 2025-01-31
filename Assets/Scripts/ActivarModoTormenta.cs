@@ -7,6 +7,9 @@ public class ActivarModoTormenta : MonoBehaviour
     [Header("Configuración de Transición")]
     [SerializeField] private float duracionTransicion = 5f;
 
+    [Header("Configuración de Prefab")]
+    [SerializeField] private GameObject prefabADesactivar;  // Nueva variable para el prefab
+
     private LowPolyWaterClass water;
     private Coroutine transicionCoroutine;
     private bool transicionEnCurso = false;
@@ -36,6 +39,12 @@ public class ActivarModoTormenta : MonoBehaviour
                 );
 
                 transicionCoroutine = StartCoroutine(TransicionarAgua());
+            }
+
+            // Nueva funcionalidad para desactivar el prefab
+            if (prefabADesactivar != null)
+            {
+                Destroy(prefabADesactivar);  // Destruye permanentemente el prefab
             }
         }
     }
