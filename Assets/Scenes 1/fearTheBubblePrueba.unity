@@ -24185,9 +24185,9 @@ MonoBehaviour:
   decelerationRate: 0.4
   resistenciaMaxima: 0.7
   multiplicadorOposicion: 1
-  maxForceTormenta: 8
-  minForceTormenta: 2.5
-  maxSpeedTormenta: 8
+  maxForceTormenta: 6
+  minForceTormenta: 2
+  maxSpeedTormenta: 6
   modoTormenta: 0
 --- !u!54 &436232411
 Rigidbody:
