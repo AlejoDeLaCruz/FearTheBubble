@@ -9607,6 +9607,12 @@ MonoBehaviour:
   sensX: 300
   sensY: 300
   orientation: {fileID: 1150058415}
+  tiltPitch: 3
+  tiltRoll: 3
+  randomJitterAmplitudeX: 1.3
+  randomJitterAmplitudeY: 1.3
+  randomJitterAmplitudeZ: 1.3
+  randomJitterFrequency: 1.3
 --- !u!114 &133399847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25458,8 +25464,8 @@ MonoBehaviour:
   minForce: 0.5
   forceChargeRate: 2
   maxSpeed: 1.5
-  decelerationRate: 0.4
-  resistenciaMaxima: 1.5
+  decelerationRate: 1
+  resistenciaMaxima: 0.02
   multiplicadorOposicion: 1
   maxForceTormenta: 6
   minForceTormenta: 2
