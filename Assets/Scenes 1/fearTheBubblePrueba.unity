@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0, g: 0, b: 0, a: 0.45882353}
   m_FogMode: 3
-  m_FogDensity: 0
+  m_FogDensity: 0.02
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.0013477114, g: 0, b: 0.009433985, a: 1}
@@ -348,7 +348,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -2451,7 +2451,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -2701,7 +2701,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -3528,7 +3528,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -3778,7 +3778,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -4028,7 +4028,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -6578,7 +6578,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -7267,7 +7267,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -7517,7 +7517,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -7891,22 +7891,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
@@ -10416,7 +10416,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -10705,8 +10705,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aae0e0633db0306418908978ac540064, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensX: 300
-  sensY: 300
+  sensX: 250
+  sensY: 250
   orientation: {fileID: 1150058415}
   tiltPitch: 3
   tiltRoll: 3
@@ -14790,22 +14790,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
@@ -15359,7 +15359,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_Intensity: 6
   m_Range: 10
   m_SpotAngle: 30
@@ -18433,7 +18433,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -18790,7 +18790,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -19520,7 +19520,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -19770,7 +19770,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -20020,7 +20020,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -20270,7 +20270,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -21388,7 +21388,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -21638,7 +21638,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -23438,22 +23438,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
@@ -25356,7 +25356,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -27835,7 +27835,7 @@ Transform:
   m_GameObject: {fileID: 436232405}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -53.8, y: 0.808, z: 15.4}
+  m_LocalPosition: {x: -110.52, y: 0, z: -0.76}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -31429,7 +31429,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -33354,7 +33354,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -34985,22 +34985,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
@@ -36608,7 +36608,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -37103,7 +37103,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -44091,7 +44091,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -44389,22 +44389,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
@@ -48143,7 +48143,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -51881,7 +51881,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -53442,7 +53442,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -54013,7 +54013,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -54777,22 +54777,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
@@ -57631,7 +57631,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -59041,7 +59041,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -60772,7 +60772,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -63159,7 +63159,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -64005,7 +64005,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -66241,22 +66241,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
@@ -66989,7 +66989,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -68325,7 +68325,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -70224,7 +70224,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -70474,7 +70474,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -70724,7 +70724,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -71081,7 +71081,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -73523,7 +73523,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -77072,7 +77072,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -77674,7 +77674,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -78394,7 +78394,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -78858,7 +78858,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -79108,7 +79108,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -80235,7 +80235,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -80659,7 +80659,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -85156,7 +85156,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -85728,7 +85728,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -91665,7 +91665,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -92160,7 +92160,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -93713,7 +93713,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -93894,22 +93894,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4a7942f73cc5650448e1b539f0f79a36,
         type: 3}
@@ -96850,22 +96850,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ca8498f7133ff9644823cc4dcbe34120,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8498f7133ff9644823cc4dcbe34120,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8498f7133ff9644823cc4dcbe34120,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8498f7133ff9644823cc4dcbe34120,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8498f7133ff9644823cc4dcbe34120,
         type: 3}
@@ -98972,7 +98972,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -99222,7 +99222,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -104652,7 +104652,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -104902,7 +104902,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -105152,7 +105152,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -106001,7 +106001,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -106855,7 +106855,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -109672,7 +109672,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -110167,7 +110167,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -110710,22 +110710,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
@@ -110986,7 +110986,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -112018,22 +112018,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
@@ -112612,7 +112612,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -113107,7 +113107,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -113619,22 +113619,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
@@ -113804,7 +113804,7 @@ Transform:
   m_GameObject: {fileID: 1648812661}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 204.47, y: 0.36, z: -1.8689197}
+  m_LocalPosition: {x: 202.83, y: -0.54, z: 1.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -115101,7 +115101,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -115810,7 +115810,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -117692,7 +117692,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -119460,7 +119460,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -119710,7 +119710,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -123344,7 +123344,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -125226,7 +125226,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -125818,7 +125818,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -126068,7 +126068,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -126847,7 +126847,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -128073,7 +128073,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -133760,22 +133760,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.7071068
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45fb6fd30f77f1a459d81fb59479e6c1,
         type: 3}
@@ -135009,17 +135009,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 2f40d32b0bd3b7449ac3dcbe02ccabaf,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 74.4
+      value: 74.81
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f40d32b0bd3b7449ac3dcbe02ccabaf,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.5
+      value: 1.69
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f40d32b0bd3b7449ac3dcbe02ccabaf,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 13.4
+      value: 13.55
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2f40d32b0bd3b7449ac3dcbe02ccabaf,
         type: 3}
@@ -136125,22 +136125,22 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: ca8498f7133ff9644823cc4dcbe34120,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8498f7133ff9644823cc4dcbe34120,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8498f7133ff9644823cc4dcbe34120,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8498f7133ff9644823cc4dcbe34120,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ca8498f7133ff9644823cc4dcbe34120,
         type: 3}
@@ -136615,7 +136615,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
@@ -139452,7 +139452,7 @@ MonoBehaviour:
   respawnPoint: {fileID: 1243216192}
   canvas: {fileID: 108565001}
   blackScreen: {fileID: 430780782}
-  audioSource: {fileID: 677975477}
+  audioSource: {fileID: 1160924}
   deathSounds:
   - {fileID: 8300000, guid: 89b292d76875a1d44b302d0120a6c4f6, type: 3}
   - {fileID: 8300000, guid: 63e5f60187b6e224c8a155783a123c15, type: 3}
