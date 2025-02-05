@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{31A48478-D5CD-45C5-ADE2-07D6D08E08AE}" SchemaVersion="123">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{31A48478-D5CD-45C5-ADE2-07D6D08E08AE}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{67824CB2-1E0D-4854-83C1-C440911DD834}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_options" ID="{F863BAAE-5BC1-4F7E-9A4B-900D1C54DDA2}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Start" ID="{6A01B462-0C53-44A4-B624-9C60F8E5CB09}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Musica_menu" ID="{8ADFE2E2-8DD0-4C37-83AB-18C0EB04F479}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>
