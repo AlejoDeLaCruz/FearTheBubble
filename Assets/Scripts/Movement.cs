@@ -21,6 +21,9 @@ public class Movement : MonoBehaviour
     public float maxSpeedTormenta = 1f;
     public bool modoTormenta = false;
 
+    [Header("Tormenta Settings")]
+    public bool isUsingMaxStormForce = false; // Nueva variable
+
     private float currentForce = 0f;
     private bool isCharging = false;
 
@@ -70,11 +73,25 @@ public class Movement : MonoBehaviour
             float resistencia = CalcularResistenciaDireccion(forceDirection);
             currentForce *= resistencia;
 
+            // Verificar si es fuerza máxima de tormenta
+            if (modoTormenta && currentForce >= maxForceTormenta)
+            {
+                isUsingMaxStormForce = true;
+                StartCoroutine(ResetMaxStormForceFlag()); // Resetear después de 0.1s
+            }
+
             rb.AddForce(forceDirection * currentForce, ForceMode.Impulse);
             LimitSpeed();
         }
 
         currentForce = 0f;
+    }
+
+    // Corrutina para resetear el flag
+    private IEnumerator ResetMaxStormForceFlag()
+    {
+        yield return new WaitForSeconds(0.1f);
+        isUsingMaxStormForce = false;
     }
 
     private float CalcularResistenciaDireccion(Vector3 nuevaDireccion)

@@ -11,7 +11,7 @@ public class Death : MonoBehaviour
     public AudioClip[] deathSounds; // Los clips de sonido que se reproducirán al chocar
     public float transitionDuration = 2f;  // Duración de la transición en segundos
 
-    private int collisionCount = 1; // Contador de cuántas veces ha chocado el jugador
+    private int collisionCount = 0; // Contador de cuántas veces ha chocado el jugador
 
     // Esta función se llama cuando un objeto entra en contacto con este objeto
     private void OnCollisionEnter(Collision collision)
