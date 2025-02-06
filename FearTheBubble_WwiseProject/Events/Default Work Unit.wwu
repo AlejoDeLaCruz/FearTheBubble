@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_options" ID="{F863BAAE-5BC1-4F7E-9A4B-900D1C54DDA2}">
+					<ChildrenList>
+						<Action Name="" ID="{0AEAC5D0-C4B2-48EA-B477-85BEC0C2678A}" ShortID="588233789">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="options" ID="{1313ED19-7AB9-4486-8D4C-E52E5AD31B0B}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Start" ID="{6A01B462-0C53-44A4-B624-9C60F8E5CB09}">
+					<ChildrenList>
+						<Action Name="" ID="{25846EB5-A495-44CC-AF37-CABB900CD23D}" ShortID="41358719">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Musica menu" ID="{1F9E7941-9AB0-43CE-B93A-909500CAA517}" WorkUnitID="{B54DD0E8-2D4F-4172-9E74-CC58B472557F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{12C544FE-A245-4280-BB0F-44631C7601F1}" ShortID="1026459429">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Start" ID="{1E63C694-4388-4960-825E-905EF2498819}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Musica_menu" ID="{8ADFE2E2-8DD0-4C37-83AB-18C0EB04F479}">
+					<ChildrenList>
+						<Action Name="" ID="{4BEDAE3F-A3AD-44E9-9365-D000094FA964}" ShortID="1024882064">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Musica menu" ID="{1F9E7941-9AB0-43CE-B93A-909500CAA517}" WorkUnitID="{B54DD0E8-2D4F-4172-9E74-CC58B472557F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
