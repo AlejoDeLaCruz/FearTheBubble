@@ -1,0 +1,25 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1217000136	Play_options			\Default Work Unit\Play_options	
+	2230670290	Play_Start			\Default Work Unit\Play_Start	
+	4098647122	Play_Musica_menu			\Default Work Unit\Play_Musica_menu	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1730564739	Musica			\Default Work Unit\Master Audio Bus\Musica	
+	2460606139	Espacial			\Default Work Unit\Master Audio Bus\Espacial	
+	2607556080	Menu			\Default Work Unit\Master Audio Bus\Menu	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	357718954	Delay			\Default Work Unit\Master Audio Bus\Delay	
+	422106464	Reverb_ambient			\Default Work Unit\Master Audio Bus\Reverb_ambient	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	3487820010	One_Tap_Half_Second	Wwise Delay			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	23816764	Menu (intro)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\08\{08AADB53-3C48-EF6C-9602-8E70DB076F3F}.wem		\Interactive Music Hierarchy\Default Work Unit\Musica menu\Menu (intro)\Menu (intro)		1675732
+	410327052	Menu (Loop)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\53\{539FEA3A-850C-6852-88D9-EB8F9EBE3956}.wem		\Interactive Music Hierarchy\Default Work Unit\Musica menu\Menu (Loop)\Menu (Loop)		6702640
+	636725315	Start	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\E7\{E7E030B9-C2A3-C87A-DEB4-BC72B374C1B4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Start		757700
+	977907415	options	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\48\{48127442-B365-115F-4C96-F9596481D312}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\options		894528
+
