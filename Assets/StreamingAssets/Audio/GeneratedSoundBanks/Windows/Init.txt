@@ -1,0 +1,18 @@
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1730564739	Musica			\Default Work Unit\Master Audio Bus\Musica	
+	2460606139	Espacial			\Default Work Unit\Master Audio Bus\Espacial	
+	2607556080	Menu			\Default Work Unit\Master Audio Bus\Menu	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	357718954	Delay			\Default Work Unit\Master Audio Bus\Delay	
+	422106464	Reverb_ambient			\Default Work Unit\Master Audio Bus\Reverb_ambient	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	3487820010	One_Tap_Half_Second	Wwise Delay			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
