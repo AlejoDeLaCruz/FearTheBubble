@@ -166,6 +166,13 @@ public class CinematicCamera : MonoBehaviour
         // permitiendo que el jugador caiga al vacío.
         StartCoroutine(DisableFloorAfterDelay(0.5f));
 
+        // ACTIVAR: Se habilita el script SlowFall para aplicar la gravedad personalizada de caída lenta
+        SlowFall slowFall = _playerRigidbody.GetComponent<SlowFall>();
+        if (slowFall != null)
+        {
+            slowFall.enabled = true;
+        }
+
         _isCinematicActive = false;
     }
 

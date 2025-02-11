@@ -1,14 +1,16 @@
 using UnityEngine;
-using LowPolyWater; // Incluir el namespace donde se encuentra LowPolyWaterClass
+using System.Collections;
+using System.Collections.Generic;
+using LowPolyWater; // Asegúrate de que este namespace coincide con el de tu sistema de olas
 
 public class FloatingObjectsPlane : MonoBehaviour
 {
     public Rigidbody rb;
-    public float depthBeforeSubmerged = 1f;
-    public float displacementAmount = 1f;
-    public int floaterCount = 1;
-    public float waterAngularDrag = 0.5f;
-    public float waterDrag = 0.99f;
+    public float depthBeforeSubmerged = 0.1f;
+    public float displacementAmount = 6f;
+    public int floaterCount = 4;
+    public float waterAngularDrag = 25f;
+    public float waterDrag = 6f;
 
     // Referencia al script LowPolyWaterClass del objeto de agua
     public LowPolyWaterClass water;
