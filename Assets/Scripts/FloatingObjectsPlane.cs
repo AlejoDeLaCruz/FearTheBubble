@@ -11,7 +11,7 @@ public class FloatingObjectsPlane : MonoBehaviour
     public int floaterCount = 4;
     public float waterAngularDrag = 25f;
     public float waterDrag = 6f;
-
+     
     // Referencia al script LowPolyWaterClass del objeto de agua
     public LowPolyWaterClass water;
 
