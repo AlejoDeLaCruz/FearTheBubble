@@ -4,6 +4,10 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Surface
+  - Pasto
+  - Tierra
+  - Madera
   - Agua
   layers:
   - Default

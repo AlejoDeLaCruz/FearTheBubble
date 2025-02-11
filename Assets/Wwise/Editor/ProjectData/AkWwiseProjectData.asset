@@ -38,8 +38,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 27d6132842d7fc4a92f04905a18af0f0
     GuidInternal: 
-    m_lastTime: -8584627282948660456
+    m_lastTime: -8584624057254775808
     List:
+    - name: Ambientes
+      guid: c63b2e8acdc77d4cab7d0d96410f3048
+      id: 1014953671
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27d6132842d7fc4a92f04905a18af0f0
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Ambientes
+        ObjectType: 2
+        guid: c63b2e8acdc77d4cab7d0d96410f3048
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambientes
     - name: Delay
       guid: dca042ca8c43da42b38d9e9f3ba49239
       id: 357718954
@@ -57,6 +74,23 @@ MonoBehaviour:
         ObjectType: 1
         guid: dca042ca8c43da42b38d9e9f3ba49239
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Delay
+    - name: Escena 1
+      guid: 2add1def7f006c4b95eecf2bd6e6d9f6
+      id: 895964159
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27d6132842d7fc4a92f04905a18af0f0
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Escena 1
+        ObjectType: 2
+        guid: 2add1def7f006c4b95eecf2bd6e6d9f6
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Escena 1
     - name: Espacial
       guid: d7414aefc6ad1f47b1c68133f52c78a5
       id: 2460606139
@@ -122,9 +156,9 @@ MonoBehaviour:
         ObjectType: 2
         guid: 65b2bfc531c3bb40ac6261ae232953ca
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Musica
-    - name: Reverb_ambient
-      guid: 750d246933848843b564808422317e29
-      id: 422106464
+    - name: Personaje
+      guid: e0e9502da7cd524294b234f57da8f232
+      id: 868840972
       PathAndIcons:
       - ElementName: Master-Mixer Hierarchy
         ObjectType: 5
@@ -135,10 +169,27 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      - ElementName: Reverb_ambient
+      - ElementName: Personaje
+        ObjectType: 2
+        guid: e0e9502da7cd524294b234f57da8f232
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Personaje
+    - name: Reverb_ambiente_Bosque
+      guid: 750d246933848843b564808422317e29
+      id: 3726255567
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27d6132842d7fc4a92f04905a18af0f0
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb_ambiente_Bosque
         ObjectType: 1
         guid: 750d246933848843b564808422317e29
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_ambient
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_ambiente_Bosque
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -151,7 +202,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: aa611f8d23395843b085614855d06864
     GuidInternal: 
-    m_lastTime: -8584627282947500828
+    m_lastTime: -8584623944094775808
     List:
     - name: Main_v2
       guid: c2b85e86e11d6843a59772e7b13d1ab4
@@ -179,8 +230,76 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 33ce9caac0066d49827f32da16da547a
     GuidInternal: 
-    m_lastTime: -8584627282951039694
+    m_lastTime: -8584623822074775808
     List:
+    - name: Play_Agua_costa
+      guid: f1994f797d68db4ebd47bb08ef240a04
+      id: 4092163753
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Agua_costa
+        ObjectType: 3
+        guid: f1994f797d68db4ebd47bb08ef240a04
+      Path: Events\Default Work Unit\Play_Agua_costa
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Ambientes
+      guid: 781972207efa2e4c84c1adff221a9b6f
+      id: 578466606
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Ambientes
+        ObjectType: 3
+        guid: 781972207efa2e4c84c1adff221a9b6f
+      Path: Events\Default Work Unit\Play_Ambientes
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Crujir_madera
+      guid: 59a4f2cedc983c4cbb73c7da20a86482
+      id: 2473280468
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Crujir_madera
+        ObjectType: 3
+        guid: 59a4f2cedc983c4cbb73c7da20a86482
+      Path: Events\Default Work Unit\Play_Crujir_madera
+      maxAttenuation: 100
+      maxDuration: 4.565417
+      minDuration: 2.5916667
+    - name: Play_Generador
+      guid: 113c3c0105f0074a83927ce67c0afd84
+      id: 2565055385
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Generador
+        ObjectType: 3
+        guid: 113c3c0105f0074a83927ce67c0afd84
+      Path: Events\Default Work Unit\Play_Generador
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Musica_menu
       guid: e2e2df8ad08d374c83ab18c0eb04f479
       id: 4098647122
@@ -215,6 +334,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 4.6585
       minDuration: 4.6585
+    - name: Play_Pasos
+      guid: cfc8f02d238a4a4e85e1b0ba69928a1b
+      id: 4031831520
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Pasos
+        ObjectType: 3
+        guid: cfc8f02d238a4a4e85e1b0ba69928a1b
+      Path: Events\Default Work Unit\Play_Pasos
+      maxAttenuation: 0
+      maxDuration: 1.2412932
+      minDuration: 0.74780405
+    - name: Play_Ranas
+      guid: 0de1d929f0d29a419461de1e27aaf728
+      id: 3693051101
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Ranas
+        ObjectType: 3
+        guid: 0de1d929f0d29a419461de1e27aaf728
+      Path: Events\Default Work Unit\Play_Ranas
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Start
       guid: 62b4016a530ca444b6249c60f8e5cb09
       id: 2230670290
@@ -232,6 +385,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.9458542
       minDuration: 3.9458542
+    - name: Play_Viento
+      guid: f9f36d9376598149b42d22a7f93b08ca
+      id: 470983495
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Viento
+        ObjectType: 3
+        guid: f9f36d9376598149b42d22a7f93b08ca
+      Path: Events\Default Work Unit\Play_Viento
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -244,8 +414,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 2425c515fe05e24ba2e18656c6037eff
     GuidInternal: 
-    m_lastTime: -8584627282951019698
-    List: []
+    m_lastTime: -8584626569634775808
+    List:
+    - name: Distancia_Al_Lago
+      guid: ac639b4fecfe78439e880fcfcd2aff69
+      id: 2911652857
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2425c515fe05e24ba2e18656c6037eff
+      - ElementName: Distancia_Al_Lago
+        ObjectType: 13
+        guid: ac639b4fecfe78439e880fcfcd2aff69
+      Path: Game Parameters\Default Work Unit\Distancia_Al_Lago
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -258,7 +442,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ee8283702c016440b9912feedc2a9d61
     GuidInternal: 
-    m_lastTime: -8584627282947480831
+    m_lastTime: -8584625713414775808
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -272,8 +456,124 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: b34928d33dfdc541be65a1247731ebdb
     GuidInternal: 
-    m_lastTime: -8584627282947480831
-    List: []
+    m_lastTime: -8584625713414775808
+    List:
+    - name: Movimiento
+      guid: 663ffaaf9579b04c8b79a6050e918fa5
+      id: 499872886
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b34928d33dfdc541be65a1247731ebdb
+      - ElementName: Movimiento
+        ObjectType: 11
+        guid: 663ffaaf9579b04c8b79a6050e918fa5
+      Path: Switches\Default Work Unit\Movimiento
+      values:
+      - name: Miovimiento_Madera
+        guid: 5d6022c345895c46875191bdbc7c52d9
+        id: 1183369584
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b34928d33dfdc541be65a1247731ebdb
+        - ElementName: Movimiento
+          ObjectType: 11
+          guid: 663ffaaf9579b04c8b79a6050e918fa5
+        - ElementName: Miovimiento_Madera
+          ObjectType: 10
+          guid: 5d6022c345895c46875191bdbc7c52d9
+      - name: Movimiento_Tierra_Pasos
+        guid: 4f8c6bb0628109469687dfcd5e831a5d
+        id: 2441806733
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b34928d33dfdc541be65a1247731ebdb
+        - ElementName: Movimiento
+          ObjectType: 11
+          guid: 663ffaaf9579b04c8b79a6050e918fa5
+        - ElementName: Movimiento_Tierra_Pasos
+          ObjectType: 10
+          guid: 4f8c6bb0628109469687dfcd5e831a5d
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Pasos
+      guid: c6a660191088fb49948c4e6c4146c278
+      id: 3026462669
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b34928d33dfdc541be65a1247731ebdb
+      - ElementName: Pasos
+        ObjectType: 11
+        guid: c6a660191088fb49948c4e6c4146c278
+      Path: Switches\Default Work Unit\Pasos
+      values:
+      - name: Pasos_Madera
+        guid: ef47188973814549b5c7e8504e2b7c2c
+        id: 626467132
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b34928d33dfdc541be65a1247731ebdb
+        - ElementName: Pasos
+          ObjectType: 11
+          guid: c6a660191088fb49948c4e6c4146c278
+        - ElementName: Pasos_Madera
+          ObjectType: 10
+          guid: ef47188973814549b5c7e8504e2b7c2c
+      - name: Pasos_Pasto
+        guid: f9988a6a0a2f4a42b55aad5014941dcb
+        id: 3353045675
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b34928d33dfdc541be65a1247731ebdb
+        - ElementName: Pasos
+          ObjectType: 11
+          guid: c6a660191088fb49948c4e6c4146c278
+        - ElementName: Pasos_Pasto
+          ObjectType: 10
+          guid: f9988a6a0a2f4a42b55aad5014941dcb
+      - name: Pasos_Tierra
+        guid: 8dc8fc558f32cf4b96f761b7c1ef8e27
+        id: 1229166555
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b34928d33dfdc541be65a1247731ebdb
+        - ElementName: Pasos
+          ObjectType: 11
+          guid: c6a660191088fb49948c4e6c4146c278
+        - ElementName: Pasos_Tierra
+          ObjectType: 10
+          guid: 8dc8fc558f32cf4b96f761b7c1ef8e27
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -289,7 +589,7 @@ MonoBehaviour:
     m_lastTime: -8584627282947470837
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000d0000000e0000001400000015000000160000002401000025010000e8010000e90100002a030000
+  ExpandedWaapiItemIds: 0100000002000000030000000500000006000000070000000d0000000e0000001300000014000000150000001600000017000000180000001a0000002401000025010000e8010000e90100002a030000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
