@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670841d090aaf0b4ba09334bee5c9433, type: 3}
+  m_Name: CEF2A459-98DC-4C3C-BB73-C7DA20A86482
+  m_EditorClassIdentifier: 
+  objectName: Play_Crujir_madera
+  id: 2473280468
+  guid: CEF2A459-98DC-4C3C-BB73-C7DA20A86482
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

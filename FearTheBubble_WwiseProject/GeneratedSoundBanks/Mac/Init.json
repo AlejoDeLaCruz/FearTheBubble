@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{8F1AA2AA-0624-AECC-26D6-F7985E560E61}",
+    "Hash": "{A29A816D-21D5-2100-67CF-A3DE95D8432B}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -54,15 +54,41 @@
     },
     "Busses": [
      {
+      "Id": "868840972",
+      "Name": "Personaje",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Personaje",
+      "GUID": "{2D50E9E0-CDA7-4252-94B2-34F57DA8F232}"
+     },
+     {
+      "Id": "895964159",
+      "Name": "Escena 1",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Escena 1",
+      "GUID": "{EF1DDD2A-007F-4B6C-95EE-CF2BD6E6D9F6}"
+     },
+     {
+      "Id": "1014953671",
+      "Name": "Ambientes",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambientes",
+      "GUID": "{8A2E3BC6-C7CD-4C7D-AB7D-0D96410F3048}",
+      "AuxBusRefs": [
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ]
+     },
+     {
       "Id": "1730564739",
       "Name": "Musica",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Musica",
       "GUID": "{C5BFB265-C331-40BB-AC62-61AE232953CA}",
       "AuxBusRefs": [
        {
-        "Id": "422106464",
-        "Name": "Reverb_ambient",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambient",
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
         "GUID": "{69240D75-8433-4388-B564-808422317E29}"
        }
       ]
@@ -71,7 +97,21 @@
       "Id": "2460606139",
       "Name": "Espacial",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Espacial",
-      "GUID": "{EF4A41D7-ADC6-471F-B1C6-8133F52C78A5}"
+      "GUID": "{EF4A41D7-ADC6-471F-B1C6-8133F52C78A5}",
+      "AuxBusRefs": [
+       {
+        "Id": "357718954",
+        "Name": "Delay",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Delay",
+        "GUID": "{CA42A0DC-438C-42DA-B38D-9E9F3BA49239}"
+       },
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ]
      },
      {
       "Id": "2607556080",
@@ -86,9 +126,9 @@
         "GUID": "{CA42A0DC-438C-42DA-B38D-9E9F3BA49239}"
        },
        {
-        "Id": "422106464",
-        "Name": "Reverb_ambient",
-        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambient",
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
         "GUID": "{69240D75-8433-4388-B564-808422317E29}"
        }
       ]
@@ -115,9 +155,9 @@
       }
      },
      {
-      "Id": "422106464",
-      "Name": "Reverb_ambient",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambient",
+      "Id": "3726255567",
+      "Name": "Reverb_ambiente_Bosque",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
       "GUID": "{69240D75-8433-4388-B564-808422317E29}",
       "PluginRefs": {
        "ShareSets": [
@@ -127,9 +167,65 @@
        ]
       }
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2911652857",
+      "Name": "Distancia_Al_Lago",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distancia_Al_Lago",
+      "GUID": "{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "499872886",
+      "Name": "Movimiento",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Movimiento",
+      "GUID": "{AFFA3F66-7995-4CB0-8B79-A6050E918FA5}",
+      "Switches": [
+       {
+        "Id": "1183369584",
+        "Name": "Miovimiento_Madera",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Movimiento\\Miovimiento_Madera",
+        "GUID": "{C322605D-8945-465C-8751-91BDBC7C52D9}"
+       },
+       {
+        "Id": "2441806733",
+        "Name": "Movimiento_Tierra_Pasos",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Movimiento\\Movimiento_Tierra_Pasos",
+        "GUID": "{B06B8C4F-8162-4609-9687-DFCD5E831A5D}"
+       }
+      ]
+     },
+     {
+      "Id": "3026462669",
+      "Name": "Pasos",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Pasos",
+      "GUID": "{1960A6C6-8810-49FB-948C-4E6C4146C278}",
+      "Switches": [
+       {
+        "Id": "626467132",
+        "Name": "Pasos_Madera",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Pasos\\Pasos_Madera",
+        "GUID": "{891847EF-8173-4945-B5C7-E8504E2B7C2C}"
+       },
+       {
+        "Id": "1229166555",
+        "Name": "Pasos_Tierra",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Pasos\\Pasos_Tierra",
+        "GUID": "{55FCC88D-328F-4BCF-96F7-61B7C1EF8E27}"
+       },
+       {
+        "Id": "3353045675",
+        "Name": "Pasos_Pasto",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Pasos\\Pasos_Pasto",
+        "GUID": "{6A8A98F9-2F0A-424A-B55A-AD5014941DCB}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{17B66D69-A891-698E-F370-0AC75863A023}"
+  "FileHash": "{5D1939A7-25D6-1FDB-A65A-0F8BCC1A76E0}"
  }
 }

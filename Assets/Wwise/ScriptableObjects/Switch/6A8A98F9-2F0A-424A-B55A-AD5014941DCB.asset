@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb75e07f76897348b9d7cfd75ef3d9f, type: 3}
+  m_Name: 6A8A98F9-2F0A-424A-B55A-AD5014941DCB
+  m_EditorClassIdentifier: 
+  objectName: Pasos_Pasto
+  id: 3353045675
+  guid: 6A8A98F9-2F0A-424A-B55A-AD5014941DCB
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: a4b07e467ad67cb42bdc94e39ecd9e66,
+    type: 2}
