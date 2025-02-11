@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D32849B3-FD3D-41C5-BE65-A1247731EBDB}" SchemaVersion="123">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{D32849B3-FD3D-41C5-BE65-A1247731EBDB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D32849B3-FD3D-41C5-BE65-A1247731EBDB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Pasos" ID="{1960A6C6-8810-49FB-948C-4E6C4146C278}">
+					<ChildrenList>
+						<Switch Name="Pasos_Madera" ID="{891847EF-8173-4945-B5C7-E8504E2B7C2C}"/>
+						<Switch Name="Pasos_Tierra" ID="{55FCC88D-328F-4BCF-96F7-61B7C1EF8E27}"/>
+						<Switch Name="Pasos_Pasto" ID="{6A8A98F9-2F0A-424A-B55A-AD5014941DCB}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Movimiento" ID="{AFFA3F66-7995-4CB0-8B79-A6050E918FA5}">
+					<ChildrenList>
+						<Switch Name="Miovimiento_Madera" ID="{C322605D-8945-465C-8751-91BDBC7C52D9}"/>
+						<Switch Name="Movimiento_Tierra_Pasos" ID="{B06B8C4F-8162-4609-9687-DFCD5E831A5D}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

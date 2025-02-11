@@ -49,6 +49,99 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ambientes" ID="{20721978-FA7E-4C2E-84C1-ADFF221A9B6F}">
+					<ChildrenList>
+						<Action Name="" ID="{C7D10209-5A80-4841-BDE1-406E2458FC69}" ShortID="649936478">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambientes" ID="{30F27107-BC1A-4287-B2E7-FCB1BFFE1A70}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pasos" ID="{2DF0C8CF-8A23-4E4A-85E1-B0BA69928A1B}">
+					<ChildrenList>
+						<Action Name="" ID="{653A2D2A-D37F-4836-B197-DCAB8BCC8036}" ShortID="664569947">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pasos" ID="{AF05CF31-6021-41A1-B01A-47010DFD7CE6}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4788EEA2-E2CB-4198-9614-5FE2344BB02A}" ShortID="788069314">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Movimiento" ID="{9D628B26-B0B0-436C-915E-30789F080B5E}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ranas" ID="{29D9E10D-D2F0-419A-9461-DE1E27AAF728}">
+					<ChildrenList>
+						<Action Name="" ID="{7D826D83-C6C9-4722-927C-26DEDE57EECF}" ShortID="969603009">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ranas" ID="{0EEEFC7C-F02C-4693-97D8-073E09FFD16E}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Viento" ID="{936DF3F9-5976-4981-B42D-22A7F93B08CA}">
+					<ChildrenList>
+						<Action Name="" ID="{10ED363C-C5CF-4F13-B794-9CC0EE92365C}" ShortID="588180744">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3837B0AA-87F1-4750-93CF-C706299C85C6}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Viento" ID="{EF4C32A2-B630-4251-984A-4326D3233E84}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Generador" ID="{013C3C11-F005-4A07-8392-7CE67C0AFD84}">
+					<ChildrenList>
+						<Action Name="" ID="{C18CA0C9-441A-4EE6-BEB0-F467B73CC2EE}" ShortID="839062690">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Generador" ID="{55DC8632-8C42-450F-8750-A8F95A398B97}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Agua_costa" ID="{794F99F1-687D-4EDB-BD47-BB08EF240A04}">
+					<ChildrenList>
+						<Action Name="" ID="{6A821E87-B7BA-4CF6-8293-079A449A0115}" ShortID="5769914">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Agua_costa" ID="{0BF4235B-E7E0-42B8-9E7D-A88863DB88CF}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crujir_madera" ID="{CEF2A459-98DC-4C3C-BB73-C7DA20A86482}">
+					<ChildrenList>
+						<Action Name="" ID="{2A24F61A-3024-491E-9A05-5F463968E884}" ShortID="21342613">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crujir madera" ID="{0B9041A3-6E42-4C8E-9D83-E07BBF4CA1C4}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

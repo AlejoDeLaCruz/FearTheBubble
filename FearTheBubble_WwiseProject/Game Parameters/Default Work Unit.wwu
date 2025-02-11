@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}" SchemaVersion="123">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Distancia_Al_Lago" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

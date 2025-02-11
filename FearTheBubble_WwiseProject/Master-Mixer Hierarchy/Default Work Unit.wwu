@@ -35,7 +35,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Reverb_ambient" ID="{69240D75-8433-4388-B564-808422317E29}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+									<ObjectRef Name="Reverb_ambiente_Bosque" ID="{69240D75-8433-4388-B564-808422317E29}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
 								</Reference>
 								<Reference Name="UserAuxSend1">
 									<ObjectRef Name="Delay" ID="{CA42A0DC-438C-42DA-B38D-9E9F3BA49239}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
@@ -50,9 +50,37 @@
 										<Value>528</Value>
 									</ValueList>
 								</Property>
+								<Property Name="UserAuxSendLPF0" Type="int16">
+									<ValueList>
+										<Value>33</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendLPF1" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UserAuxSendVolume1" Type="Real64">
+									<ValueList>
+										<Value>-20</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_ambiente_Bosque" ID="{69240D75-8433-4388-B564-808422317E29}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+								</Reference>
+								<Reference Name="UserAuxSend1">
+									<ObjectRef Name="Delay" ID="{CA42A0DC-438C-42DA-B38D-9E9F3BA49239}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+								</Reference>
+							</ReferenceList>
 						</Bus>
-						<AuxBus Name="Reverb_ambient" ID="{69240D75-8433-4388-B564-808422317E29}">
+						<AuxBus Name="Reverb_ambiente_Bosque" ID="{69240D75-8433-4388-B564-808422317E29}">
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
@@ -101,7 +129,23 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="UserAuxSend0">
-									<ObjectRef Name="Reverb_ambient" ID="{69240D75-8433-4388-B564-808422317E29}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+									<ObjectRef Name="Reverb_ambiente_Bosque" ID="{69240D75-8433-4388-B564-808422317E29}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="Escena 1" ID="{EF1DDD2A-007F-4B6C-95EE-CF2BD6E6D9F6}"/>
+						<Bus Name="Personaje" ID="{2D50E9E0-CDA7-4252-94B2-34F57DA8F232}"/>
+						<Bus Name="Ambientes" ID="{8A2E3BC6-C7CD-4C7D-AB7D-0D96410F3048}">
+							<PropertyList>
+								<Property Name="UserAuxSendVolume0" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="Reverb_ambiente_Bosque" ID="{69240D75-8433-4388-B564-808422317E29}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
 								</Reference>
 							</ReferenceList>
 						</Bus>

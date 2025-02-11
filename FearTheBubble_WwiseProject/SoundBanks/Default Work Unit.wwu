@@ -9,6 +9,7 @@
 						<ObjectRef Name="Default Work Unit" ID="{B54DD0E8-2D4F-4172-9E74-CC58B472557F}" WorkUnitID="{B54DD0E8-2D4F-4172-9E74-CC58B472557F}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Effects" ID="{41093F77-829F-4D88-8601-E8B25F3D4781}" WorkUnitID="{41093F77-829F-4D88-8601-E8B25F3D4781}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Default Work Unit" ID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

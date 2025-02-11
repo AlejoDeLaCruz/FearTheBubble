@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670841d090aaf0b4ba09334bee5c9433, type: 3}
+  m_Name: 794F99F1-687D-4EDB-BD47-BB08EF240A04
+  m_EditorClassIdentifier: 
+  objectName: Play_Agua_costa
+  id: 4092163753
+  guid: 794F99F1-687D-4EDB-BD47-BB08EF240A04
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0
