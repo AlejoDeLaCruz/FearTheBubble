@@ -9,6 +9,9 @@ TagManager:
   - Tierra
   - Madera
   - Agua
+  - Pasos_Madera
+  - Pasos_Pasto
+  - Pasos_Tierra
   layers:
   - Default
   - TransparentFX

@@ -4,15 +4,13 @@ using UnityEngine;
 
 public class RTPCUpdater : MonoBehaviour
 {
-    [Header("Referencias")]
     // Transform del jugador
     public Transform player;
     // Transform del objeto o punto de referencia (por ejemplo, el puerto)
     public Transform targetLocation;
 
-    [Header("Parámetros RTPC")]
     // Nombre del RTPC en Wwise (asegúrate de que coincida exactamente)
-    public string rtpcName = "RTPC_Ambiente";
+    public string rtpcName = "Distancia_Al_Lago";
     // Distancia mínima y máxima para normalizar el valor
     public float minDistance = 0f;
     public float maxDistance = 100f;
