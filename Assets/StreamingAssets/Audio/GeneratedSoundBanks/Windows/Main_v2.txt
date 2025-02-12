@@ -1,9 +1,33 @@
 Event	ID	Name			Wwise Object Path	Notes
+	470983495	Play_Viento			\Default Work Unit\Play_Viento	
+	578466606	Play_Ambientes			\Default Work Unit\Play_Ambientes	
 	1217000136	Play_options			\Default Work Unit\Play_options	
 	2230670290	Play_Start			\Default Work Unit\Play_Start	
+	2473280468	Play_Crujir_madera			\Default Work Unit\Play_Crujir_madera	
+	2565055385	Play_Generador			\Default Work Unit\Play_Generador	
+	3693051101	Play_Ranas			\Default Work Unit\Play_Ranas	
+	4031831520	Play_Pasos			\Default Work Unit\Play_Pasos	
+	4092163753	Play_Agua_costa			\Default Work Unit\Play_Agua_costa	
 	4098647122	Play_Musica_menu			\Default Work Unit\Play_Musica_menu	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	499872886	Movimiento			\Default Work Unit\Movimiento	
+	3026462669	Pasos			\Default Work Unit\Pasos	
+
+Switch	ID	Name	Switch Group			Notes
+	1183369584	Miovimiento_Madera	Movimiento			
+	2441806733	Movimiento_Tierra_Pasos	Movimiento			
+	626467132	Pasos_Madera	Pasos			
+	1229166555	Pasos_Tierra	Pasos			
+	3353045675	Pasos_Pasto	Pasos			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2911652857	Distancia_Al_Lago			\Default Work Unit\Distancia_Al_Lago	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	868840972	Personaje			\Default Work Unit\Master Audio Bus\Personaje	
+	895964159	Escena 1			\Default Work Unit\Master Audio Bus\Escena 1	
+	1014953671	Ambientes			\Default Work Unit\Master Audio Bus\Ambientes	
 	1730564739	Musica			\Default Work Unit\Master Audio Bus\Musica	
 	2460606139	Espacial			\Default Work Unit\Master Audio Bus\Espacial	
 	2607556080	Menu			\Default Work Unit\Master Audio Bus\Menu	
@@ -11,15 +35,200 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	357718954	Delay			\Default Work Unit\Master Audio Bus\Delay	
-	422106464	Reverb_ambient			\Default Work Unit\Master Audio Bus\Reverb_ambient	
+	3726255567	Reverb_ambiente_Bosque			\Default Work Unit\Master Audio Bus\Reverb_ambiente_Bosque	
 
 Effect plug-ins	ID	Name	Type				Notes
+	4496003	Dirty_Washing_Machine	Wwise RoomVerb			
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	59662939	Dialog_Too_Quiet	Wwise Compressor			
+	86245554	Attack_Remover	Wwise Compressor			
+	109045632	Vibrato	Wwise Flanger			
+	131511410	Let_The_Power_Fall	Wwise Stereo Delay			
+	136714882	_500ms_Per_Hour	Wwise Stereo Delay			
+	145028528	Static_Sibilance_Remover_Female	Wwise Parametric EQ			
+	176439046	Caught_in_a_loop	Wwise Stereo Delay			
+	199095971	Dialog_Through_AC_Vents	Wwise Parametric EQ			
+	389252396	Next_Room	Wwise Parametric EQ			
+	400317747	Hall_Large_TooBright	Wwise RoomVerb			
+	415841907	Space_Garage	Wwise RoomVerb			
+	418265525	Gentle_Program_Compressor_Minus_14dB_RMS	Wwise Compressor			
+	472067774	Compressor (Custom)	Wwise Compressor			
+	484890516	Church_Small_Wood	Wwise RoomVerb			
+	506891147	Plate_Small	Wwise RoomVerb			
+	535667444	Bathroom1	Wwise Matrix Reverb			
+	602546716	Room_Large	Wwise RoomVerb			
+	654807232	Chipmunk	Wwise Pitch Shifter			
+	701863527	Inside_My_Head	Wwise RoomVerb			
+	702543456	Tunnel1	Wwise Matrix Reverb			
+	776837744	Born_In_1950	Wwise Parametric EQ			
+	819943492	Fear_no_Evil	Wwise Harmonizer			
+	927250686	Rhythmic_Talk	Wwise Tremolo			
+	949863463	Many_Even_Harm_Notches	Wwise Flanger			
+	992902880	Small_Tiled_Room1	Wwise Matrix Reverb			
+	1008402193	Low_Pass_20KHz	Wwise Parametric EQ			
+	1110677034	Underwater_Echoes	Wwise Stereo Delay			
+	1125262053	Blue_Distant_Echoes	Wwise Stereo Delay			
+	1144018367	Plate_Large	Wwise RoomVerb			
+	1159390747	Room_Medium_Tiled	Wwise RoomVerb			
+	1182561210	Cut_3dB_10KHz	Wwise Parametric EQ			
+	1198215643	Boomerang	Wwise Tremolo			
+	1203617187	Machine_Gun_Hangar	Wwise RoomVerb			
+	1232017842	LR_Slap_with_CrossFeed	Wwise Stereo Delay			
+	1237275451	Octave_Up	Wwise Pitch Shifter			
+	1252796875	Light_Expander	Wwise Expander			
+	1291433344	Bass	Wwise Flanger			
+	1293178626	In_My_Car	Wwise Parametric EQ			
+	1416967478	All_Buttons_IN	Wwise Compressor			
+	1431209347	One_Tap_One_Second	Wwise Delay			
+	1431265797	Monsterize	Wwise Pitch Shifter			
+	1443902288	_1_Second_Delay	Wwise Stereo Delay			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
+	1520064353	Hall_Medium_Bright	Wwise RoomVerb			
+	1551236760	Small_Wooden_Room1	Wwise Matrix Reverb			
+	1588715066	Echoes_Linear	Wwise Delay			
+	1590660382	Nearly_Forever	Wwise Delay			
+	1655770832	High_Freq_Cut_11	Wwise Parametric EQ			
+	1655770833	High_Freq_Cut_10	Wwise Parametric EQ			
+	1674078407	Chorus_Like	Wwise Flanger			
+	1675424737	Extreme_Limiting_1	Wwise Peak Limiter			
+	1675424738	Extreme_Limiting_2	Wwise Peak Limiter			
+	1675424739	Extreme_Limiting_3	Wwise Peak Limiter			
+	1706684651	Plate_Medium	Wwise RoomVerb			
+	1711423976	Many_Odd_Harm_Notches	Wwise Flanger			
+	1735130781	Aliasing	Wwise Tremolo			
+	1759944409	Cut_3dB_100Hz	Wwise Parametric EQ			
+	1820854077	Noise_Gate_Fast_Attack	Wwise Expander			
+	1863245162	Noise_Gate_Slow_Attack	Wwise Expander			
+	1866712626	High_Freq_Cut_8	Wwise Parametric EQ			
+	1866712627	High_Freq_Cut_9	Wwise Parametric EQ			
+	1866712632	High_Freq_Cut_2	Wwise Parametric EQ			
+	1866712633	High_Freq_Cut_3	Wwise Parametric EQ			
+	1866712635	High_Freq_Cut_1	Wwise Parametric EQ			
+	1866712636	High_Freq_Cut_6	Wwise Parametric EQ			
+	1866712637	High_Freq_Cut_7	Wwise Parametric EQ			
+	1866712638	High_Freq_Cut_4	Wwise Parametric EQ			
+	1866712639	High_Freq_Cut_5	Wwise Parametric EQ			
+	1904434771	Medium_Room1	Wwise Matrix Reverb			
+	1976939195	Deep	Wwise Flanger			
+	1990128658	Room_Medium	Wwise RoomVerb			
+	2038996943	Plate_Sizzle	Wwise RoomVerb			
+	2080872166	Brick_Wall_Minus_6dB_Peak_Fast_Release	Wwise Peak Limiter			
+	2098638826	Underground_Parking1	Wwise Matrix Reverb			
+	2135883084	Nasty_Radio	Wwise Peak Limiter			
+	2171127646	Hall_Conversation	Wwise RoomVerb			
+	2171939413	Dialog_Leveler_Hard	Wwise Compressor			
+	2180422931	One_Tap_Quarter_Second	Wwise Delay			
+	2202047219	Few_Even_Notches	Wwise Flanger			
+	2230265344	Very_Bad_Connection	Wwise Tremolo			
+	2258521792	Brick_Wall_Minus_1dB_Peak_Slow_Release	Wwise Peak Limiter			
+	2265839006	Not_A_Yellow_Submarine	Wwise RoomVerb			
+	2301880513	Many_Even_Harm_Peaks	Wwise Flanger			
+	2394809124	Very_Slow_Modulation	Wwise Tremolo			
+	2513915904	Hall_Large	Wwise RoomVerb			
+	2539557199	Treble	Wwise Flanger			
+	2547645744	Boost_3dB_100Hz	Wwise Parametric EQ			
+	2568359573	Secret_message	Wwise Harmonizer			
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+	2652646462	Dialog_Leveler_Soft	Wwise Compressor			
+	2653529179	Three_Voices	Wwise Harmonizer			
+	2656259783	PA_Announcement1	Wwise Matrix Reverb			
+	2662085913	Large_Church1	Wwise Matrix Reverb			
+	2667647788	Single_Band_1Khz_Wide	Wwise Parametric EQ			
+	2755291684	Pumping_and_Breathing_1	Wwise Compressor			
+	2755291686	Pumping_and_Breathing_3	Wwise Compressor			
+	2755291687	Pumping_and_Breathing_2	Wwise Compressor			
+	2781261543	Brick_Wall_Minus_6dB_Peak_Slow_Release	Wwise Peak Limiter			
+	2791153688	Hall_Small	Wwise RoomVerb			
+	2805769450	Special_Effect_1	Wwise Flanger			
+	2849147824	Medium	Wwise RoomVerb			
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
+	2900412812	Robotic_Trash	Wwise RoomVerb			
+	2945072214	My_Closet	Wwise RoomVerb			
+	2949243095	Hall_Small_Bright	Wwise RoomVerb			
+	2952825346	Dual_Filters_Radio_Comm	Wwise Parametric EQ			
+	2995775460	Room_Small	Wwise RoomVerb			
+	2998002419	Boost_3dB_10KHz	Wwise Parametric EQ			
+	3013737254	Bass_Remover_8	Wwise Parametric EQ			
+	3013737255	Bass_Remover_9	Wwise Parametric EQ			
+	3013737256	Bass_Remover_6	Wwise Parametric EQ			
+	3013737257	Bass_Remover_7	Wwise Parametric EQ			
+	3013737258	Bass_Remover_4	Wwise Parametric EQ			
+	3013737259	Bass_Remover_5	Wwise Parametric EQ			
+	3013737260	Bass_Remover_2	Wwise Parametric EQ			
+	3013737261	Bass_Remover_3	Wwise Parametric EQ			
+	3013737263	Bass_Remover_1	Wwise Parametric EQ			
+	3025917178	Standard	Wwise Flanger			
+	3036946058	Inside_Your_Head	Wwise RoomVerb			
+	3043085106	High_Impact	Wwise Compressor			
+	3157398371	Few_Odd_Harm_Notches	Wwise Flanger			
+	3164629247	Holy	Wwise RoomVerb			
+	3209444191	Static_Sibilance_Remover_Male	Wwise Parametric EQ			
+	3216246379	Space_Dreaming	Wwise RoomVerb			
+	3250156175	Say_what	Wwise Tremolo			
+	3290519051	Aluminium_Tank	Wwise RoomVerb			
+	3332138788	Few_Even_Harm_Peaks	Wwise Flanger			
+	3354577677	Fast_LF_Tremolo	Wwise Tremolo			
+	3395979371	Straight_Delay	Wwise Stereo Delay			
+	3407225994	Phone_Booth	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
+	3451596814	Hall_Medium	Wwise RoomVerb			
 	3487820010	One_Tap_Half_Second	Wwise Delay			
+	3491912472	Club_Music_Distant_02	Wwise Parametric EQ			
+	3491912473	Club_Music_Distant_03	Wwise Parametric EQ			
+	3491912475	Club_Music_Distant_01	Wwise Parametric EQ			
+	3491912478	Club_Music_Distant_04	Wwise Parametric EQ			
+	3497757918	Fast_LF_Tremolo_No_Smoothing	Wwise Tremolo			
+	3546444380	Big_Garage1	Wwise Matrix Reverb			
+	3559982155	Hall_Stop_Screaming	Wwise RoomVerb			
+	3563901164	Halfway_There	Wwise Tremolo			
+	3604890626	High_Pass_60Hz	Wwise Parametric EQ			
+	3614057183	_1_Frame_Delay	Wwise Stereo Delay			
+	3673681183	Large_Bright_Chamber1	Wwise Matrix Reverb			
+	3701691487	Hall_Large_Bright	Wwise RoomVerb			
+	3796564934	Hard_Knee_Minus_3dB_RMS	Wwise Compressor			
+	3851006675	Secret_message_Distant	Wwise Harmonizer			
+	3900114836	Metal_Hangar	Wwise RoomVerb			
+	3948262040	Octave_Down	Wwise Pitch Shifter			
+	4113267698	Hall_Guns	Wwise RoomVerb			
+	4136714357	Few_Odd_Harm_Peaks	Wwise Flanger			
+	4143868620	Bass_Remover_11	Wwise Parametric EQ			
+	4143868621	Bass_Remover_10	Wwise Parametric EQ			
+	4185773483	Dual_Filters_Reset	Wwise Parametric EQ			
+	4190220820	Voice_CenterOnly_Lowered	Wwise Pitch Shifter			
+	4202347640	Repeat_after_me	Wwise Harmonizer			
+	4212217734	Personnel_Advisor	Wwise Stereo Delay			
+	4236290354	Many_Odd_Harm_Peaks	Wwise Flanger			
+	4239446561	Dual_Filters_Narrow_Bandwidth	Wwise Parametric EQ			
+	4269441574	Heavy_Metal	Wwise Flanger			
+	4286906788	Gentle_Program_Compressor_Minus_20dB_RMS	Wwise Compressor			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23816764	Menu (intro)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\08\{08AADB53-3C48-EF6C-9602-8E70DB076F3F}.wem		\Interactive Music Hierarchy\Default Work Unit\Musica menu\Menu (intro)\Menu (intro)		1675732
+	59024045	Agua_costa	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\06\{0621FD07-0ADB-A501-9840-F13F89A9C793}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Agua golpeando contra el muelle\Agua_costa		9095536
+	83601765	Pasos_Deck_6	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\F9\{F9334AC0-1910-5B20-185C-52CA1597E2D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Pasos_Deck_6		35936
+	167040920	Ambiente lago (ranas)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\C3\{C3A8265C-B563-8A02-7E81-6EEAE49B8887}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ranas\Ambiente lago (ranas)		317448
+	184786646	Movimiento ropa 1	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\08\{08CF0573-370D-D147-5D51-228B7DDDF262}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Movimiento\Movimiento Tierra y pasto\Movimiento ropa 1		152212
+	243060680	Pasos pasto 1	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\95\{95AF659F-3746-E5AF-EF23-92EB7E3A297F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Pasto\Pasos pasto 1		211884
+	272991854	Crujir_Madera_1	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\98\{98E59864-7C99-1AAB-5EE2-8CA2BE6EE509}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Crujir madera\Crujir_Madera_1		438376
+	362835773	Pasos_Deck_3	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\2E\{2E59BD29-0239-CAB0-5359-F3ECE7BA8A0F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Pasos_Deck_3		36376
+	395567585	Movimiento ropa 3	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\54\{54F4B6D4-E5BA-2D16-969C-59A82E7BCF99}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Movimiento\Movimiento Tierra y pasto\Movimiento ropa 3		154380
+	395929550	Ambiente Lago (Agua)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\F4\{F4DB47D2-DD78-4555-9D02-A86AA0534103}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ambientes\Ambiente Lago (Agua)		7059800
+	408231891	Ambiente (Grillos)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\EB\{EBF7AC4B-68BB-2AD7-0C3A-4CB277FEF3BD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ambientes\Ambiente (Grillos)		7981304
 	410327052	Menu (Loop)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\53\{539FEA3A-850C-6852-88D9-EB8F9EBE3956}.wem		\Interactive Music Hierarchy\Default Work Unit\Musica menu\Menu (Loop)\Menu (Loop)		6702640
+	479739056	Pasos_Deck_5	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\2C\{2C0CB37E-B471-784B-A950-B758208329FB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Pasos_Deck_5		33256
+	530240178	Ambiente lago (viento)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\97\{97C6286A-6CB9-84C0-749D-D406E52EAF61}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Viento\Ambiente lago (viento)		2484704
+	564879020	Pasos pasto 2	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\00\{00D2C35F-52CC-6CE8-B48D-1BAB51A02C6E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Pasto\Pasos pasto 2		174640
+	622099577	Pasos pasto 3	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\F9\{F9FFC469-68EA-71BE-98FA-8BE53AC022B1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Pasto\Pasos pasto 3		167380
 	636725315	Start	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\E7\{E7E030B9-C2A3-C87A-DEB4-BC72B374C1B4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Start		757700
+	650755908	Pasos tierra 2	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\9D\{9D56AF80-858E-1145-99F4-6D30A4BE764F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Tierra\Pasos tierra 2		103208
+	669324130	Crujir_Madera_2	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\CF\{CFA33A28-CB2F-411D-DF3D-7B5A609691F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Crujir madera\Crujir_Madera_2		248896
+	743073779	Pasos_Deck_2	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\7D\{7DDF4525-C6BA-885C-411E-D1EFF572B5AC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Pasos_Deck_2		43616
+	757380138	Movimiento ropa 2	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\C2\{C21BAC49-DCF3-67BE-14F0-F82179F7F88C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Movimiento\Movimiento Tierra y pasto\Movimiento ropa 2		154464
+	831842498	Pasos tierra	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\6D\{6DABCD00-88DC-F5AB-9F74-8C44EA6A3720}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Tierra\Pasos tierra		98408
+	935357304	Pasos pasto 4	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\BF\{BF13B7B2-C7A2-1ACC-F150-26A9F8D405C9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Pasto\Pasos pasto 4		218644
+	947320254	Pasos_Deck_4	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\71\{7109D050-482E-EEC1-31C0-ADBC67022A3A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Pasos_Deck_4		37456
+	953593280	Generador	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\AD\{AD6D7080-35DE-F695-4172-F840853D02EB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Generador\Generador		6825864
 	977907415	options	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\48\{48127442-B365-115F-4C96-F9596481D312}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\options		894528
+	1019273765	Pasos_Deck_1	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\17\{174A7296-A6A9-3504-F66D-07D102ACAE12}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Pasos_Deck_1		46176
+	1050761319	Crujir_Madera_3	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\AD\{ADDB3009-6A52-890E-8829-818B5E3AE044}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Crujir madera\Crujir_Madera_3		409696
 
