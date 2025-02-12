@@ -46,6 +46,9 @@ public class PlayerCam : MonoBehaviour
     // Acumulador para el head bobbing (se actualiza solo cuando hay movimiento)
     private float bobbingTimer = 0f;
 
+    // VARIABLE NUEVA: Offset para el efecto de sacudida al recibir daño.
+    private Vector3 damageShakeOffset = Vector3.zero;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -96,12 +99,55 @@ public class PlayerCam : MonoBehaviour
             float bobbingOffset = Mathf.Sin(bobbingTimer) * footstepBobbingAmount;
             Vector3 newPos = initialCamPos;
             newPos.y += bobbingOffset;
-            transform.localPosition = newPos;
+            transform.localPosition = newPos + damageShakeOffset;
         }
         else
         {
             bobbingTimer = 0f;
-            transform.localPosition = initialCamPos;
+            transform.localPosition = initialCamPos + damageShakeOffset;
         }
+    }
+
+    // MÉTODO NUEVO: Se llama para activar el movimiento brusco de la cámara al recibir daño.
+    public void TriggerDamageShake()
+    {
+        StartCoroutine(ShakeCamera(0.2f, 2.5f)); // Duración y magnitud del shake
+    }
+
+    private IEnumerator ShakeCamera(float duration, float magnitude)
+    {
+        Vector3 originalPosition = transform.localPosition;
+        float elapsed = 0f;
+
+        // Dirección fija (1 = derecha, cambia a -1 para izquierda)
+        int direction = 1;
+        float maxOffset = direction * magnitude * 0.4f; // Reduce la distancia a 40% del valor original
+
+        // Ajuste de tiempos para movimiento más suave
+        float pushTime = duration * 0.3f; // 30% de la duración para el empuje
+        float returnTime = duration - pushTime;
+
+        while (elapsed < duration)
+        {
+            if (elapsed < pushTime)
+            {
+                // Movimiento suave hacia el lado con curva de aceleración
+                float t = Mathf.SmoothStep(0, 1, elapsed / pushTime);
+                float x = Mathf.Lerp(0, maxOffset, t);
+                transform.localPosition = originalPosition + new Vector3(x, 0f, 0f);
+            }
+            else
+            {
+                // Retorno más lento con curva de desaceleración
+                float t = Mathf.SmoothStep(0, 1, (elapsed - pushTime) / returnTime);
+                float x = Mathf.Lerp(maxOffset, 0, t);
+                transform.localPosition = originalPosition + new Vector3(x, 0f, 0f);
+            }
+
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.localPosition = originalPosition;
     }
 }
