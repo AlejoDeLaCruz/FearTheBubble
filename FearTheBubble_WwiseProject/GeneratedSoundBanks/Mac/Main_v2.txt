@@ -48,6 +48,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	145028528	Static_Sibilance_Remover_Female	Wwise Parametric EQ			
 	176439046	Caught_in_a_loop	Wwise Stereo Delay			
 	199095971	Dialog_Through_AC_Vents	Wwise Parametric EQ			
+	307102831	Compressor (Custom)	Wwise Compressor			
 	389252396	Next_Room	Wwise Parametric EQ			
 	400317747	Hall_Large_TooBright	Wwise RoomVerb			
 	415841907	Space_Garage	Wwise RoomVerb			
@@ -56,7 +57,9 @@ Effect plug-ins	ID	Name	Type				Notes
 	484890516	Church_Small_Wood	Wwise RoomVerb			
 	506891147	Plate_Small	Wwise RoomVerb			
 	535667444	Bathroom1	Wwise Matrix Reverb			
+	545706123	Compressor (Custom)	Wwise Compressor			
 	602546716	Room_Large	Wwise RoomVerb			
+	646987227	Compressor (Custom)	Wwise Compressor			
 	654807232	Chipmunk	Wwise Pitch Shifter			
 	701863527	Inside_My_Head	Wwise RoomVerb			
 	702543456	Tunnel1	Wwise Matrix Reverb			
@@ -204,13 +207,16 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23816764	Menu (intro)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\08\{08AADB53-3C48-EF6C-9602-8E70DB076F3F}.wem		\Interactive Music Hierarchy\Default Work Unit\Musica menu\Menu (intro)\Menu (intro)		1675732
-	59024045	Agua_costa	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\06\{0621FD07-0ADB-A501-9840-F13F89A9C793}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Agua golpeando contra el muelle\Agua_costa		9095536
+	49780458	Agua_costa_02	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\3E\{3EEBD274-E321-4AE5-788A-E00BFE18BDBD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Agua golpeando contra el muelle\Agua costa\Agua_costa_02		2637126
+	59024045	Agua_costa_01	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\6A\{6A51FB47-0419-E903-AD4B-CFED30C82EB1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Agua golpeando contra el muelle\Agua costa\Agua_costa_01		1480534
 	83601765	Pasos_Deck_6	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\F9\{F9334AC0-1910-5B20-185C-52CA1597E2D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Pasos_Deck_6		35936
-	167040920	Ambiente lago (ranas)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\C3\{C3A8265C-B563-8A02-7E81-6EEAE49B8887}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ranas\Ambiente lago (ranas)		317448
+	167040920	Ambiente lago (ranas)_02	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\EE\{EEDF1669-C152-FD6F-4321-9FCFC256CDEC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ranas\Ambiente lago (ranas)_02		519840
 	184786646	Movimiento ropa 1	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\08\{08CF0573-370D-D147-5D51-228B7DDDF262}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Movimiento\Movimiento Tierra y pasto\Movimiento ropa 1		152212
+	242251079	Agua_costa_03	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\4D\{4DD99F40-87C4-0A87-1BA0-D9DCBAB925F7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Agua golpeando contra el muelle\Agua costa\Agua_costa_03		3969520
 	243060680	Pasos pasto 1	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\95\{95AF659F-3746-E5AF-EF23-92EB7E3A297F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Pasto\Pasos pasto 1		211884
 	272991854	Crujir_Madera_1	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\98\{98E59864-7C99-1AAB-5EE2-8CA2BE6EE509}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Crujir madera\Crujir_Madera_1		438376
 	362835773	Pasos_Deck_3	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\2E\{2E59BD29-0239-CAB0-5359-F3ECE7BA8A0F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Pasos_Deck_3		36376
+	372738657	Ambiente lago (ranas)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\A7\{A77AEBBB-1DBC-11E9-3351-8E2688970BC0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ranas\Ambiente lago (ranas)		610396
 	395567585	Movimiento ropa 3	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\54\{54F4B6D4-E5BA-2D16-969C-59A82E7BCF99}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Movimiento\Movimiento Tierra y pasto\Movimiento ropa 3		154380
 	395929550	Ambiente Lago (Agua)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\F4\{F4DB47D2-DD78-4555-9D02-A86AA0534103}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ambientes\Ambiente Lago (Agua)		7059800
 	408231891	Ambiente (Grillos)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\EB\{EBF7AC4B-68BB-2AD7-0C3A-4CB277FEF3BD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ambientes\Ambiente (Grillos)		7981304
@@ -222,8 +228,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	636725315	Start	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\E7\{E7E030B9-C2A3-C87A-DEB4-BC72B374C1B4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Start		757700
 	650755908	Pasos tierra 2	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\9D\{9D56AF80-858E-1145-99F4-6D30A4BE764F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Tierra\Pasos tierra 2		103208
 	669324130	Crujir_Madera_2	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\CF\{CFA33A28-CB2F-411D-DF3D-7B5A609691F5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Crujir madera\Crujir_Madera_2		248896
+	729495438	Ambiente lago (ranas)_01	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\07\{07168CB9-7B20-A0D1-F2C4-0165BD5EAFFA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ranas\Ambiente lago (ranas)_01		1555384
 	743073779	Pasos_Deck_2	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\7D\{7DDF4525-C6BA-885C-411E-D1EFF572B5AC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Pasos_Deck_2		43616
 	757380138	Movimiento ropa 2	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\C2\{C21BAC49-DCF3-67BE-14F0-F82179F7F88C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Movimiento\Movimiento Tierra y pasto\Movimiento ropa 2		154464
+	765025347	Agua_costa	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\E5\{E5C363F5-85C6-C86D-AB15-5492FED36BE8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Agua golpeando contra el muelle\Agua costa\Agua_costa		1193700
 	831842498	Pasos tierra	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\6D\{6DABCD00-88DC-F5AB-9F74-8C44EA6A3720}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Tierra\Pasos tierra		98408
 	935357304	Pasos pasto 4	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\BF\{BF13B7B2-C7A2-1ACC-F150-26A9F8D405C9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Pasto\Pasos pasto 4		218644
 	947320254	Pasos_Deck_4	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\71\{7109D050-482E-EEC1-31C0-ADBC67022A3A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Pasos_Deck_4		37456

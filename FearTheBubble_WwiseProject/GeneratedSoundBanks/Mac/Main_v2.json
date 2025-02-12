@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{865EB8C2-1DE1-4368-A597-72E7B13D1AB4}",
     "Language": "SFX",
-    "Hash": "{7E7E24E2-1837-1635-2820-7645D447688C}",
+    "Hash": "{CD3C4B24-B1D9-AFD6-D550-A10122E385C2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_v2",
     "ShortName": "Main_v2",
     "Path": "Main_v2.bnk",
@@ -24,12 +24,20 @@
       "CachePath": "08/{08AADB53-3C48-EF6C-9602-8E70DB076F3F}.wem"
      },
      {
+      "Id": "49780458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua_costa.wav",
+      "CachePath": "3E/{3EEBD274-E321-4AE5-788A-E00BFE18BDBD}.wem"
+     },
+     {
       "Id": "59024045",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Agua_costa.wav",
-      "CachePath": "06/{0621FD07-0ADB-A501-9840-F13F89A9C793}.wem"
+      "CachePath": "6A/{6A51FB47-0419-E903-AD4B-CFED30C82EB1}.wem"
      },
      {
       "Id": "83601765",
@@ -45,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ambiente lago (ranas).wav",
-      "CachePath": "C3/{C3A8265C-B563-8A02-7E81-6EEAE49B8887}.wem"
+      "CachePath": "EE/{EEDF1669-C152-FD6F-4321-9FCFC256CDEC}.wem"
      },
      {
       "Id": "184786646",
@@ -54,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "Movimiento ropa 1.wav",
       "CachePath": "08/{08CF0573-370D-D147-5D51-228B7DDDF262}.wem"
+     },
+     {
+      "Id": "242251079",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua_costa.wav",
+      "CachePath": "4D/{4DD99F40-87C4-0A87-1BA0-D9DCBAB925F7}.wem"
      },
      {
       "Id": "243060680",
@@ -78,6 +94,14 @@
       "Location": "Memory",
       "ShortName": "Pasos_Deck_3.wav",
       "CachePath": "2E/{2E59BD29-0239-CAB0-5359-F3ECE7BA8A0F}.wem"
+     },
+     {
+      "Id": "372738657",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiente lago (ranas).wav",
+      "CachePath": "A7/{A77AEBBB-1DBC-11E9-3351-8E2688970BC0}.wem"
      },
      {
       "Id": "395567585",
@@ -168,6 +192,14 @@
       "CachePath": "CF/{CFA33A28-CB2F-411D-DF3D-7B5A609691F5}.wem"
      },
      {
+      "Id": "729495438",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiente lago (ranas).wav",
+      "CachePath": "07/{07168CB9-7B20-A0D1-F2C4-0165BD5EAFFA}.wem"
+     },
+     {
       "Id": "743073779",
       "Language": "SFX",
       "Streaming": "false",
@@ -182,6 +214,14 @@
       "Location": "Memory",
       "ShortName": "Movimiento ropa 2.wav",
       "CachePath": "C2/{C21BAC49-DCF3-67BE-14F0-F82179F7F88C}.wem"
+     },
+     {
+      "Id": "765025347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua_costa.wav",
+      "CachePath": "E5/{E5C363F5-85C6-C86D-AB15-5492FED36BE8}.wem"
      },
      {
       "Id": "831842498",
@@ -243,10 +283,34 @@
     "Plugins": {
      "Custom": [
       {
+       "Id": "307102831",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Escena 1\\Agua golpeando contra el muelle\\Agua costa\\Agua_costa_01\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{7CE1D045-C688-4BB9-8AF3-363B67D4F571}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
        "Id": "472067774",
        "Name": "Compressor (Custom)",
-       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Escena 1\\Agua golpeando contra el muelle\\Agua_costa\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Escena 1\\Agua golpeando contra el muelle\\Agua costa\\Agua_costa\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
        "GUID": "{C01BEC38-D537-477E-BFA5-31AD4969FD2A}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "545706123",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Escena 1\\Agua golpeando contra el muelle\\Agua costa\\Agua_costa_03\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{4EF52736-6E1E-40C3-A9D8-E0BB93F02827}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "646987227",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Escena 1\\Agua golpeando contra el muelle\\Agua costa\\Agua_costa_02\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{FC83937D-C2C9-4B95-9E93-CBDA4CE962C7}",
        "LibName": "Wwise Compressor",
        "LibId": "7077891"
       }
@@ -1560,13 +1624,31 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
+        "Id": "49780458"
+       },
+       {
         "Id": "59024045"
+       },
+       {
+        "Id": "242251079"
+       },
+       {
+        "Id": "765025347"
        }
       ],
       "PluginRefs": {
        "Custom": [
         {
+         "Id": "307102831"
+        },
+        {
          "Id": "472067774"
+        },
+        {
+         "Id": "545706123"
+        },
+        {
+         "Id": "646987227"
         }
        ]
       }
@@ -1884,6 +1966,12 @@
       "MediaRefs": [
        {
         "Id": "167040920"
+       },
+       {
+        "Id": "372738657"
+       },
+       {
+        "Id": "729495438"
        }
       ]
      },
@@ -2094,6 +2182,6 @@
     ]
    }
   ],
-  "FileHash": "{5D180DE3-911E-644D-DAC7-9766BFD4E4F2}"
+  "FileHash": "{BFB9C2AC-8C89-6A64-C25D-D0C4346F9669}"
  }
 }
