@@ -72,12 +72,15 @@ public class CinematicCamera : MonoBehaviour
         }
 
         // Bloquear el control del mouse (manteniendo otros efectos)
+        // Se anula la sensibilidad de la cámara para impedir su movimiento durante la cinemática.
         cameraMovementScript.sensX = 0;
         cameraMovementScript.sensY = 0;
 
-        // Congelar movimiento del jugador
+        // Congelar movimiento del jugador, excepto en el eje Y
         _playerMovement.enabled = false;
-        _playerRigidbody.constraints = RigidbodyConstraints.FreezeAll;
+        _playerRigidbody.constraints = RigidbodyConstraints.FreezePositionX |
+                                         RigidbodyConstraints.FreezePositionZ |
+                                         RigidbodyConstraints.FreezeRotation;
 
         // Calcular la rotación objetivo para la cámara
         Vector3 direction = cinematicTarget.position - playerCamera.transform.position;
@@ -97,7 +100,7 @@ public class CinematicCamera : MonoBehaviour
         HandleCinematicExit();
     }
 
-    // Se utiliza Slerp para interpolar suavemente la rotación de la cámara
+    // Interpolación suave de la rotación de la cámara
     private void ApplyCameraTransition()
     {
         playerCamera.transform.rotation = Quaternion.Slerp(
@@ -109,11 +112,13 @@ public class CinematicCamera : MonoBehaviour
 
     private void MaintainCameraLock()
     {
-        // Si la diferencia de ángulo es mínima, forzamos la rotación final
+        // Si la diferencia de ángulo es mínima, forzamos la rotación final y reafirmamos las restricciones
         if (Quaternion.Angle(playerCamera.transform.rotation, _targetRotation) <= rotationThreshold)
         {
             playerCamera.transform.rotation = _targetRotation;
-            _playerRigidbody.constraints = RigidbodyConstraints.FreezeAll;
+            _playerRigidbody.constraints = RigidbodyConstraints.FreezePositionX |
+                                             RigidbodyConstraints.FreezePositionZ |
+                                             RigidbodyConstraints.FreezeRotation;
         }
     }
 
@@ -133,15 +138,14 @@ public class CinematicCamera : MonoBehaviour
             subtitleController.gameObject.SetActive(false);
         }
 
-        // Restaurar configuraciones originales
+        // Restaurar la sensibilidad de la cámara para permitir el movimiento libre de ésta
         cameraMovementScript.sensX = _originalSensX;
         cameraMovementScript.sensY = _originalSensY;
-        _playerMovement.enabled = true;
-        _playerRigidbody.constraints = RigidbodyConstraints.None;
 
         if (resetRotationOnExit)
             playerCamera.transform.rotation = _originalCameraRotation;
 
+        // Configuración del cursor
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
@@ -162,8 +166,7 @@ public class CinematicCamera : MonoBehaviour
             }
         }
 
-        // Esperar un breve lapso para que se note la transición y luego desactivar el piso,
-        // permitiendo que el jugador caiga al vacío.
+        // Esperar un breve lapso para la transición y luego desactivar el piso, permitiendo que el jugador caiga
         StartCoroutine(DisableFloorAfterDelay(0.5f));
 
         // ACTIVAR: Se habilita el script SlowFall para aplicar la gravedad personalizada de caída lenta
@@ -173,6 +176,9 @@ public class CinematicCamera : MonoBehaviour
             slowFall.enabled = true;
         }
 
+        // Importante: No reactivamos el movimiento del jugador (_playerMovement)
+        // ni liberamos las restricciones del Rigidbody, para que el jugador
+        // permanezca inmóvil en X y Z y en rotación.
         _isCinematicActive = false;
     }
 
