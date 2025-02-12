@@ -3,77 +3,7 @@ guid: b78e4c4644a688a44a3452191edc7942
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Baranda1
-    second: {fileID: 2100000, guid: 287c7a0194c2c704594efe0f843cfd23, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Baranda2
-    second: {fileID: 2100000, guid: 8f39c9ecd5e10904797d39d512a702ac, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Baranda3
-    second: {fileID: 2100000, guid: 9e2875a8d947c7c45ad0ec28e27fec12, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Baranda4
-    second: {fileID: 2100000, guid: b3094b228f4b75948ba99397d904ba30, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Baranda5
-    second: {fileID: 2100000, guid: 383aa2bcfbd03e947868122872cd4e61, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Baranda6
-    second: {fileID: 2100000, guid: c91db4551040b4342bb2ef90713120a7, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Baranda7
-    second: {fileID: 2100000, guid: e41dd65c242ac5947a692246bd3c5ebc, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Bigas1
-    second: {fileID: 2100000, guid: b932dce85bdb31e45812045774c55320, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Bigas2
-    second: {fileID: 2100000, guid: de6fd27873e2a2d4dbde7d515c0530b5, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Bigas3
-    second: {fileID: 2100000, guid: e9f4c9b47e1856048961574410eb7890, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Muelle1
-    second: {fileID: 2100000, guid: f76cfda733024b649b6f4b92bdbe60bf, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: PisoMain
-    second: {fileID: 2100000, guid: b70e2565d2ec2214c8c06edf47b98ce4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: SoportesMuelleDelimitacion
-    second: {fileID: 2100000, guid: 078ce08a137529d4d9e8e1a1e356aac8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: SoportesMuelleGeneral
-    second: {fileID: 2100000, guid: 925176627f9ea684eb709844ca616ccd, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
