@@ -2101,7 +2101,7 @@ MonoBehaviour:
   player: {fileID: 1566266830}
   targetLocation: {fileID: 1733727517}
   rtpcName: Distancia_Al_Lago
-  minDistance: 100
+  minDistance: 60
   maxDistance: 0
 --- !u!1 &818268817
 GameObject:

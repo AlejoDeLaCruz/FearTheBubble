@@ -175,115 +175,33 @@
 								</Sound>
 							</ChildrenList>
 							<BlendTrackList>
-								<BlendTrack Name="Bosque" ID="{38509559-D393-435A-B3D8-C209E7B79EC7}" ShortID="1006013682">
-									<ObjectLists>
-										<ObjectList Name="RTPC">
-											<Reference>
-												<Local>
-													<RTPC Name="" ID="{47202E2A-A3D9-4D55-8514-318875E51085}" ShortID="605334648">
-														<PropertyList>
-															<Property Name="PropertyName" Type="string" Value="Volume"/>
-														</PropertyList>
-														<ReferenceList>
-															<Reference Name="ControlInput">
-																<ObjectRef Name="Distancia_Al_Lago" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}" WorkUnitID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}"/>
-															</Reference>
-															<Reference Name="Curve">
-																<Custom>
-																	<Curve Name="" ID="{415A2E23-0C35-4248-AA10-9562FE1B544E}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>59.96473</XPos>
-																				<YPos>-6.53104</YPos>
-																				<Flags>0</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>83.95062</XPos>
-																				<YPos>-200</YPos>
-																				<Flags>0</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>100</XPos>
-																				<YPos>-200</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</Custom>
-															</Reference>
-														</ReferenceList>
-													</RTPC>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
+								<BlendTrack Name="Ambiente" ID="{38509559-D393-435A-B3D8-C209E7B79EC7}" ShortID="1006013682">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Distancia_Al_Lago" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}" WorkUnitID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}"/>
+										</Reference>
+									</ReferenceList>
 									<BlendTrackAssocList>
 										<BlendTrackAssoc>
 											<ItemRef Name="Ambiente (Grillos)" ID="{5D636AED-0A1D-4B3E-A6C2-BE4081AE6F06}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>60.0973373786408</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
 										</BlendTrackAssoc>
-									</BlendTrackAssocList>
-								</BlendTrack>
-								<BlendTrack Name="Lago" ID="{02A13F36-B5C6-462C-B10B-C28F8B4D3021}" ShortID="730942928">
-									<ObjectLists>
-										<ObjectList Name="RTPC">
-											<Reference>
-												<Local>
-													<RTPC Name="" ID="{5892CD2D-C118-4EB6-B221-F3D733A16413}" ShortID="990215118">
-														<PropertyList>
-															<Property Name="PropertyName" Type="string" Value="Volume"/>
-														</PropertyList>
-														<ReferenceList>
-															<Reference Name="ControlInput">
-																<ObjectRef Name="Distancia_Al_Lago" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}" WorkUnitID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}"/>
-															</Reference>
-															<Reference Name="Curve">
-																<Custom>
-																	<Curve Name="" ID="{A5D89818-915F-4493-8F5C-513D56B7BA52}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>0</XPos>
-																				<YPos>-200</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>40.21164</XPos>
-																				<YPos>-20.44398</YPos>
-																				<Flags>0</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>60.14109</XPos>
-																				<YPos>-8.07155</YPos>
-																				<Flags>0</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>100</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</Custom>
-															</Reference>
-														</ReferenceList>
-													</RTPC>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-									<BlendTrackAssocList>
 										<BlendTrackAssoc>
 											<ItemRef Name="Ambiente Lago (Agua)" ID="{060D5CDC-8B18-48F0-A1FA-8D4238A65710}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>29.3206383495146</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>100</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
 										</BlendTrackAssoc>
 									</BlendTrackAssocList>
 								</BlendTrack>
@@ -1090,7 +1008,8 @@
 											<Language>SFX</Language>
 											<AudioFile>Ambiente lago (ranas).wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="167040920"/>
+												<MediaID ID="372738657"/>
+												<MediaID Platform="Windows" ID="729495438"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1125,7 +1044,8 @@
 											<Language>SFX</Language>
 											<AudioFile>Ambiente lago (ranas).wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="167040920"/>
+												<MediaID ID="729495438"/>
+												<MediaID Platform="Windows" ID="372738657"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
