@@ -116,38 +116,35 @@ public class PlayerCam : MonoBehaviour
 
     private IEnumerator ShakeCamera(float duration, float magnitude)
     {
-        Vector3 originalPosition = transform.localPosition;
+        Vector3 originalRotation = transform.localEulerAngles;
         float elapsed = 0f;
 
-        // Dirección fija (1 = derecha, cambia a -1 para izquierda)
-        int direction = 1;
-        float maxOffset = direction * magnitude * 0.4f; // Reduce la distancia a 40% del valor original
-
-        // Ajuste de tiempos para movimiento más suave
-        float pushTime = duration * 0.3f; // 30% de la duración para el empuje
+        // Configuración de rotación hacia la izquierda
+        float maxRotation = -4f * magnitude; // Ajusta el -4 para cambiar la intensidad del giro
+        float pushTime = duration * 0.15f;    // 15% de la duración para el empuje brusco
         float returnTime = duration - pushTime;
 
         while (elapsed < duration)
         {
             if (elapsed < pushTime)
             {
-                // Movimiento suave hacia el lado con curva de aceleración
-                float t = Mathf.SmoothStep(0, 1, elapsed / pushTime);
-                float x = Mathf.Lerp(0, maxOffset, t);
-                transform.localPosition = originalPosition + new Vector3(x, 0f, 0f);
+                // Rotación brusca inicial (ease-out quad para efecto de "latigazo")
+                float t = elapsed / pushTime;
+                float zRot = Mathf.Lerp(0, maxRotation, Mathf.Pow(t, 0.3f));
+                transform.localEulerAngles = originalRotation + new Vector3(0, 0, zRot);
             }
             else
             {
-                // Retorno más lento con curva de desaceleración
-                float t = Mathf.SmoothStep(0, 1, (elapsed - pushTime) / returnTime);
-                float x = Mathf.Lerp(maxOffset, 0, t);
-                transform.localPosition = originalPosition + new Vector3(x, 0f, 0f);
+                // Retorno suave con curva exponencial
+                float t = (elapsed - pushTime) / returnTime;
+                float zRot = Mathf.Lerp(maxRotation, 0, 1 - Mathf.Pow(1 - t, 4));
+                transform.localEulerAngles = originalRotation + new Vector3(0, 0, zRot);
             }
 
             elapsed += Time.deltaTime;
             yield return null;
         }
 
-        transform.localPosition = originalPosition;
+        transform.localEulerAngles = originalRotation;
     }
 }
