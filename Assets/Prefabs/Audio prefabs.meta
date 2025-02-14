@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/Audio prefabs.meta
 guid: 7dad24200c245454d94ac784f7d9ee92
 folderAsset: yes
 DefaultImporter:
+========
+guid: f213648c902dedb49b96b7bf0cb780d1
+NativeFormatImporter:
+>>>>>>>> f77d1fd (Se sube cinematica final completa. Esta desactivado el canvas de pixel por que sino no funciona el Volume de la cinematica final):Assets/Scenes 1/fearTheBubblePrueba/CameraEffects Profile 1.asset.meta
   externalObjects: {}
+  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/BarcoDeCarga.meta
 guid: 48d93acf19e3555499292ce377e9b81a
 folderAsset: yes
 DefaultImporter:
+========
+guid: 101d85dd9b9654e41a4a8447b4cb2648
+NativeFormatImporter:
+>>>>>>>> f77d1fd (Se sube cinematica final completa. Esta desactivado el canvas de pixel por que sino no funciona el Volume de la cinematica final):Assets/Scenes 1/fearTheBubblePrueba/CameraEffects Profile.asset.meta
   externalObjects: {}
+  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
