@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
+	452547817	Stop_All			\Default Work Unit\Stop_All	
 	470983495	Play_Viento			\Default Work Unit\Play_Viento	
 	578466606	Play_Ambientes			\Default Work Unit\Play_Ambientes	
 	1217000136	Play_options			\Default Work Unit\Play_options	
+	2009393964	Play_Ambiente_Lago__Agua_			\Default Work Unit\Play_Ambiente_Lago__Agua_	
 	2230670290	Play_Start			\Default Work Unit\Play_Start	
 	2473280468	Play_Crujir_madera			\Default Work Unit\Play_Crujir_madera	
 	2565055385	Play_Generador			\Default Work Unit\Play_Generador	
@@ -20,6 +22,13 @@ Switch	ID	Name	Switch Group			Notes
 	626467132	Pasos_Madera	Pasos			
 	1229166555	Pasos_Tierra	Pasos			
 	3353045675	Pasos_Pasto	Pasos			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1080517932	Escena_3			\Default Work Unit\Escena_3	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Escena_3			
+	3536105278	Escena_On	Escena_3			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2911652857	Distancia_Al_Lago			\Default Work Unit\Distancia_Al_Lago	

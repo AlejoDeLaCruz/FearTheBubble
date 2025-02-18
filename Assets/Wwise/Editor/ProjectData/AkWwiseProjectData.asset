@@ -230,7 +230,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 33ce9caac0066d49827f32da16da547a
     GuidInternal: 
-    m_lastTime: -8584622308554775808
+    m_lastTime: -8584617103834775808
     List:
     - name: Play_Agua_costa
       guid: f1994f797d68db4ebd47bb08ef240a04
@@ -247,6 +247,23 @@ MonoBehaviour:
         guid: f1994f797d68db4ebd47bb08ef240a04
       Path: Events\Default Work Unit\Play_Agua_costa
       maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Ambiente_Lago__Agua_
+      guid: b3e9efd29d2bcb40b24afc1aa5d57609
+      id: 2009393964
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Ambiente_Lago__Agua_
+        ObjectType: 3
+        guid: b3e9efd29d2bcb40b24afc1aa5d57609
+      Path: Events\Default Work Unit\Play_Ambiente_Lago__Agua_
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: Play_Ambientes
@@ -402,6 +419,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Stop_All
+      guid: 0aa11e61e20d3c4c9435c7a7681bb521
+      id: 452547817
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Stop_All
+        ObjectType: 3
+        guid: 0aa11e61e20d3c4c9435c7a7681bb521
+      Path: Events\Default Work Unit\Stop_All
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -442,8 +476,58 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ee8283702c016440b9912feedc2a9d61
     GuidInternal: 
-    m_lastTime: -8584625713414775808
-    List: []
+    m_lastTime: -8584617128134775808
+    List:
+    - name: Escena_3
+      guid: aa55b723ae9a93429bc6c1de70ca5bf3
+      id: 1080517932
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ee8283702c016440b9912feedc2a9d61
+      - ElementName: Escena_3
+        ObjectType: 9
+        guid: aa55b723ae9a93429bc6c1de70ca5bf3
+      Path: States\Default Work Unit\Escena_3
+      values:
+      - name: Escena_On
+        guid: 538904f9b28659448e912b10eb52c1b2
+        id: 3536105278
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee8283702c016440b9912feedc2a9d61
+        - ElementName: Escena_3
+          ObjectType: 9
+          guid: aa55b723ae9a93429bc6c1de70ca5bf3
+        - ElementName: Escena_On
+          ObjectType: 8
+          guid: 538904f9b28659448e912b10eb52c1b2
+      - name: None
+        guid: 94b56fc9124a6540adeba07e842da697
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee8283702c016440b9912feedc2a9d61
+        - ElementName: Escena_3
+          ObjectType: 9
+          guid: aa55b723ae9a93429bc6c1de70ca5bf3
+        - ElementName: None
+          ObjectType: 8
+          guid: 94b56fc9124a6540adeba07e842da697
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -589,7 +673,7 @@ MonoBehaviour:
     m_lastTime: -8584627282947470837
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000002000000030000000500000006000000070000000d0000000e0000001300000014000000150000001600000017000000190000001a0000001b0000001d0000001e0000001f0000002000000064000000650000002401000025010000e8010000e90100002a030000
+  ExpandedWaapiItemIds: 0100000002000000030000000500000006000000070000000d0000000e000000120000001300000014000000150000001600000017000000190000001a0000001b0000001d0000001e0000001f00000020000000210000003e0000003f00000064000000650000002401000025010000e8010000e90100002a030000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

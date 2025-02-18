@@ -174,6 +174,24 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Escena_3" ID="{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
+										<CustomState Name="" ID="{8A8B2C14-516F-4B8D-82FD-80E7AF235C21}" ShortID="58448852">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="65"/>
+												<Property Name="Pitch" Type="int32" Value="-100"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<BlendTrackList>
 								<BlendTrack Name="Ambiente" ID="{38509559-D393-435A-B3D8-C209E7B79EC7}" ShortID="1006013682">
 									<PropertyList>
@@ -1100,6 +1118,23 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Escena_3" ID="{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
+										<CustomState Name="" ID="{DAC10FDF-1EAF-493C-A6AA-26846F4877A2}" ShortID="268938784">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="60"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</RandomSequenceContainer>
 						<SwitchContainer Name="Movimiento" ID="{9D628B26-B0B0-436C-915E-30789F080B5E}" ShortID="340932787">
 							<PropertyList>
@@ -1462,6 +1497,23 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Escena_3" ID="{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
+										<CustomState Name="" ID="{98D3A231-FCE5-47F7-A80B-9CEF4AA70940}" ShortID="163339132">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="60"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</RandomSequenceContainer>
 						<Folder Name="Generador" ID="{FD367F27-37C8-4FBD-A88D-704FCD9BA29D}" ShortID="619819415">
 							<ChildrenList>
@@ -1648,6 +1700,23 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Escena_3" ID="{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
+												<CustomState Name="" ID="{B4142D83-94FD-4B5D-B236-80E91AC6E0DB}" ShortID="375711168">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="79"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ActiveSourceList>
 										<ActiveSource Name="Generador" ID="{E7D23ED4-1D8D-428B-B8A2-2C8AA96A8DF8}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2544,6 +2613,25 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Escena_3" ID="{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
+												<CustomState Name="" ID="{A0A718E4-5459-413B-99BC-A11BFBC112A5}" ShortID="698000875">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="21"/>
+														<Property Name="MakeUpGain" Type="Real64" Value="-6"/>
+														<Property Name="Pitch" Type="int32" Value="-1500"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
@@ -2805,6 +2893,24 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Escena_3" ID="{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
+										<CustomState Name="" ID="{41A0BE1F-0D78-4E68-B282-381BE7725417}" ShortID="729499018">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="50"/>
+												<Property Name="Pitch" Type="int32" Value="-300"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists>
 								<ObjectList Name="Playlist">
 									<Reference>
@@ -2819,6 +2925,70 @@
 								</ObjectList>
 							</ObjectLists>
 						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Escena 2" ID="{85AB2241-525F-4B9A-B0C8-D21D9DFA6690}" ShortID="339337913">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Folder Name="Ambiente lago" ID="{9F7698D6-CBC2-4732-A912-66E66D6081F3}" ShortID="178977371">
+							<ChildrenList>
+								<Sound Name="Ambiente Lago (Agua)" ID="{F6A256AC-DC92-4CB6-A47A-328A8CFFF15E}" ShortID="397485098">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambientes" ID="{8A2E3BC6-C7CD-4C7D-AB7D-0D96410F3048}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiente Lago (Agua)" ID="{5745D779-1116-4C80-BD58-00A8046A8B44}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiente Lago (Agua).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="395929550"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="Escena_3" ID="{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
+												<CustomState Name="" ID="{86965DF4-62B4-4507-9A9E-E6B0EDBFA37B}" ShortID="118533136">
+													<PropertyList>
+														<Property Name="Lowpass" Type="int16" Value="74"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambiente Lago (Agua)" ID="{5745D779-1116-4C80-BD58-00A8046A8B44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

@@ -142,6 +142,27 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_All" ID="{611EA10A-0DE2-4C3C-9435-C7A7681BB521}">
+					<ChildrenList>
+						<Action Name="" ID="{00A5AD74-19BD-4482-9FF1-0167584FB0D0}" ShortID="935950177">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambiente_Lago__Agua_" ID="{D2EFE9B3-2B9D-40CB-B24A-FC1AA5D57609}">
+					<ChildrenList>
+						<Action Name="" ID="{E11E37A4-F95C-4C31-98C5-F0CED836C33B}" ShortID="116175999">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiente Lago (Agua)" ID="{F6A256AC-DC92-4CB6-A47A-328A8CFFF15E}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

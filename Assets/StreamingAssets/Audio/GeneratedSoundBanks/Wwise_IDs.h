@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_AGUA_COSTA = 4092163753U;
+        static const AkUniqueID PLAY_AMBIENTE_LAGO__AGUA_ = 2009393964U;
         static const AkUniqueID PLAY_AMBIENTES = 578466606U;
         static const AkUniqueID PLAY_CRUJIR_MADERA = 2473280468U;
         static const AkUniqueID PLAY_GENERADOR = 2565055385U;
@@ -23,7 +24,23 @@ namespace AK
         static const AkUniqueID PLAY_RANAS = 3693051101U;
         static const AkUniqueID PLAY_START = 2230670290U;
         static const AkUniqueID PLAY_VIENTO = 470983495U;
+        static const AkUniqueID STOP_ALL = 452547817U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace ESCENA_3
+        {
+            static const AkUniqueID GROUP = 1080517932U;
+
+            namespace STATE
+            {
+                static const AkUniqueID ESCENA_ON = 3536105278U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace ESCENA_3
+
+    } // namespace STATES
 
     namespace SWITCHES
     {

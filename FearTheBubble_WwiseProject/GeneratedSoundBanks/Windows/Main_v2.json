@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{865EB8C2-1DE1-4368-A597-72E7B13D1AB4}",
     "Language": "SFX",
-    "Hash": "{AAD4204E-701E-7C59-4428-CEE1D2A3E3D3}",
+    "Hash": "{FB62D3BC-1555-88AD-6AE7-6EDE30D8BBBB}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_v2",
     "ShortName": "Main_v2",
     "Path": "Main_v2.bnk",
@@ -1654,6 +1654,18 @@
       }
      },
      {
+      "Id": "2009393964",
+      "Name": "Play_Ambiente_Lago__Agua_",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ambiente_Lago__Agua_",
+      "GUID": "{D2EFE9B3-2B9D-40CB-B24A-FC1AA5D57609}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "395929550"
+       }
+      ]
+     },
+     {
       "Id": "578466606",
       "Name": "Play_Ambientes",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Ambientes",
@@ -2006,6 +2018,16 @@
         "Id": "530240178"
        }
       ]
+     },
+     {
+      "Id": "452547817",
+      "Name": "Stop_All",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_All",
+      "GUID": "{611EA10A-0DE2-4C3C-9435-C7A7681BB521}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "Busses": [
@@ -2182,6 +2204,6 @@
     ]
    }
   ],
-  "FileHash": "{3690E1D1-41CA-9000-9D98-946550A60970}"
+  "FileHash": "{FCE31A12-8BC6-4606-4890-F320C30B1C0C}"
  }
 }

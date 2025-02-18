@@ -14,12 +14,20 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Stop_All" ID="{611EA10A-0DE2-4C3C-9435-C7A7681BB521}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Start" ID="{6A01B462-0C53-44A4-B624-9C60F8E5CB09}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Viento" ID="{936DF3F9-5976-4981-B42D-22A7F93B08CA}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
 							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiente_Lago__Agua_" ID="{D2EFE9B3-2B9D-40CB-B24A-FC1AA5D57609}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Musica_menu" ID="{8ADFE2E2-8DD0-4C37-83AB-18C0EB04F479}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
@@ -49,10 +57,12 @@
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Distancia_Al_Lago" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"/>
-							<Value>0</Value>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Pasos_Madera" ID="{891847EF-8173-4945-B5C7-E8504E2B7C2C}"/>
 						<CurrentSwitchRef Name="Miovimiento_Madera" ID="{C322605D-8945-465C-8751-91BDBC7C52D9}"/>

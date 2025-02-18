@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{CF98C661-6FA3-0AB3-A879-0E50F9E64321}",
+    "Hash": "{B75BA279-4383-F8D2-8CE7-03D39FAFBC59}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -176,6 +176,28 @@
       "GUID": "{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "1080517932",
+      "Name": "Escena_3",
+      "ObjectPath": "\\States\\Default Work Unit\\Escena_3",
+      "GUID": "{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Escena_3\\None",
+        "GUID": "{C96FB594-4A12-4065-ADEB-A07E842DA697}"
+       },
+       {
+        "Id": "3536105278",
+        "Name": "Escena_On",
+        "ObjectPath": "\\States\\Default Work Unit\\Escena_3\\Escena_On",
+        "GUID": "{F9048953-86B2-4459-8E91-2B10EB52C1B2}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "499872886",
@@ -226,6 +248,6 @@
     ]
    }
   ],
-  "FileHash": "{BA541ACE-5710-E5E7-CB9E-F3F128E8F698}"
+  "FileHash": "{BFCDDC6E-09BC-25F9-D5CD-EBE7C49A0786}"
  }
 }
