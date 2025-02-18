@@ -129993,7 +129993,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -4261709937767812655, guid: 3cc2ec3b2048bae4c8f623884136bd4e,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1770586468}
+      addedObject: {fileID: 1770586465}
     - targetCorrespondingSourceObject: {fileID: 6545164448802818550, guid: 3cc2ec3b2048bae4c8f623884136bd4e,
         type: 3}
       insertIndex: -1
@@ -130156,6 +130156,36 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.4700985, y: 0.23641199, z: 6.663061}
   m_Center: {x: -0.40747833, y: -1.6906483, z: -1.2595122}
+--- !u!114 &1770586465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1770586455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbf621e4f31b9424488dc13746392a4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0944a2f3c92a4d341a9095de911ee2f6,
+      type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
 --- !u!114 &1770586466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130177,44 +130207,9 @@ MonoBehaviour:
   m_positionOffsetData:
     KeepMe: 0
     positionOffset: {x: 0, y: 0, z: 0}
-  scalingFactor: 0.2
+  scalingFactor: 0.25
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &1770586468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1770586455}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a1bec231ddf2e84bbc2d1ae59a81808, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 0944a2f3c92a4d341a9095de911ee2f6,
-      type: 2}
-  useCallbacks: 0
-  stopSoundOnDestroy: 1
-  Callbacks: []
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
 --- !u!1 &1773917923
 GameObject:
   m_ObjectHideFlags: 0
@@ -143270,15 +143265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Olas golpeando (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2843790431925895894, guid: 616f89d011a459941b453272ca2b2fca, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4457354952660553216, guid: 616f89d011a459941b453272ca2b2fca,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2136051615}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 616f89d011a459941b453272ca2b2fca, type: 3}
 --- !u!1001 &1969270425
 PrefabInstance:
@@ -152094,41 +152084,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1967093277}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2136051615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1931891530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a1bec231ddf2e84bbc2d1ae59a81808, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  actionOnEventType: 0
-  curveInterpolation: 4
-  enableActionOnEvent: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 646c0035433e7254698d6db11d6adfec,
-      type: 2}
-  useCallbacks: 0
-  stopSoundOnDestroy: 1
-  Callbacks: []
-  soundEmitterObject: {fileID: 0}
-  transitionDuration: 0
-  eventIdInternal: 0
-  valueGuidInternal: 
-  m_callbackDataInternal: {fileID: 0}
-  MultiPositionType: 1
-  multiPositionTypeLabel: 0
-  attenuationSphereColor: {r: 1, g: 0, b: 0, a: 0.1}
-  LargeModePositions: []
-  multiPositionArray: []
 --- !u!1 &2138242674
 GameObject:
   m_ObjectHideFlags: 0
@@ -153085,15 +153040,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Olas golpeando
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2843790431925895894, guid: 616f89d011a459941b453272ca2b2fca, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 4457354952660553216, guid: 616f89d011a459941b453272ca2b2fca,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1653874481}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 616f89d011a459941b453272ca2b2fca, type: 3}
 --- !u!1001 &8560163677606969168
 PrefabInstance:
@@ -153246,6 +153196,4 @@ SceneRoots:
   - {fileID: 1642337587}
   - {fileID: 902047549}
   - {fileID: 1533121283}
-  - {fileID: 1807478926}
   - {fileID: 339796092}
-  - {fileID: 1857921040}
