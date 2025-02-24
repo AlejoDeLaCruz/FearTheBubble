@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{865EB8C2-1DE1-4368-A597-72E7B13D1AB4}",
     "Language": "SFX",
-    "Hash": "{BB1FF86A-3B33-89F4-513D-380FCA236027}",
+    "Hash": "{3251425E-DE3D-839D-E217-CDA68B84D3A2}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_v2",
     "ShortName": "Main_v2",
     "Path": "Main_v2.bnk",
     "Media": [
+     {
+      "Id": "14178318",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Trueno_2.wav",
+      "CachePath": "BD/{BD552330-4945-67DD-027C-DB25F8B48E35}.wem"
+     },
      {
       "Id": "23816764",
       "Language": "SFX",
@@ -22,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "Menu (intro).wav",
       "CachePath": "08/{08AADB53-3C48-EF6C-9602-8E70DB076F3F}.wem"
+     },
+     {
+      "Id": "41133800",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Trueno_4.wav",
+      "CachePath": "32/{320CF36B-83E2-A290-5188-568B2F183B25}.wem"
      },
      {
       "Id": "49780458",
@@ -48,6 +64,14 @@
       "CachePath": "F9/{F9334AC0-1910-5B20-185C-52CA1597E2D1}.wem"
      },
      {
+      "Id": "143120397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Trueno_1.wav",
+      "CachePath": "8D/{8DE8E232-53D3-F760-1DAB-602FCCC5DD1C}.wem"
+     },
+     {
       "Id": "167040920",
       "Language": "SFX",
       "Streaming": "false",
@@ -62,6 +86,14 @@
       "Location": "Memory",
       "ShortName": "Movimiento ropa 1.wav",
       "CachePath": "08/{08CF0573-370D-D147-5D51-228B7DDDF262}.wem"
+     },
+     {
+      "Id": "208600248",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua moviendose con la lluvia.wav",
+      "CachePath": "73/{73A18E0C-1A15-349E-107C-97DDAF7890D6}.wem"
      },
      {
       "Id": "242251079",
@@ -80,12 +112,28 @@
       "CachePath": "95/{95AF659F-3746-E5AF-EF23-92EB7E3A297F}.wem"
      },
      {
+      "Id": "259940948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lluvia_Main.wav",
+      "CachePath": "C7/{C7CBAECC-C500-A349-56B1-81017C46E9A3}.wem"
+     },
+     {
       "Id": "272991854",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Crujir_Madera_1.wav",
       "CachePath": "98/{98E59864-7C99-1AAB-5EE2-8CA2BE6EE509}.wem"
+     },
+     {
+      "Id": "321593708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Trueno_6.wav",
+      "CachePath": "65/{6568D812-4589-F2A2-6425-A0EF7E133CA6}.wem"
      },
      {
       "Id": "362835773",
@@ -136,6 +184,14 @@
       "CachePath": "2C/{2C0CB37E-B471-784B-A950-B758208329FB}.wem"
      },
      {
+      "Id": "482282263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lluvia_Main.wav",
+      "CachePath": "9F/{9FA03E27-D2F4-58B6-9BD5-420E59718069}.wem"
+     },
+     {
       "Id": "530240178",
       "Language": "SFX",
       "Streaming": "false",
@@ -184,12 +240,28 @@
       "CachePath": "CF/{CFA33A28-CB2F-411D-DF3D-7B5A609691F5}.wem"
      },
      {
+      "Id": "698698755",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua moviendose con la lluvia.wav",
+      "CachePath": "67/{678D3B58-468E-0A72-9915-E004E1BAC36A}.wem"
+     },
+     {
       "Id": "729495438",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ambiente lago (ranas).wav",
       "CachePath": "07/{07168CB9-7B20-A0D1-F2C4-0165BD5EAFFA}.wem"
+     },
+     {
+      "Id": "734331274",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua moviendose con la lluvia.wav",
+      "CachePath": "57/{57A70AC2-22DF-BD25-AD8A-962061823DFA}.wem"
      },
      {
       "Id": "743073779",
@@ -206,6 +278,14 @@
       "Location": "Memory",
       "ShortName": "Movimiento ropa 2.wav",
       "CachePath": "C2/{C21BAC49-DCF3-67BE-14F0-F82179F7F88C}.wem"
+     },
+     {
+      "Id": "763888649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua moviendose con la lluvia.wav",
+      "CachePath": "B7/{B7BC7C97-8F2B-427E-ED13-29CB52853CC2}.wem"
      },
      {
       "Id": "765025347",
@@ -232,6 +312,22 @@
       "CachePath": "23/{23A3F57C-E8DB-A0BE-A95C-1ECE67594545}.wem"
      },
      {
+      "Id": "881361910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lluvia_Main.wav",
+      "CachePath": "89/{894FBDF3-A034-F4EF-46DE-76C32B061290}.wem"
+     },
+     {
+      "Id": "925191881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lluvia_Main.wav",
+      "CachePath": "EA/{EA011124-CFB7-3E5B-07C5-DABEDD45B0D4}.wem"
+     },
+     {
       "Id": "935357304",
       "Language": "SFX",
       "Streaming": "false",
@@ -240,12 +336,28 @@
       "CachePath": "BF/{BF13B7B2-C7A2-1ACC-F150-26A9F8D405C9}.wem"
      },
      {
+      "Id": "944943113",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Trueno_5.wav",
+      "CachePath": "7B/{7B99FEB1-3A30-EE75-56C8-CB60389A9D86}.wem"
+     },
+     {
       "Id": "947320254",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pasos_Deck_4.wav",
       "CachePath": "71/{7109D050-482E-EEC1-31C0-ADBC67022A3A}.wem"
+     },
+     {
+      "Id": "950346314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Trueno_3.wav",
+      "CachePath": "AD/{AD204D10-0013-5BED-C9D3-05EB9EC47196}.wem"
      },
      {
       "Id": "953593280",
@@ -278,10 +390,26 @@
       "Location": "Memory",
       "ShortName": "Crujir_Madera_3.wav",
       "CachePath": "AD/{ADDB3009-6A52-890E-8829-818B5E3AE044}.wem"
+     },
+     {
+      "Id": "1056936071",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua moviendose con la lluvia.wav",
+      "CachePath": "B3/{B31C1656-3C79-2626-FDF9-1366B9D53ACB}.wem"
      }
     ],
     "Plugins": {
      "Custom": [
+      {
+       "Id": "209334296",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Escena 2\\Truenos\\Trueno_3\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{441092B0-44B8-4242-A470-E5CDB3E3FDAF}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
       {
        "Id": "307102831",
        "Name": "Compressor (Custom)",
@@ -1654,6 +1782,39 @@
       }
      },
      {
+      "Id": "2506310641",
+      "Name": "Play_Agua_moviendose_con_la_lluvia",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Agua_moviendose_con_la_lluvia",
+      "GUID": "{E06D67BB-291B-4FC4-A308-9503BA16E539}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "208600248"
+       },
+       {
+        "Id": "698698755"
+       },
+       {
+        "Id": "734331274"
+       },
+       {
+        "Id": "763888649"
+       },
+       {
+        "Id": "1056936071"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ]
+     },
+     {
       "Id": "2009393964",
       "Name": "Play_Ambiente_Lago__Agua_",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Ambiente_Lago__Agua_",
@@ -1719,6 +1880,35 @@
       "MediaRefs": [
        {
         "Id": "953593280"
+       }
+      ]
+     },
+     {
+      "Id": "1467123597",
+      "Name": "Play_Lluvia",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lluvia",
+      "GUID": "{7F2F14AF-82EC-4CAA-AB37-7C55C2F980CA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "259940948"
+       },
+       {
+        "Id": "482282263"
+       },
+       {
+        "Id": "881361910"
+       },
+       {
+        "Id": "925191881"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
        }
       ]
      },
@@ -1837,10 +2027,9 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "499872886",
-         "Id": "2441806733",
-         "GUID": "{B06B8C4F-8162-4609-9687-DFCD5E831A5D}",
-         "Default": "true"
+         "GroupId": "3026462669",
+         "Id": "1229166555",
+         "GUID": "{55FCC88D-328F-4BCF-96F7-61B7C1EF8E27}"
         },
         "MediaRefs": [
          {
@@ -1857,13 +2046,32 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "499872886",
-         "Id": "1183369584",
-         "GUID": "{C322605D-8945-465C-8751-91BDBC7C52D9}"
+         "GroupId": "3026462669",
+         "Id": "626467132",
+         "GUID": "{891847EF-8173-4945-B5C7-E8504E2B7C2C}"
         },
         "MediaRefs": [
          {
           "Id": "184786646"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "3353045675",
+         "GUID": "{6A8A98F9-2F0A-424A-B55A-AD5014941DCB}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "184786646"
+         },
+         {
+          "Id": "395567585"
+         },
+         {
+          "Id": "757380138"
          }
         ]
        },
@@ -1936,10 +2144,9 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "499872886",
-         "Id": "2441806733",
-         "GUID": "{B06B8C4F-8162-4609-9687-DFCD5E831A5D}",
-         "Default": "true"
+         "GroupId": "3026462669",
+         "Id": "1229166555",
+         "GUID": "{55FCC88D-328F-4BCF-96F7-61B7C1EF8E27}"
         },
         "MediaRefs": [
          {
@@ -1956,13 +2163,32 @@
        {
         "SwitchValue": {
          "GroupType": "Switch",
-         "GroupId": "499872886",
-         "Id": "1183369584",
-         "GUID": "{C322605D-8945-465C-8751-91BDBC7C52D9}"
+         "GroupId": "3026462669",
+         "Id": "626467132",
+         "GUID": "{891847EF-8173-4945-B5C7-E8504E2B7C2C}"
         },
         "MediaRefs": [
          {
           "Id": "184786646"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "3353045675",
+         "GUID": "{6A8A98F9-2F0A-424A-B55A-AD5014941DCB}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "184786646"
+         },
+         {
+          "Id": "395567585"
+         },
+         {
+          "Id": "757380138"
          }
         ]
        }
@@ -2008,6 +2234,59 @@
       ]
      },
      {
+      "Id": "1390663754",
+      "Name": "Play_Truenos",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Truenos",
+      "GUID": "{CCE00F4D-2E56-4A52-81B1-36912D43DE10}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "14178318"
+       },
+       {
+        "Id": "41133800"
+       },
+       {
+        "Id": "143120397"
+       },
+       {
+        "Id": "321593708"
+       },
+       {
+        "Id": "944943113"
+       },
+       {
+        "Id": "950346314"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "209334296"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "3043085106"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "357718954",
+        "Name": "Delay",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Delay",
+        "GUID": "{CA42A0DC-438C-42DA-B38D-9E9F3BA49239}"
+       },
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ]
+     },
+     {
       "Id": "470983495",
       "Name": "Play_Viento",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Viento",
@@ -2036,6 +2315,12 @@
       "Name": "Personaje",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Personaje",
       "GUID": "{2D50E9E0-CDA7-4252-94B2-34F57DA8F232}"
+     },
+     {
+      "Id": "895964156",
+      "Name": "Escena 2",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Escena 2",
+      "GUID": "{46095837-2FC8-4CEA-BC40-425E94697513}"
      },
      {
       "Id": "895964159",
@@ -2156,26 +2441,6 @@
     ],
     "SwitchGroups": [
      {
-      "Id": "499872886",
-      "Name": "Movimiento",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Movimiento",
-      "GUID": "{AFFA3F66-7995-4CB0-8B79-A6050E918FA5}",
-      "Switches": [
-       {
-        "Id": "1183369584",
-        "Name": "Miovimiento_Madera",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Movimiento\\Miovimiento_Madera",
-        "GUID": "{C322605D-8945-465C-8751-91BDBC7C52D9}"
-       },
-       {
-        "Id": "2441806733",
-        "Name": "Movimiento_Tierra_Pasos",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Movimiento\\Movimiento_Tierra_Pasos",
-        "GUID": "{B06B8C4F-8162-4609-9687-DFCD5E831A5D}"
-       }
-      ]
-     },
-     {
       "Id": "3026462669",
       "Name": "Pasos",
       "ObjectPath": "\\Switches\\Default Work Unit\\Pasos",
@@ -2204,6 +2469,6 @@
     ]
    }
   ],
-  "FileHash": "{C9F05949-D27D-669F-627D-9136561D1AE2}"
+  "FileHash": "{15A53C3F-D11F-2D65-A2FC-A35BB46A6FE8}"
  }
 }

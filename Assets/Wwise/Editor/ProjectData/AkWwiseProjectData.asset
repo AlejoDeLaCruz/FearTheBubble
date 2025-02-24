@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 27d6132842d7fc4a92f04905a18af0f0
     GuidInternal: 
-    m_lastTime: -8584623047346905655
+    m_lastTime: -8584616198854775808
     List:
     - name: Ambientes
       guid: c63b2e8acdc77d4cab7d0d96410f3048
@@ -91,6 +91,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: 2add1def7f006c4b95eecf2bd6e6d9f6
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Escena 1
+    - name: Escena 2
+      guid: 37580946c82fea4cbc40425e94697513
+      id: 895964156
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27d6132842d7fc4a92f04905a18af0f0
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Escena 2
+        ObjectType: 2
+        guid: 37580946c82fea4cbc40425e94697513
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Escena 2
     - name: Espacial
       guid: d7414aefc6ad1f47b1c68133f52c78a5
       id: 2460606139
@@ -230,7 +247,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 33ce9caac0066d49827f32da16da547a
     GuidInternal: 
-    m_lastTime: -8584617103834775808
+    m_lastTime: -8584616198854775808
     List:
     - name: Play_Agua_costa
       guid: f1994f797d68db4ebd47bb08ef240a04
@@ -246,6 +263,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: f1994f797d68db4ebd47bb08ef240a04
       Path: Events\Default Work Unit\Play_Agua_costa
+      maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Agua_moviendose_con_la_lluvia
+      guid: bb676de01b29c44fa3089503ba16e539
+      id: 2506310641
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Agua_moviendose_con_la_lluvia
+        ObjectType: 3
+        guid: bb676de01b29c44fa3089503ba16e539
+      Path: Events\Default Work Unit\Play_Agua_moviendose_con_la_lluvia
       maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
@@ -315,6 +349,23 @@ MonoBehaviour:
         guid: 113c3c0105f0074a83927ce67c0afd84
       Path: Events\Default Work Unit\Play_Generador
       maxAttenuation: 100
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Lluvia
+      guid: af142f7fec82aa4cab377c55c2f980ca
+      id: 1467123597
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Lluvia
+        ObjectType: 3
+        guid: af142f7fec82aa4cab377c55c2f980ca
+      Path: Events\Default Work Unit\Play_Lluvia
+      maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
     - name: Play_Musica_menu
@@ -402,6 +453,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 3.9458542
       minDuration: 3.9458542
+    - name: Play_Truenos
+      guid: 4d0fe0cc562e524a81b136912d43de10
+      id: 1390663754
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Truenos
+        ObjectType: 3
+        guid: 4d0fe0cc562e524a81b136912d43de10
+      Path: Events\Default Work Unit\Play_Truenos
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_Viento
       guid: f9f36d9376598149b42d22a7f93b08ca
       id: 470983495
@@ -673,7 +741,7 @@ MonoBehaviour:
     m_lastTime: -8584627282947470837
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000002000000030000000500000006000000070000000d0000000e000000120000001300000014000000150000001600000017000000190000001a0000001b0000001d0000001e0000001f00000020000000210000003e0000003f00000064000000650000002401000025010000e8010000e90100002a030000
+  ExpandedWaapiItemIds: 0100000002000000030000000500000006000000070000000d0000000e000000120000001300000014000000150000001600000017000000190000001a0000001b0000001d0000001e0000001f00000020000000210000003e0000003f000000640000006500000024010000250100003401000035010000e8010000e90100002a030000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{FF96BFD6-0FAC-6418-5B35-68CC8AA147D4}",
+    "Hash": "{438F9003-9249-B3E9-8127-43FA457744AF}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -58,6 +58,12 @@
       "Name": "Personaje",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Personaje",
       "GUID": "{2D50E9E0-CDA7-4252-94B2-34F57DA8F232}"
+     },
+     {
+      "Id": "895964156",
+      "Name": "Escena 2",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Escena 2",
+      "GUID": "{46095837-2FC8-4CEA-BC40-425E94697513}"
      },
      {
       "Id": "895964159",
@@ -248,6 +254,6 @@
     ]
    }
   ],
-  "FileHash": "{686BDEDA-7899-6CB9-72FF-A29A9E680E46}"
+  "FileHash": "{5683590D-5781-0E38-BBFD-18F1B916B560}"
  }
 }

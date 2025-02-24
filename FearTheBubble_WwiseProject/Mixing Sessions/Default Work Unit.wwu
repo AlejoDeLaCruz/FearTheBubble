@@ -39,6 +39,24 @@
 						<ObjectRef Name="Crujir_Madera_3" ID="{480A1DB5-7C19-40B5-98A5-EBB23BD882F6}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
 					</ObjectList>
 				</MixingSession>
+				<MixingSession Name="Escena 2" ID="{03D5BA77-DB53-4F96-BEB4-E23B63BC92CE}">
+					<ObjectList>
+						<ObjectRef Name="Agua moviendose con la lluvia" ID="{A6B11FCE-8EE2-4F69-A21F-4398A9D27181}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+						<ObjectRef Name="Ambiente Lago (Agua)" ID="{060D5CDC-8B18-48F0-A1FA-8D4238A65710}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+						<ObjectRef Name="Lluvia" ID="{F9CE1464-AC9F-4B91-A8B5-5F5A7C6A493F}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+						<ObjectRef Name="Truenos" ID="{8C5C8395-1135-434F-8797-1CA78F791D86}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+					</ObjectList>
+				</MixingSession>
+				<MixingSession Name="Truenos" ID="{85ABD95E-A2EA-498B-B0FE-ACC2A93570B6}">
+					<ObjectList>
+						<ObjectRef Name="Trueno_1" ID="{1C3B7B57-DBBA-437E-8E29-33EFB9812BFE}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+						<ObjectRef Name="Trueno_2" ID="{D3FEDBA1-B2B0-4FD0-94AE-473BC987D965}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+						<ObjectRef Name="Trueno_3" ID="{ECB5CD40-377B-43DD-8BC5-9F0E527011D0}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+						<ObjectRef Name="Trueno_4" ID="{0B8423DE-A8C6-4290-B907-D74A59AC6BA6}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+						<ObjectRef Name="Trueno_5" ID="{E4A48CE2-62D5-4539-8EAF-3A91A474CCFD}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+						<ObjectRef Name="Trueno_6" ID="{4AC15C63-3365-4C09-9170-2C7334AAFA2B}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+					</ObjectList>
+				</MixingSession>
 			</ChildrenList>
 		</WorkUnit>
 	</MixingSessions>

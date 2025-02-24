@@ -7,6 +7,7 @@ State	ID	Name	State Group			Notes
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	868840972	Personaje			\Default Work Unit\Master Audio Bus\Personaje	
+	895964156	Escena 2			\Default Work Unit\Master Audio Bus\Escena 2	
 	895964159	Escena 1			\Default Work Unit\Master Audio Bus\Escena 1	
 	1014953671	Ambientes			\Default Work Unit\Master Audio Bus\Ambientes	
 	1730564739	Musica			\Default Work Unit\Master Audio Bus\Musica	

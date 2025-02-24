@@ -14,15 +14,18 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_AGUA_COSTA = 4092163753U;
+        static const AkUniqueID PLAY_AGUA_MOVIENDOSE_CON_LA_LLUVIA = 2506310641U;
         static const AkUniqueID PLAY_AMBIENTE_LAGO__AGUA_ = 2009393964U;
         static const AkUniqueID PLAY_AMBIENTES = 578466606U;
         static const AkUniqueID PLAY_CRUJIR_MADERA = 2473280468U;
         static const AkUniqueID PLAY_GENERADOR = 2565055385U;
+        static const AkUniqueID PLAY_LLUVIA = 1467123597U;
         static const AkUniqueID PLAY_MUSICA_MENU = 4098647122U;
         static const AkUniqueID PLAY_OPTIONS = 1217000136U;
         static const AkUniqueID PLAY_PASOS = 4031831520U;
         static const AkUniqueID PLAY_RANAS = 3693051101U;
         static const AkUniqueID PLAY_START = 2230670290U;
+        static const AkUniqueID PLAY_TRUENOS = 1390663754U;
         static const AkUniqueID PLAY_VIENTO = 470983495U;
         static const AkUniqueID STOP_ALL = 452547817U;
     } // namespace EVENTS
@@ -84,6 +87,7 @@ namespace AK
     {
         static const AkUniqueID AMBIENTES = 1014953671U;
         static const AkUniqueID ESCENA_1 = 895964159U;
+        static const AkUniqueID ESCENA_2 = 895964156U;
         static const AkUniqueID ESPACIAL = 2460606139U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
         static const AkUniqueID MENU = 2607556080U;
