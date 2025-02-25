@@ -77,7 +77,7 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Pasos_Madera" ID="{891847EF-8173-4945-B5C7-E8504E2B7C2C}"/>
-						<CurrentSwitchRef Name="Movimiento_Tierra_Pasos" ID="{B06B8C4F-8162-4609-9687-DFCD5E831A5D}"/>
+						<CurrentSwitchRef Name="Miovimiento_Madera" ID="{C322605D-8945-465C-8751-91BDBC7C52D9}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

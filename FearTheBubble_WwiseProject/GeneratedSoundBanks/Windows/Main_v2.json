@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{865EB8C2-1DE1-4368-A597-72E7B13D1AB4}",
     "Language": "SFX",
-    "Hash": "{BAE13AD7-1485-FAF3-5E19-3C9A5485D579}",
+    "Hash": "{9DAB16CA-6579-80BA-CC28-27227DEF3BB6}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_v2",
     "ShortName": "Main_v2",
     "Path": "Main_v2.bnk",
@@ -61,7 +61,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pasos_Deck_6.wav",
-      "CachePath": "F9/{F9334AC0-1910-5B20-185C-52CA1597E2D1}.wem"
+      "CachePath": "68/{68DC85C1-5A7E-9BD2-FB3A-0C3CF9C3BB92}.wem"
+     },
+     {
+      "Id": "126217914",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos_Deck_1.wav",
+      "CachePath": "09/{092C8822-332B-5472-BC11-3DB421B40533}.wem"
      },
      {
       "Id": "143120397",
@@ -70,6 +78,14 @@
       "Location": "Memory",
       "ShortName": "Trueno_1.wav",
       "CachePath": "8D/{8DE8E232-53D3-F760-1DAB-602FCCC5DD1C}.wem"
+     },
+     {
+      "Id": "155531695",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos_Deck_5.wav",
+      "CachePath": "3C/{3CB7BD34-3448-365F-7384-10060661DE01}.wem"
      },
      {
       "Id": "167040920",
@@ -141,7 +157,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pasos_Deck_3.wav",
-      "CachePath": "2E/{2E59BD29-0239-CAB0-5359-F3ECE7BA8A0F}.wem"
+      "CachePath": "89/{89D0483C-AF94-EECB-C764-C4050307432C}.wem"
      },
      {
       "Id": "372738657",
@@ -176,12 +192,28 @@
       "CachePath": "EB/{EBF7AC4B-68BB-2AD7-0C3A-4CB277FEF3BD}.wem"
      },
      {
+      "Id": "426321375",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos_Deck_6.wav",
+      "CachePath": "82/{82696F57-8B47-58E0-842C-666CE42C286A}.wem"
+     },
+     {
+      "Id": "466502550",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos_Deck_4.wav",
+      "CachePath": "44/{44F14CE4-30B7-AE72-401D-A7E7271B5E41}.wem"
+     },
+     {
       "Id": "479739056",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pasos_Deck_5.wav",
-      "CachePath": "2C/{2C0CB37E-B471-784B-A950-B758208329FB}.wem"
+      "CachePath": "84/{8445B627-0EB9-EA26-79D7-6573DA1E556D}.wem"
      },
      {
       "Id": "482282263",
@@ -206,6 +238,14 @@
       "Location": "Memory",
       "ShortName": "Pasos pasto 2.wav",
       "CachePath": "00/{00D2C35F-52CC-6CE8-B48D-1BAB51A02C6E}.wem"
+     },
+     {
+      "Id": "611653514",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos_Deck_3.wav",
+      "CachePath": "63/{63182E7A-DF47-F02F-42FA-1CF746BF9FBF}.wem"
      },
      {
       "Id": "622099577",
@@ -269,7 +309,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pasos_Deck_2.wav",
-      "CachePath": "7D/{7DDF4525-C6BA-885C-411E-D1EFF572B5AC}.wem"
+      "CachePath": "73/{734ACC82-1509-EE65-0223-45C64713B333}.wem"
      },
      {
       "Id": "757380138",
@@ -349,7 +389,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pasos_Deck_4.wav",
-      "CachePath": "71/{7109D050-482E-EEC1-31C0-ADBC67022A3A}.wem"
+      "CachePath": "09/{0960F0AB-F4B5-DD11-7811-9F2A80F48A2E}.wem"
      },
      {
       "Id": "950346314",
@@ -376,12 +416,20 @@
       "CachePath": "48/{48127442-B365-115F-4C96-F9596481D312}.wem"
      },
      {
+      "Id": "992015825",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos_Deck_2.wav",
+      "CachePath": "EC/{EC21D719-8CB8-4026-C197-4FF8C562FF4F}.wem"
+     },
+     {
       "Id": "1019273765",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pasos_Deck_1.wav",
-      "CachePath": "17/{174A7296-A6A9-3504-F66D-07D102ACAE12}.wem"
+      "CachePath": "45/{45ABA439-779E-598C-346C-A92270E51DBD}.wem"
      },
      {
       "Id": "1050761319",
@@ -1986,16 +2034,34 @@
           "Id": "83601765"
          },
          {
+          "Id": "126217914"
+         },
+         {
+          "Id": "155531695"
+         },
+         {
           "Id": "362835773"
          },
          {
+          "Id": "426321375"
+         },
+         {
+          "Id": "466502550"
+         },
+         {
           "Id": "479739056"
+         },
+         {
+          "Id": "611653514"
          },
          {
           "Id": "743073779"
          },
          {
           "Id": "947320254"
+         },
+         {
+          "Id": "992015825"
          },
          {
           "Id": "1019273765"
@@ -2103,16 +2169,34 @@
           "Id": "83601765"
          },
          {
+          "Id": "126217914"
+         },
+         {
+          "Id": "155531695"
+         },
+         {
           "Id": "362835773"
          },
          {
+          "Id": "426321375"
+         },
+         {
+          "Id": "466502550"
+         },
+         {
           "Id": "479739056"
+         },
+         {
+          "Id": "611653514"
          },
          {
           "Id": "743073779"
          },
          {
           "Id": "947320254"
+         },
+         {
+          "Id": "992015825"
          },
          {
           "Id": "1019273765"
@@ -2469,6 +2553,6 @@
     ]
    }
   ],
-  "FileHash": "{E1017941-DB55-97DD-F3E6-1C69A5828A3B}"
+  "FileHash": "{4642DBDC-B384-D373-83DC-FA7016B17BF9}"
  }
 }
