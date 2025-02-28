@@ -24,7 +24,7 @@ Material:
   stringTagMap:
     RenderType: TransparentCutout
   disabledShaderPasses: []
-  m_LockedProperties: 
+  m_LockedProperties: _AlphaClip
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
