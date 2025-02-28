@@ -14,12 +14,20 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Stop_All" ID="{611EA10A-0DE2-4C3C-9435-C7A7681BB521}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Start" ID="{6A01B462-0C53-44A4-B624-9C60F8E5CB09}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Viento" ID="{936DF3F9-5976-4981-B42D-22A7F93B08CA}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
 							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambiente_Lago__Agua_" ID="{D2EFE9B3-2B9D-40CB-B24A-FC1AA5D57609}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Musica_menu" ID="{8ADFE2E2-8DD0-4C37-83AB-18C0EB04F479}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
@@ -30,12 +38,20 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Agua_moviendose_con_la_lluvia" ID="{E06D67BB-291B-4FC4-A308-9503BA16E539}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Ambientes" ID="{20721978-FA7E-4C2E-84C1-ADFF221A9B6F}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Agua_costa" ID="{794F99F1-687D-4EDB-BD47-BB08EF240A04}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
 							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Lluvia" ID="{7F2F14AF-82EC-4CAA-AB37-7C55C2F980CA}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="3" Y="2"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Pasos" ID="{2DF0C8CF-8A23-4E4A-85E1-B0BA69928A1B}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
@@ -45,17 +61,23 @@
 							<ObjectRef Name="Play_Crujir_madera" ID="{CEF2A459-98DC-4C3C-BB73-C7DA20A86482}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
 							<Position X="4" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Truenos" ID="{CCE00F4D-2E56-4A52-81B1-36912D43DE10}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="4" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Distancia_Al_Lago" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"/>
-							<Value>0</Value>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{C96FB594-4A12-4065-ADEB-A07E842DA697}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Pasos_Madera" ID="{891847EF-8173-4945-B5C7-E8504E2B7C2C}"/>
-						<CurrentSwitchRef Name="Miovimiento_Madera" ID="{C322605D-8945-465C-8751-91BDBC7C52D9}"/>
+						<CurrentSwitchRef Name="Movimiento_Tierra_Pasos" ID="{B06B8C4F-8162-4609-9687-DFCD5E831A5D}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

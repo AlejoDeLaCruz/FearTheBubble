@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670841d090aaf0b4ba09334bee5c9433, type: 3}
+  m_Name: 611EA10A-0DE2-4C3C-9435-C7A7681BB521
+  m_EditorClassIdentifier: 
+  objectName: Stop_All
+  id: 452547817
+  guid: 611EA10A-0DE2-4C3C-9435-C7A7681BB521
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0
