@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{A29A816D-21D5-2100-67CF-A3DE95D8432B}",
+    "Hash": "{438F9003-9249-B3E9-8127-43FA457744AF}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -58,6 +58,12 @@
       "Name": "Personaje",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Personaje",
       "GUID": "{2D50E9E0-CDA7-4252-94B2-34F57DA8F232}"
+     },
+     {
+      "Id": "895964156",
+      "Name": "Escena 2",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Escena 2",
+      "GUID": "{46095837-2FC8-4CEA-BC40-425E94697513}"
      },
      {
       "Id": "895964159",
@@ -176,6 +182,28 @@
       "GUID": "{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "1080517932",
+      "Name": "Escena_3",
+      "ObjectPath": "\\States\\Default Work Unit\\Escena_3",
+      "GUID": "{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Escena_3\\None",
+        "GUID": "{C96FB594-4A12-4065-ADEB-A07E842DA697}"
+       },
+       {
+        "Id": "3536105278",
+        "Name": "Escena_On",
+        "ObjectPath": "\\States\\Default Work Unit\\Escena_3\\Escena_On",
+        "GUID": "{F9048953-86B2-4459-8E91-2B10EB52C1B2}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "499872886",
@@ -226,6 +254,6 @@
     ]
    }
   ],
-  "FileHash": "{5D1939A7-25D6-1FDB-A65A-0F8BCC1A76E0}"
+  "FileHash": "{5683590D-5781-0E38-BBFD-18F1B916B560}"
  }
 }

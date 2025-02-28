@@ -10,7 +10,7 @@ public class RTPCUpdater : MonoBehaviour
     public Transform targetLocation;
 
     // Nombre del RTPC en Wwise (asegúrate de que coincida exactamente)
-    public string rtpcName = "Distancia_Al_Lago";
+    public string rtpcName = "RTPC_Ambiente";
     // Distancia mínima y máxima para normalizar el valor
     public float minDistance = 0f;
     public float maxDistance = 100f;

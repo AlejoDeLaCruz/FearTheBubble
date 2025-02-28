@@ -149,6 +149,7 @@
 								</Reference>
 							</ReferenceList>
 						</Bus>
+						<Bus Name="Escena 2" ID="{46095837-2FC8-4CEA-BC40-425E94697513}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>
