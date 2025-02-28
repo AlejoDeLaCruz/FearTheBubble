@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 8618a8e873745449ac5aa9ff3dec0e86
     GuidInternal: 
-    m_lastTime: -8584627282947460838
+    m_lastTime: -8584608292447148467
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 27d6132842d7fc4a92f04905a18af0f0
     GuidInternal: 
-    m_lastTime: -8584623047346905655
+    m_lastTime: -8584608292460545522
     List:
     - name: Ambientes
       guid: c63b2e8acdc77d4cab7d0d96410f3048
@@ -202,7 +202,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: aa611f8d23395843b085614855d06864
     GuidInternal: 
-    m_lastTime: -8584623047342405474
+    m_lastTime: -8584608292447198458
     List:
     - name: Main_v2
       guid: c2b85e86e11d6843a59772e7b13d1ab4
@@ -230,7 +230,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 33ce9caac0066d49827f32da16da547a
     GuidInternal: 
-    m_lastTime: -8584622094303728394
+    m_lastTime: -8584608292469712876
     List:
     - name: Play_Agua_costa
       guid: f1994f797d68db4ebd47bb08ef240a04
@@ -246,9 +246,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: f1994f797d68db4ebd47bb08ef240a04
       Path: Events\Default Work Unit\Play_Agua_costa
-      maxAttenuation: 100
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Ambientes
       guid: 781972207efa2e4c84c1adff221a9b6f
       id: 578466606
@@ -264,8 +264,8 @@ MonoBehaviour:
         guid: 781972207efa2e4c84c1adff221a9b6f
       Path: Events\Default Work Unit\Play_Ambientes
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Crujir_madera
       guid: 59a4f2cedc983c4cbb73c7da20a86482
       id: 2473280468
@@ -280,9 +280,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 59a4f2cedc983c4cbb73c7da20a86482
       Path: Events\Default Work Unit\Play_Crujir_madera
-      maxAttenuation: 100
-      maxDuration: 4.565417
-      minDuration: 2.5916667
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Generador
       guid: 113c3c0105f0074a83927ce67c0afd84
       id: 2565055385
@@ -297,9 +297,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 113c3c0105f0074a83927ce67c0afd84
       Path: Events\Default Work Unit\Play_Generador
-      maxAttenuation: 100
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Musica_menu
       guid: e2e2df8ad08d374c83ab18c0eb04f479
       id: 4098647122
@@ -315,8 +315,8 @@ MonoBehaviour:
         guid: e2e2df8ad08d374c83ab18c0eb04f479
       Path: Events\Default Work Unit\Play_Musica_menu
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_options
       guid: aeba63f8c15b7e4f9a4b900d1c54dda2
       id: 1217000136
@@ -332,8 +332,8 @@ MonoBehaviour:
         guid: aeba63f8c15b7e4f9a4b900d1c54dda2
       Path: Events\Default Work Unit\Play_options
       maxAttenuation: 0
-      maxDuration: 4.6585
-      minDuration: 4.6585
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Pasos
       guid: cfc8f02d238a4a4e85e1b0ba69928a1b
       id: 4031831520
@@ -349,8 +349,8 @@ MonoBehaviour:
         guid: cfc8f02d238a4a4e85e1b0ba69928a1b
       Path: Events\Default Work Unit\Play_Pasos
       maxAttenuation: 0
-      maxDuration: 1.2412932
-      minDuration: 0.74780405
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Ranas
       guid: 0de1d929f0d29a419461de1e27aaf728
       id: 3693051101
@@ -365,9 +365,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0de1d929f0d29a419461de1e27aaf728
       Path: Events\Default Work Unit\Play_Ranas
-      maxAttenuation: 100
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Start
       guid: 62b4016a530ca444b6249c60f8e5cb09
       id: 2230670290
@@ -383,8 +383,8 @@ MonoBehaviour:
         guid: 62b4016a530ca444b6249c60f8e5cb09
       Path: Events\Default Work Unit\Play_Start
       maxAttenuation: 0
-      maxDuration: 3.9458542
-      minDuration: 3.9458542
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Viento
       guid: f9f36d9376598149b42d22a7f93b08ca
       id: 470983495
@@ -400,8 +400,8 @@ MonoBehaviour:
         guid: f9f36d9376598149b42d22a7f93b08ca
       Path: Events\Default Work Unit\Play_Viento
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -414,7 +414,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 2425c515fe05e24ba2e18656c6037eff
     GuidInternal: 
-    m_lastTime: -8584623047353793543
+    m_lastTime: -8584608292469692886
     List:
     - name: Distancia_Al_Lago
       guid: ac639b4fecfe78439e880fcfcd2aff69
@@ -442,7 +442,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ee8283702c016440b9912feedc2a9d61
     GuidInternal: 
-    m_lastTime: -8584625713414775808
+    m_lastTime: -8584608292447168460
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -456,7 +456,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: b34928d33dfdc541be65a1247731ebdb
     GuidInternal: 
-    m_lastTime: -8584623047342385481
+    m_lastTime: -8584608292447158460
     List:
     - name: Movimiento
       guid: 663ffaaf9579b04c8b79a6050e918fa5
@@ -586,7 +586,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: e9ab903c5ab5b24c8c46e76a6ed960b0
     GuidInternal: 
-    m_lastTime: -8584627282947470837
+    m_lastTime: -8584608292447148467
     List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 0100000002000000030000000500000006000000070000000d0000000e0000001300000014000000150000001600000017000000180000001a0000002401000025010000e8010000e90100002a030000
