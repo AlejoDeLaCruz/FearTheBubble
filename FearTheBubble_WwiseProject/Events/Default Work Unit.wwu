@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_options" ID="{F863BAAE-5BC1-4F7E-9A4B-900D1C54DDA2}">
+					<ChildrenList>
+						<Action Name="" ID="{0AEAC5D0-C4B2-48EA-B477-85BEC0C2678A}" ShortID="588233789">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="options" ID="{1313ED19-7AB9-4486-8D4C-E52E5AD31B0B}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Start" ID="{6A01B462-0C53-44A4-B624-9C60F8E5CB09}">
+					<ChildrenList>
+						<Action Name="" ID="{25846EB5-A495-44CC-AF37-CABB900CD23D}" ShortID="41358719">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Musica menu" ID="{1F9E7941-9AB0-43CE-B93A-909500CAA517}" WorkUnitID="{B54DD0E8-2D4F-4172-9E74-CC58B472557F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{12C544FE-A245-4280-BB0F-44631C7601F1}" ShortID="1026459429">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Start" ID="{1E63C694-4388-4960-825E-905EF2498819}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Musica_menu" ID="{8ADFE2E2-8DD0-4C37-83AB-18C0EB04F479}">
+					<ChildrenList>
+						<Action Name="" ID="{4BEDAE3F-A3AD-44E9-9365-D000094FA964}" ShortID="1024882064">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Musica menu" ID="{1F9E7941-9AB0-43CE-B93A-909500CAA517}" WorkUnitID="{B54DD0E8-2D4F-4172-9E74-CC58B472557F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambientes" ID="{20721978-FA7E-4C2E-84C1-ADFF221A9B6F}">
+					<ChildrenList>
+						<Action Name="" ID="{C7D10209-5A80-4841-BDE1-406E2458FC69}" ShortID="649936478">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambientes" ID="{30F27107-BC1A-4287-B2E7-FCB1BFFE1A70}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Pasos" ID="{2DF0C8CF-8A23-4E4A-85E1-B0BA69928A1B}">
+					<ChildrenList>
+						<Action Name="" ID="{653A2D2A-D37F-4836-B197-DCAB8BCC8036}" ShortID="664569947">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Pasos" ID="{AF05CF31-6021-41A1-B01A-47010DFD7CE6}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4788EEA2-E2CB-4198-9614-5FE2344BB02A}" ShortID="788069314">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Movimiento" ID="{9D628B26-B0B0-436C-915E-30789F080B5E}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ranas" ID="{29D9E10D-D2F0-419A-9461-DE1E27AAF728}">
+					<ChildrenList>
+						<Action Name="" ID="{7D826D83-C6C9-4722-927C-26DEDE57EECF}" ShortID="969603009">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ranas" ID="{0EEEFC7C-F02C-4693-97D8-073E09FFD16E}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Viento" ID="{936DF3F9-5976-4981-B42D-22A7F93B08CA}">
+					<ChildrenList>
+						<Action Name="" ID="{10ED363C-C5CF-4F13-B794-9CC0EE92365C}" ShortID="588180744">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{3837B0AA-87F1-4750-93CF-C706299C85C6}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Viento" ID="{EF4C32A2-B630-4251-984A-4326D3233E84}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Generador" ID="{013C3C11-F005-4A07-8392-7CE67C0AFD84}">
+					<ChildrenList>
+						<Action Name="" ID="{C18CA0C9-441A-4EE6-BEB0-F467B73CC2EE}" ShortID="839062690">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Generador" ID="{55DC8632-8C42-450F-8750-A8F95A398B97}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Agua_costa" ID="{794F99F1-687D-4EDB-BD47-BB08EF240A04}">
+					<ChildrenList>
+						<Action Name="" ID="{6A821E87-B7BA-4CF6-8293-079A449A0115}" ShortID="5769914">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Agua costa" ID="{90D8A369-586F-49C9-B7A6-A347C660902E}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Crujir_madera" ID="{CEF2A459-98DC-4C3C-BB73-C7DA20A86482}">
+					<ChildrenList>
+						<Action Name="" ID="{2A24F61A-3024-491E-9A05-5F463968E884}" ShortID="21342613">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Crujir madera" ID="{0B9041A3-6E42-4C8E-9D83-E07BBF4CA1C4}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_All" ID="{611EA10A-0DE2-4C3C-9435-C7A7681BB521}">
+					<ChildrenList>
+						<Action Name="" ID="{00A5AD74-19BD-4482-9FF1-0167584FB0D0}" ShortID="935950177">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Ambiente_Lago__Agua_" ID="{D2EFE9B3-2B9D-40CB-B24A-FC1AA5D57609}">
+					<ChildrenList>
+						<Action Name="" ID="{E11E37A4-F95C-4C31-98C5-F0CED836C33B}" ShortID="116175999">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiente Lago (Agua)" ID="{F6A256AC-DC92-4CB6-A47A-328A8CFFF15E}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Agua_moviendose_con_la_lluvia" ID="{E06D67BB-291B-4FC4-A308-9503BA16E539}">
+					<ChildrenList>
+						<Action Name="" ID="{C10870A2-6374-479F-97BB-F5963C71B17C}" ShortID="1003840603">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Agua moviendose con la lluvia" ID="{A6B11FCE-8EE2-4F69-A21F-4398A9D27181}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lluvia" ID="{7F2F14AF-82EC-4CAA-AB37-7C55C2F980CA}">
+					<ChildrenList>
+						<Action Name="" ID="{3A99D712-DC44-49C6-9202-A7558DF927CE}" ShortID="354071924">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D20A01B9-9C7B-4DDA-9EC1-7AE46624F26C}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lluvia" ID="{F9CE1464-AC9F-4B91-A8B5-5F5A7C6A493F}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Truenos" ID="{CCE00F4D-2E56-4A52-81B1-36912D43DE10}">
+					<ChildrenList>
+						<Action Name="" ID="{A2C043A5-3EEE-4B55-98B3-86B24C635777}" ShortID="185365536">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Truenos" ID="{8C5C8395-1135-434F-8797-1CA78F791D86}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

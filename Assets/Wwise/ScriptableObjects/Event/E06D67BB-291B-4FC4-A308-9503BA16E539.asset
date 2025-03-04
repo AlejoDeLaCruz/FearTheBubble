@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 670841d090aaf0b4ba09334bee5c9433, type: 3}
+  m_Name: E06D67BB-291B-4FC4-A308-9503BA16E539
+  m_EditorClassIdentifier: 
+  objectName: Play_Agua_moviendose_con_la_lluvia
+  id: 2506310641
+  guid: E06D67BB-291B-4FC4-A308-9503BA16E539
+  IsInUserDefinedSoundBank: 1
+  IsAutoBankLoaded: 0

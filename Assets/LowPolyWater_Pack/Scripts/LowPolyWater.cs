@@ -99,5 +99,22 @@ namespace LowPolyWater
             mesh.MarkDynamic();
             meshFilter.mesh = mesh;
         }
+        // --- NUEVO MÉTODO PARA OBTENER LA ALTURA DE LA OLA EN UNA POSICIÓN DEL MUNDO ---
+        public float GetWaveHeightAtPosition(Vector3 worldPosition)
+        {
+            // Convertir la posición del mundo a posición local respecto al objeto de agua
+            Vector3 localPos = transform.InverseTransformPoint(worldPosition);
+
+            // Calcular la distancia desde el origen de las olas (en espacio local)
+            float distance = Vector3.Distance(localPos, waveOriginPosition);
+            distance = (distance % waveLength) / waveLength;
+
+            // Calcular la altura de la ola (offset) en la posición local
+            float waveOffset = waveHeight * Mathf.Sin(Time.time * Mathf.PI * 2.0f * waveFrequency
+                                    + (Mathf.PI * 2.0f * distance));
+
+            // Retornar la altura total sumando la posición Y del objeto de agua (que actúa como base)
+            return transform.position.y + waveOffset;
+        }
     }
 }

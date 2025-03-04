@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{708382EE-012C-4064-B991-2FEEDC2A9D61}" SchemaVersion="123">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{708382EE-012C-4064-B991-2FEEDC2A9D61}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Escena_3" ID="{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}">
+					<ChildrenList>
+						<State Name="None" ID="{C96FB594-4A12-4065-ADEB-A07E842DA697}"/>
+						<State Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

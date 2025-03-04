@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Surface
+  - Pasto
+  - Tierra
+  - Madera
+  - Agua
+  - Pasos_Madera
+  - Pasos_Pasto
+  - Pasos_Tierra
   layers:
   - Default
   - TransparentFX

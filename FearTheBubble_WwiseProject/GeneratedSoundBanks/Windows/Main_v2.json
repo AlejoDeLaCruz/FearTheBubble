@@ -1,0 +1,2474 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2494457181",
+    "Type": "User",
+    "GUID": "{865EB8C2-1DE1-4368-A597-72E7B13D1AB4}",
+    "Language": "SFX",
+    "Hash": "{BAE13AD7-1485-FAF3-5E19-3C9A5485D579}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_v2",
+    "ShortName": "Main_v2",
+    "Path": "Main_v2.bnk",
+    "Media": [
+     {
+      "Id": "14178318",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Trueno_2.wav",
+      "CachePath": "BD/{BD552330-4945-67DD-027C-DB25F8B48E35}.wem"
+     },
+     {
+      "Id": "23816764",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menu (intro).wav",
+      "CachePath": "08/{08AADB53-3C48-EF6C-9602-8E70DB076F3F}.wem"
+     },
+     {
+      "Id": "41133800",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Trueno_4.wav",
+      "CachePath": "32/{320CF36B-83E2-A290-5188-568B2F183B25}.wem"
+     },
+     {
+      "Id": "49780458",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua_costa.wav",
+      "CachePath": "3E/{3EEBD274-E321-4AE5-788A-E00BFE18BDBD}.wem"
+     },
+     {
+      "Id": "59024045",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua_costa.wav",
+      "CachePath": "6A/{6A51FB47-0419-E903-AD4B-CFED30C82EB1}.wem"
+     },
+     {
+      "Id": "83601765",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos_Deck_6.wav",
+      "CachePath": "F9/{F9334AC0-1910-5B20-185C-52CA1597E2D1}.wem"
+     },
+     {
+      "Id": "143120397",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Trueno_1.wav",
+      "CachePath": "8D/{8DE8E232-53D3-F760-1DAB-602FCCC5DD1C}.wem"
+     },
+     {
+      "Id": "167040920",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiente lago (ranas).wav",
+      "CachePath": "EE/{EEDF1669-C152-FD6F-4321-9FCFC256CDEC}.wem"
+     },
+     {
+      "Id": "184786646",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movimiento ropa 1.wav",
+      "CachePath": "08/{08CF0573-370D-D147-5D51-228B7DDDF262}.wem"
+     },
+     {
+      "Id": "208600248",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua moviendose con la lluvia.wav",
+      "CachePath": "73/{73A18E0C-1A15-349E-107C-97DDAF7890D6}.wem"
+     },
+     {
+      "Id": "242251079",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua_costa.wav",
+      "CachePath": "4D/{4DD99F40-87C4-0A87-1BA0-D9DCBAB925F7}.wem"
+     },
+     {
+      "Id": "243060680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos pasto 1.wav",
+      "CachePath": "95/{95AF659F-3746-E5AF-EF23-92EB7E3A297F}.wem"
+     },
+     {
+      "Id": "259940948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lluvia_Main.wav",
+      "CachePath": "EA/{EA011124-CFB7-3E5B-07C5-DABEDD45B0D4}.wem"
+     },
+     {
+      "Id": "272991854",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Crujir_Madera_1.wav",
+      "CachePath": "98/{98E59864-7C99-1AAB-5EE2-8CA2BE6EE509}.wem"
+     },
+     {
+      "Id": "321593708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Trueno_6.wav",
+      "CachePath": "65/{6568D812-4589-F2A2-6425-A0EF7E133CA6}.wem"
+     },
+     {
+      "Id": "362835773",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos_Deck_3.wav",
+      "CachePath": "2E/{2E59BD29-0239-CAB0-5359-F3ECE7BA8A0F}.wem"
+     },
+     {
+      "Id": "372738657",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiente lago (ranas).wav",
+      "CachePath": "07/{07168CB9-7B20-A0D1-F2C4-0165BD5EAFFA}.wem"
+     },
+     {
+      "Id": "395567585",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movimiento ropa 3.wav",
+      "CachePath": "54/{54F4B6D4-E5BA-2D16-969C-59A82E7BCF99}.wem"
+     },
+     {
+      "Id": "395929550",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiente Lago (Agua).wav",
+      "CachePath": "F4/{F4DB47D2-DD78-4555-9D02-A86AA0534103}.wem"
+     },
+     {
+      "Id": "408231891",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiente (Grillos).wav",
+      "CachePath": "EB/{EBF7AC4B-68BB-2AD7-0C3A-4CB277FEF3BD}.wem"
+     },
+     {
+      "Id": "479739056",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos_Deck_5.wav",
+      "CachePath": "2C/{2C0CB37E-B471-784B-A950-B758208329FB}.wem"
+     },
+     {
+      "Id": "482282263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lluvia_Main.wav",
+      "CachePath": "9F/{9FA03E27-D2F4-58B6-9BD5-420E59718069}.wem"
+     },
+     {
+      "Id": "530240178",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiente lago (viento).wav",
+      "CachePath": "97/{97C6286A-6CB9-84C0-749D-D406E52EAF61}.wem"
+     },
+     {
+      "Id": "564879020",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos pasto 2.wav",
+      "CachePath": "00/{00D2C35F-52CC-6CE8-B48D-1BAB51A02C6E}.wem"
+     },
+     {
+      "Id": "622099577",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos pasto 3.wav",
+      "CachePath": "F9/{F9FFC469-68EA-71BE-98FA-8BE53AC022B1}.wem"
+     },
+     {
+      "Id": "636725315",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Start.wav",
+      "CachePath": "E7/{E7E030B9-C2A3-C87A-DEB4-BC72B374C1B4}.wem"
+     },
+     {
+      "Id": "650755908",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos tierra 2.wav",
+      "CachePath": "9D/{9D56AF80-858E-1145-99F4-6D30A4BE764F}.wem"
+     },
+     {
+      "Id": "669324130",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Crujir_Madera_2.wav",
+      "CachePath": "CF/{CFA33A28-CB2F-411D-DF3D-7B5A609691F5}.wem"
+     },
+     {
+      "Id": "698698755",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua moviendose con la lluvia.wav",
+      "CachePath": "B3/{B31C1656-3C79-2626-FDF9-1366B9D53ACB}.wem"
+     },
+     {
+      "Id": "729495438",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambiente lago (ranas).wav",
+      "CachePath": "A7/{A77AEBBB-1DBC-11E9-3351-8E2688970BC0}.wem"
+     },
+     {
+      "Id": "734331274",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua moviendose con la lluvia.wav",
+      "CachePath": "57/{57A70AC2-22DF-BD25-AD8A-962061823DFA}.wem"
+     },
+     {
+      "Id": "743073779",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos_Deck_2.wav",
+      "CachePath": "7D/{7DDF4525-C6BA-885C-411E-D1EFF572B5AC}.wem"
+     },
+     {
+      "Id": "757380138",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movimiento ropa 2.wav",
+      "CachePath": "C2/{C21BAC49-DCF3-67BE-14F0-F82179F7F88C}.wem"
+     },
+     {
+      "Id": "763888649",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua moviendose con la lluvia.wav",
+      "CachePath": "B7/{B7BC7C97-8F2B-427E-ED13-29CB52853CC2}.wem"
+     },
+     {
+      "Id": "765025347",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua_costa.wav",
+      "CachePath": "E5/{E5C363F5-85C6-C86D-AB15-5492FED36BE8}.wem"
+     },
+     {
+      "Id": "831842498",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos tierra.wav",
+      "CachePath": "6D/{6DABCD00-88DC-F5AB-9F74-8C44EA6A3720}.wem"
+     },
+     {
+      "Id": "851715094",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Menu (loop) v2.wav",
+      "CachePath": "23/{23A3F57C-E8DB-A0BE-A95C-1ECE67594545}.wem"
+     },
+     {
+      "Id": "881361910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lluvia_Main.wav",
+      "CachePath": "89/{894FBDF3-A034-F4EF-46DE-76C32B061290}.wem"
+     },
+     {
+      "Id": "925191881",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Lluvia_Main.wav",
+      "CachePath": "C7/{C7CBAECC-C500-A349-56B1-81017C46E9A3}.wem"
+     },
+     {
+      "Id": "935357304",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos pasto 4.wav",
+      "CachePath": "BF/{BF13B7B2-C7A2-1ACC-F150-26A9F8D405C9}.wem"
+     },
+     {
+      "Id": "944943113",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Trueno_5.wav",
+      "CachePath": "7B/{7B99FEB1-3A30-EE75-56C8-CB60389A9D86}.wem"
+     },
+     {
+      "Id": "947320254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos_Deck_4.wav",
+      "CachePath": "71/{7109D050-482E-EEC1-31C0-ADBC67022A3A}.wem"
+     },
+     {
+      "Id": "950346314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Trueno_3.wav",
+      "CachePath": "AD/{AD204D10-0013-5BED-C9D3-05EB9EC47196}.wem"
+     },
+     {
+      "Id": "953593280",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Generador.wav",
+      "CachePath": "AD/{AD6D7080-35DE-F695-4172-F840853D02EB}.wem"
+     },
+     {
+      "Id": "977907415",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "options.wav",
+      "CachePath": "48/{48127442-B365-115F-4C96-F9596481D312}.wem"
+     },
+     {
+      "Id": "1019273765",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Pasos_Deck_1.wav",
+      "CachePath": "17/{174A7296-A6A9-3504-F66D-07D102ACAE12}.wem"
+     },
+     {
+      "Id": "1050761319",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Crujir_Madera_3.wav",
+      "CachePath": "AD/{ADDB3009-6A52-890E-8829-818B5E3AE044}.wem"
+     },
+     {
+      "Id": "1056936071",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Agua moviendose con la lluvia.wav",
+      "CachePath": "67/{678D3B58-468E-0A72-9915-E004E1BAC36A}.wem"
+     }
+    ],
+    "Plugins": {
+     "Custom": [
+      {
+       "Id": "209334296",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Escena 2\\Truenos\\Trueno_3\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{441092B0-44B8-4242-A470-E5CDB3E3FDAF}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "307102831",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Escena 1\\Agua golpeando contra el muelle\\Agua costa\\Agua_costa_01\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{7CE1D045-C688-4BB9-8AF3-363B67D4F571}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "472067774",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Escena 1\\Agua golpeando contra el muelle\\Agua costa\\Agua_costa\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{C01BEC38-D537-477E-BFA5-31AD4969FD2A}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "545706123",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Escena 1\\Agua golpeando contra el muelle\\Agua costa\\Agua_costa_03\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{4EF52736-6E1E-40C3-A9D8-E0BB93F02827}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "646987227",
+       "Name": "Compressor (Custom)",
+       "ObjectPath": "\\Actor-Mixer Hierarchy\\Default Work Unit\\Escena 1\\Agua golpeando contra el muelle\\Agua costa\\Agua_costa_02\\[Effect Slot [0]: (Compressor)]\\Compressor (Custom)",
+       "GUID": "{FC83937D-C2C9-4B95-9E93-CBDA4CE962C7}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      }
+     ],
+     "ShareSets": [
+      {
+       "Id": "4496003",
+       "Name": "Dirty_Washing_Machine",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Dirty_Washing_Machine",
+       "GUID": "{824764DD-7364-411D-AF50-DEDF8E3DCC48}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "48620415",
+       "Name": "Have_U_Ever_Been_Outside",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Exteriors\\Have_U_Ever_Been_Outside",
+       "GUID": "{FE29AE8D-FD86-4652-A95D-68D32F5760EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "59662939",
+       "Name": "Dialog_Too_Quiet",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Dialog_Too_Quiet",
+       "GUID": "{F9C77BF1-1CCC-415B-B93F-B048979CA620}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "86245554",
+       "Name": "Attack_Remover",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Attack_Remover",
+       "GUID": "{174E7B9A-A16F-4CA7-86D0-530212B5A6AA}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "109045632",
+       "Name": "Vibrato",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Vibrato",
+       "GUID": "{D9586A30-FF0D-4DCC-89C5-04CDC4716ED6}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "131511410",
+       "Name": "Let_The_Power_Fall",
+       "ObjectPath": "\\Effects\\Factory Effects\\Stereo Delay\\Let_The_Power_Fall",
+       "GUID": "{6C4D2827-F82F-4BE3-A8DF-F0F0FAE93630}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
+      },
+      {
+       "Id": "136714882",
+       "Name": "_500ms_Per_Hour",
+       "ObjectPath": "\\Effects\\Factory Effects\\Stereo Delay\\_500ms_Per_Hour",
+       "GUID": "{9CE2F0FB-CE0B-4CC7-A699-E30528959D0E}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
+      },
+      {
+       "Id": "145028528",
+       "Name": "Static_Sibilance_Remover_Female",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Misc\\Static_Sibilance_Remover_Female",
+       "GUID": "{3E13EF40-7C1A-4EBC-9858-8CB584A642E5}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "176439046",
+       "Name": "Caught_in_a_loop",
+       "ObjectPath": "\\Effects\\Factory Effects\\Stereo Delay\\Caught_in_a_loop",
+       "GUID": "{8FC64215-9A75-4BE3-A33A-584C8CA49963}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
+      },
+      {
+       "Id": "199095971",
+       "Name": "Dialog_Through_AC_Vents",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Creative EQ\\Dialog_Through_AC_Vents",
+       "GUID": "{897297F0-8419-4DF6-AD6F-AFA7B93E0989}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "389252396",
+       "Name": "Next_Room",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Creative EQ\\Next_Room",
+       "GUID": "{6CAFD7CA-D8F8-4947-8B86-1B68A5EBDC0A}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "400317747",
+       "Name": "Hall_Large_TooBright",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large_TooBright",
+       "GUID": "{5F144EE3-081F-4BEC-ABCF-F88E111FECAE}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "415841907",
+       "Name": "Space_Garage",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Space_Garage",
+       "GUID": "{1AF92D84-49DD-4BBC-8F29-6C6D10082B6E}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "418265525",
+       "Name": "Gentle_Program_Compressor_Minus_14dB_RMS",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Gentle_Program_Compressor_Minus_14dB_RMS",
+       "GUID": "{1595E6B0-DD58-4363-A3F0-DF0C96EC7C17}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "484890516",
+       "Name": "Church_Small_Wood",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Church_Small_Wood",
+       "GUID": "{940CCB47-F031-4C6A-B0E6-726CAC418C02}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "506891147",
+       "Name": "Plate_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Plates\\Plate_Small",
+       "GUID": "{5681977F-CD7F-4D09-AA58-118BEFA48C8C}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "535667444",
+       "Name": "Bathroom1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Bathroom1",
+       "GUID": "{1969D30F-C165-45C0-B290-DE3ED07A7AA3}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "602546716",
+       "Name": "Room_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Large",
+       "GUID": "{AD8EFAFC-7121-4D5F-BE4D-B13FBD6CEBAE}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "654807232",
+       "Name": "Chipmunk",
+       "ObjectPath": "\\Effects\\Factory Effects\\Pitch Shifter\\Transpose\\Chipmunk",
+       "GUID": "{54F9F04F-0D14-46AB-B38B-21CFD2EB46F6}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      },
+      {
+       "Id": "701863527",
+       "Name": "Inside_My_Head",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Inside_My_Head",
+       "GUID": "{94B53301-9AA1-468F-8419-92AEDAAE39DF}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "702543456",
+       "Name": "Tunnel1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Tunnel1",
+       "GUID": "{CC44B890-9865-4157-965F-86FED27BC4C6}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "776837744",
+       "Name": "Born_In_1950",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Creative EQ\\Born_In_1950",
+       "GUID": "{3B3A31C2-C9A6-430E-A3CF-62963E332052}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "819943492",
+       "Name": "Fear_no_Evil",
+       "ObjectPath": "\\Effects\\Factory Effects\\Harmonizer\\Fear_no_Evil",
+       "GUID": "{A1F17D99-0801-4F32-B74E-ADB2D9ACC556}",
+       "LibName": "Wwise Harmonizer",
+       "LibId": "9043971"
+      },
+      {
+       "Id": "927250686",
+       "Name": "Rhythmic_Talk",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Rhythmic_Talk",
+       "GUID": "{F0F27454-4BCC-4302-A61D-C324E7187DD0}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "949863463",
+       "Name": "Many_Even_Harm_Notches",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Static Comb Filtering\\Many_Even_Harm_Notches",
+       "GUID": "{A7113535-F7D6-4B83-9DCB-01DD88295F76}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "992902880",
+       "Name": "Small_Tiled_Room1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Small_Tiled_Room1",
+       "GUID": "{41EEE722-3009-4B3F-8820-F414623783E3}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "1008402193",
+       "Name": "Low_Pass_20KHz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Low Pass Filters\\Low_Pass_20KHz",
+       "GUID": "{830124FB-B9D5-4AE8-846E-E94A74652666}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1110677034",
+       "Name": "Underwater_Echoes",
+       "ObjectPath": "\\Effects\\Factory Effects\\Stereo Delay\\Underwater_Echoes",
+       "GUID": "{3C6B127B-9DAE-4879-A4ED-75DF209310EC}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
+      },
+      {
+       "Id": "1125262053",
+       "Name": "Blue_Distant_Echoes",
+       "ObjectPath": "\\Effects\\Factory Effects\\Stereo Delay\\Blue_Distant_Echoes",
+       "GUID": "{ABFA9875-521E-451F-AAB9-AB148847B9C0}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
+      },
+      {
+       "Id": "1144018367",
+       "Name": "Plate_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Plates\\Plate_Large",
+       "GUID": "{62CB7384-421D-4F9A-9CF1-E90F7336A07B}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "1159390747",
+       "Name": "Room_Medium_Tiled",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_Tiled",
+       "GUID": "{0C0A3A92-A571-4FDB-AB40-ACFED04E0217}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "1182561210",
+       "Name": "Cut_3dB_10KHz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\Cut_3dB_10KHz",
+       "GUID": "{83EAB3EA-A43D-470F-A183-7F02DAA44A4D}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1198215643",
+       "Name": "Boomerang",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Boomerang",
+       "GUID": "{65397B72-19EC-43DB-B2D2-EB84437B6BDC}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "1203617187",
+       "Name": "Machine_Gun_Hangar",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Machine_Gun_Hangar",
+       "GUID": "{B8FD966C-FC0F-4CD3-8236-B28DF27CDE7D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "1232017842",
+       "Name": "LR_Slap_with_CrossFeed",
+       "ObjectPath": "\\Effects\\Factory Effects\\Stereo Delay\\LR_Slap_with_CrossFeed",
+       "GUID": "{30319A92-C5AC-437A-9864-430059762933}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
+      },
+      {
+       "Id": "1237275451",
+       "Name": "Octave_Up",
+       "ObjectPath": "\\Effects\\Factory Effects\\Pitch Shifter\\Harmonize\\Octave_Up",
+       "GUID": "{A98F423C-EC97-49D8-8698-445CE91F24B7}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      },
+      {
+       "Id": "1252796875",
+       "Name": "Light_Expander",
+       "ObjectPath": "\\Effects\\Factory Effects\\Expander\\Light_Expander",
+       "GUID": "{C7E71A3B-745F-47B0-8F31-276DD413F83C}",
+       "LibName": "Wwise Expander",
+       "LibId": "7143427"
+      },
+      {
+       "Id": "1291433344",
+       "Name": "Bass",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Flanging\\Bass",
+       "GUID": "{AB3CE4D4-B0DD-4FC2-AC1D-30EB749C5911}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "1293178626",
+       "Name": "In_My_Car",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Creative EQ\\In_My_Car",
+       "GUID": "{B6CE8691-D50C-4AC3-8314-6CB938FC8681}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1416967478",
+       "Name": "All_Buttons_IN",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\All_Buttons_IN",
+       "GUID": "{E5FFEBA7-4F6F-421E-ABB7-286C011BD0C8}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "1431209347",
+       "Name": "One_Tap_One_Second",
+       "ObjectPath": "\\Effects\\Factory Effects\\Delay\\One_Tap_One_Second",
+       "GUID": "{5B5883FA-85A1-45CA-8A52-9DBBCF3B0A03}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      },
+      {
+       "Id": "1431265797",
+       "Name": "Monsterize",
+       "ObjectPath": "\\Effects\\Factory Effects\\Pitch Shifter\\Transpose\\Monsterize",
+       "GUID": "{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      },
+      {
+       "Id": "1443902288",
+       "Name": "_1_Second_Delay",
+       "ObjectPath": "\\Effects\\Factory Effects\\Stereo Delay\\_1_Second_Delay",
+       "GUID": "{5AAB81A5-3444-4DE7-AEB3-2DDBB33D455B}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
+      },
+      {
+       "Id": "1459522457",
+       "Name": "Brick_Wall_Minus_1dB_Peak_Fast_Release",
+       "ObjectPath": "\\Effects\\Factory Effects\\Peak Limiter\\Brick_Wall_Minus_1dB_Peak_Fast_Release",
+       "GUID": "{2144284E-7ADD-4341-86A4-4E468BEC9A2D}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "1520064353",
+       "Name": "Hall_Medium_Bright",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Medium_Bright",
+       "GUID": "{3C3845B2-C76E-4634-9108-83FA43A5A7BC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "1551236760",
+       "Name": "Small_Wooden_Room1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Small_Wooden_Room1",
+       "GUID": "{F7CBE859-36A8-4174-B553-AE32A7FE95FA}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "1588715066",
+       "Name": "Echoes_Linear",
+       "ObjectPath": "\\Effects\\Factory Effects\\Delay\\Echoes_Linear",
+       "GUID": "{D20F3717-EBA2-4E3A-84F8-C8BD431563FB}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      },
+      {
+       "Id": "1590660382",
+       "Name": "Nearly_Forever",
+       "ObjectPath": "\\Effects\\Factory Effects\\Delay\\Nearly_Forever",
+       "GUID": "{38550FDA-9236-4FC5-8AE0-68DB08164B25}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      },
+      {
+       "Id": "1655770832",
+       "Name": "High_Freq_Cut_11",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\High_Freq_Cut_11",
+       "GUID": "{96D2A3E1-1EA0-4DBB-B303-3EA9035A484C}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1655770833",
+       "Name": "High_Freq_Cut_10",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\High_Freq_Cut_10",
+       "GUID": "{027366CD-40E5-4BAF-82AA-0352625DDF2B}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1674078407",
+       "Name": "Chorus_Like",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Chorus\\Chorus_Like",
+       "GUID": "{EEE0CC86-8CA5-4DBC-A6B7-568FCB26F290}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "1675424737",
+       "Name": "Extreme_Limiting_1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Peak Limiter\\Extreme_Limiting_1",
+       "GUID": "{8F08A8A7-3313-4E5D-9EBD-2B1B564DE411}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "1675424738",
+       "Name": "Extreme_Limiting_2",
+       "ObjectPath": "\\Effects\\Factory Effects\\Peak Limiter\\Extreme_Limiting_2",
+       "GUID": "{D53DEA92-7F8A-4332-AC66-892C4DF69455}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "1675424739",
+       "Name": "Extreme_Limiting_3",
+       "ObjectPath": "\\Effects\\Factory Effects\\Peak Limiter\\Extreme_Limiting_3",
+       "GUID": "{9967B47B-B780-4241-A389-6CCFBB4A0F27}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "1706684651",
+       "Name": "Plate_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Plates\\Plate_Medium",
+       "GUID": "{33384D0C-6ACB-4E3D-AC82-73AAB3AE1CA5}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "1711423976",
+       "Name": "Many_Odd_Harm_Notches",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Static Comb Filtering\\Many_Odd_Harm_Notches",
+       "GUID": "{773FA234-F683-4788-B7C1-4D272A8CDE69}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "1735130781",
+       "Name": "Aliasing",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Aliasing",
+       "GUID": "{4CCC0D23-78CD-4B09-A62B-D3CB5E071A2F}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "1759944409",
+       "Name": "Cut_3dB_100Hz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Cut_3dB_100Hz",
+       "GUID": "{67423B74-4F0A-4719-92FE-343347C717C7}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1820854077",
+       "Name": "Noise_Gate_Fast_Attack",
+       "ObjectPath": "\\Effects\\Factory Effects\\Expander\\Noise_Gate_Fast_Attack",
+       "GUID": "{747A6B61-E953-474C-8227-672C884DA616}",
+       "LibName": "Wwise Expander",
+       "LibId": "7143427"
+      },
+      {
+       "Id": "1863245162",
+       "Name": "Noise_Gate_Slow_Attack",
+       "ObjectPath": "\\Effects\\Factory Effects\\Expander\\Noise_Gate_Slow_Attack",
+       "GUID": "{8D16DAF8-FD63-4A83-894E-2E82DA790C71}",
+       "LibName": "Wwise Expander",
+       "LibId": "7143427"
+      },
+      {
+       "Id": "1866712626",
+       "Name": "High_Freq_Cut_8",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\High_Freq_Cut_8",
+       "GUID": "{D2BED60E-DD7F-4B4C-A331-C1D0E574B7C6}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1866712627",
+       "Name": "High_Freq_Cut_9",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\High_Freq_Cut_9",
+       "GUID": "{F0200581-9EA1-4D8F-963A-6B2568B22178}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1866712632",
+       "Name": "High_Freq_Cut_2",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\High_Freq_Cut_2",
+       "GUID": "{32F492AD-3F59-4D61-8488-1DADE817C01E}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1866712633",
+       "Name": "High_Freq_Cut_3",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\High_Freq_Cut_3",
+       "GUID": "{AB43D98E-8FA5-4C12-AFA0-54483E6AF9C9}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1866712635",
+       "Name": "High_Freq_Cut_1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\High_Freq_Cut_1",
+       "GUID": "{BA5BC68D-BCA7-4CE0-9878-1560F2D8B257}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1866712636",
+       "Name": "High_Freq_Cut_6",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\High_Freq_Cut_6",
+       "GUID": "{D064E2D9-269F-4D94-BAAD-86E171F9C28B}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1866712637",
+       "Name": "High_Freq_Cut_7",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\High_Freq_Cut_7",
+       "GUID": "{D21CF913-1854-4FBB-B96E-6EE1BBA618DE}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1866712638",
+       "Name": "High_Freq_Cut_4",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\High_Freq_Cut_4",
+       "GUID": "{E8D0C6ED-E60F-4F25-850D-99FC6A22A700}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1866712639",
+       "Name": "High_Freq_Cut_5",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\High_Freq_Cut_5",
+       "GUID": "{604A4C00-7E8F-4859-BF24-F49D8C82555F}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "1904434771",
+       "Name": "Medium_Room1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Medium_Room1",
+       "GUID": "{71B802A7-03E2-4998-B241-B2B84FE9DDFF}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "1976939195",
+       "Name": "Deep",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Flanging\\Deep",
+       "GUID": "{76753DA8-3DCF-4812-A726-2745812F6C1B}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "1990128658",
+       "Name": "Room_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium",
+       "GUID": "{F5C06EC1-E4A4-4332-A7D3-A89E2986B74F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2038996943",
+       "Name": "Plate_Sizzle",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Plates\\Plate_Sizzle",
+       "GUID": "{D4A5BBF1-6A59-47A7-BB97-E7695900B72F}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2080872166",
+       "Name": "Brick_Wall_Minus_6dB_Peak_Fast_Release",
+       "ObjectPath": "\\Effects\\Factory Effects\\Peak Limiter\\Brick_Wall_Minus_6dB_Peak_Fast_Release",
+       "GUID": "{3FF9AD86-E377-40F8-970F-3D4EE73288B5}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "2098638826",
+       "Name": "Underground_Parking1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Underground_Parking1",
+       "GUID": "{8DA66AA3-6CA0-41A0-B7A2-BB6FCABFCDA8}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "2135883084",
+       "Name": "Nasty_Radio",
+       "ObjectPath": "\\Effects\\Factory Effects\\Peak Limiter\\Nasty_Radio",
+       "GUID": "{7E6FAC41-3332-47EA-9AC6-625A78B63226}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "2171127646",
+       "Name": "Hall_Conversation",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Conversation",
+       "GUID": "{E2C3BD70-E5E4-46A5-BDA6-99A92FAAC1AC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2171939413",
+       "Name": "Dialog_Leveler_Hard",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Dialog_Leveler_Hard",
+       "GUID": "{865FB36F-8717-4D30-AD05-14E56375CD40}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "2180422931",
+       "Name": "One_Tap_Quarter_Second",
+       "ObjectPath": "\\Effects\\Factory Effects\\Delay\\One_Tap_Quarter_Second",
+       "GUID": "{6BD2D67D-601A-45A6-AD4C-2C089078EBED}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      },
+      {
+       "Id": "2202047219",
+       "Name": "Few_Even_Notches",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Static Comb Filtering\\Few_Even_Notches",
+       "GUID": "{25DCAC4B-7165-436C-9B22-75628C2533D1}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "2230265344",
+       "Name": "Very_Bad_Connection",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Very_Bad_Connection",
+       "GUID": "{0C5A674D-5EC0-45A6-87A7-3885B3196DCD}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "2258521792",
+       "Name": "Brick_Wall_Minus_1dB_Peak_Slow_Release",
+       "ObjectPath": "\\Effects\\Factory Effects\\Peak Limiter\\Brick_Wall_Minus_1dB_Peak_Slow_Release",
+       "GUID": "{9FB8DC2B-7F1C-4E4E-8FA5-50872652D2DD}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "2265839006",
+       "Name": "Not_A_Yellow_Submarine",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Not_A_Yellow_Submarine",
+       "GUID": "{B5719071-C58D-49FA-8766-B1D986D017EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2301880513",
+       "Name": "Many_Even_Harm_Peaks",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Static Comb Filtering\\Many_Even_Harm_Peaks",
+       "GUID": "{5DDE88E2-CBAD-4CE9-93B0-7FC59F32CBEE}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "2394809124",
+       "Name": "Very_Slow_Modulation",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Very_Slow_Modulation",
+       "GUID": "{6082F901-3CE1-4D78-8F2D-B2B72CF28085}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "2513915904",
+       "Name": "Hall_Large",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large",
+       "GUID": "{6D154498-FF6D-4823-96FC-56841B70E079}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2539557199",
+       "Name": "Treble",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Flanging\\Treble",
+       "GUID": "{FB516F18-AA49-4B92-BC11-FA23E8CC59B4}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "2547645744",
+       "Name": "Boost_3dB_100Hz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Boost_3dB_100Hz",
+       "GUID": "{3EA7C9BD-6F9A-4000-A227-F86B5B4328EE}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "2568359573",
+       "Name": "Secret_message",
+       "ObjectPath": "\\Effects\\Factory Effects\\Harmonizer\\Secret_message",
+       "GUID": "{2F5DE612-1AAD-4A84-8FB4-3E66521C920E}",
+       "LibName": "Wwise Harmonizer",
+       "LibId": "9043971"
+      },
+      {
+       "Id": "2648499661",
+       "Name": "Hall_Medium_Dark",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Medium_Dark",
+       "GUID": "{626B6E38-739B-4689-819F-F81AD3788BDE}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2652646462",
+       "Name": "Dialog_Leveler_Soft",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Dialog_Leveler_Soft",
+       "GUID": "{9C1D0FCF-896E-4739-A8E8-B1E908F51CE6}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "2653529179",
+       "Name": "Three_Voices",
+       "ObjectPath": "\\Effects\\Factory Effects\\Harmonizer\\Three_Voices",
+       "GUID": "{71CA20BE-8C1D-4A0C-92AF-BFCE183D5651}",
+       "LibName": "Wwise Harmonizer",
+       "LibId": "9043971"
+      },
+      {
+       "Id": "2656259783",
+       "Name": "PA_Announcement1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\PA_Announcement1",
+       "GUID": "{65E0ACE4-B404-4485-87A4-5907277D9858}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "2662085913",
+       "Name": "Large_Church1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Large_Church1",
+       "GUID": "{9B6E8B78-EF8C-494C-AADA-D01CF51B5FAC}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "2667647788",
+       "Name": "Single_Band_1Khz_Wide",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Band Pass Filters\\Single_Band_1Khz_Wide",
+       "GUID": "{9B6A1D1B-F90F-4EAC-B796-2943413957FE}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "2755291684",
+       "Name": "Pumping_and_Breathing_1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Pumping_and_Breathing_1",
+       "GUID": "{87BE3270-3D27-45BB-9E46-7F2D9380F523}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "2755291686",
+       "Name": "Pumping_and_Breathing_3",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Pumping_and_Breathing_3",
+       "GUID": "{8B1E574C-55B2-4097-A21F-D39349A6F48B}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "2755291687",
+       "Name": "Pumping_and_Breathing_2",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Pumping_and_Breathing_2",
+       "GUID": "{1E63EC43-20F0-4D27-A844-BD5F6AE9E3C9}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "2781261543",
+       "Name": "Brick_Wall_Minus_6dB_Peak_Slow_Release",
+       "ObjectPath": "\\Effects\\Factory Effects\\Peak Limiter\\Brick_Wall_Minus_6dB_Peak_Slow_Release",
+       "GUID": "{E0BA4DE6-A10C-49AF-A3E4-C5F71BA79EE6}",
+       "LibName": "Wwise Peak Limiter",
+       "LibId": "7208963"
+      },
+      {
+       "Id": "2791153688",
+       "Name": "Hall_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Small",
+       "GUID": "{D65B5F04-B83B-412C-9434-34A13A477E24}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2805769450",
+       "Name": "Special_Effect_1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Special_Effect_1",
+       "GUID": "{83317D8A-9D4C-438E-BE8C-BC7D27CAD1B0}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "2849147824",
+       "Name": "Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Medium",
+       "GUID": "{AEB3F175-958B-45F2-A4C2-3FBD4F456568}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2891462749",
+       "Name": "Room_Medium_High_Absorbtion",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Medium_High_Absorbtion",
+       "GUID": "{E22DBBB6-7656-4B93-A28D-C003FD416889}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2900412812",
+       "Name": "Robotic_Trash",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Robotic_Trash",
+       "GUID": "{18FEB1E8-36C5-4B2D-959A-8F3CE9ECBB0E}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2945072214",
+       "Name": "My_Closet",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\My_Closet",
+       "GUID": "{384A82A1-3C92-4AC5-AFC2-474F2080642C}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2949243095",
+       "Name": "Hall_Small_Bright",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Small_Bright",
+       "GUID": "{D8AD1955-D2BA-4C88-A806-E2D8AB47A90B}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2952825346",
+       "Name": "Dual_Filters_Radio_Comm",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Band Pass Filters\\Dual_Filters_Radio_Comm",
+       "GUID": "{69479ACD-2C87-4007-B83E-55210A3B36B7}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "2995775460",
+       "Name": "Room_Small",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Rooms\\Room_Small",
+       "GUID": "{577F1466-A63B-47F7-98BD-C56E433F8B5D}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "2998002419",
+       "Name": "Boost_3dB_10KHz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\High Shelf\\Boost_3dB_10KHz",
+       "GUID": "{59632554-9396-4E15-889E-7A2F5458DEC3}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3013737254",
+       "Name": "Bass_Remover_8",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Bass_Remover_8",
+       "GUID": "{2E97A6C9-9B25-47D1-AF28-019E67CBB728}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3013737255",
+       "Name": "Bass_Remover_9",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Bass_Remover_9",
+       "GUID": "{8986F65E-F3FA-44DE-8843-DCE54B78B3CD}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3013737256",
+       "Name": "Bass_Remover_6",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Bass_Remover_6",
+       "GUID": "{618E8FA3-0360-4858-A11E-3490F5AA0B68}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3013737257",
+       "Name": "Bass_Remover_7",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Bass_Remover_7",
+       "GUID": "{50E2F103-1981-4661-8D8E-226CA51DEE91}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3013737258",
+       "Name": "Bass_Remover_4",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Bass_Remover_4",
+       "GUID": "{F641E9BC-59FE-4DDD-B162-B5377EF599C2}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3013737259",
+       "Name": "Bass_Remover_5",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Bass_Remover_5",
+       "GUID": "{E7CECC42-E084-4453-82FF-836B23BA2B83}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3013737260",
+       "Name": "Bass_Remover_2",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Bass_Remover_2",
+       "GUID": "{A0788DC0-7254-4FDD-A6F4-2BAF12AD6CE2}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3013737261",
+       "Name": "Bass_Remover_3",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Bass_Remover_3",
+       "GUID": "{B37BD0FB-6847-4C9C-8019-708F8AA292D1}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3013737263",
+       "Name": "Bass_Remover_1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Bass_Remover_1",
+       "GUID": "{D313DB05-6B33-4C1F-8C2F-F989052E8120}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3025917178",
+       "Name": "Standard",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Flanging\\Standard",
+       "GUID": "{1A2EAB31-6283-4C0D-89B2-F050DF89D421}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "3036946058",
+       "Name": "Inside_Your_Head",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Inside_Your_Head",
+       "GUID": "{AE2D0AE1-8963-400A-AA4A-52A7A6397F89}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3043085106",
+       "Name": "High_Impact",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\High_Impact",
+       "GUID": "{2AFD6FB0-C906-4683-A377-FEEEF72967B0}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "3157398371",
+       "Name": "Few_Odd_Harm_Notches",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Static Comb Filtering\\Few_Odd_Harm_Notches",
+       "GUID": "{3B5685A6-6274-4292-B5B9-32AFE28DB80B}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "3164629247",
+       "Name": "Holy",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Cathedrals\\Holy",
+       "GUID": "{CC7B8638-C670-4AD5-B3FB-331EA81037F6}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3209444191",
+       "Name": "Static_Sibilance_Remover_Male",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Misc\\Static_Sibilance_Remover_Male",
+       "GUID": "{3FF84C1E-F84E-432E-86BC-96B3C9219F10}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3216246379",
+       "Name": "Space_Dreaming",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Space_Dreaming",
+       "GUID": "{4FF7C4B2-37B0-4DFF-8E8A-1420102AE2DD}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3250156175",
+       "Name": "Say_what",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Say_what",
+       "GUID": "{E823825D-3114-4F6D-A6A4-7FB673A10A61}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "3290519051",
+       "Name": "Aluminium_Tank",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Aluminium_Tank",
+       "GUID": "{0D20C91A-F750-47E0-AE32-00E5F2AA1272}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3332138788",
+       "Name": "Few_Even_Harm_Peaks",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Static Comb Filtering\\Few_Even_Harm_Peaks",
+       "GUID": "{63235485-F861-422B-91D5-B5545F7FEE21}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "3354577677",
+       "Name": "Fast_LF_Tremolo",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Fast_LF_Tremolo",
+       "GUID": "{3B09A271-D9D4-4A4E-B545-F681E8313E5F}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "3395979371",
+       "Name": "Straight_Delay",
+       "ObjectPath": "\\Effects\\Factory Effects\\Stereo Delay\\Straight_Delay",
+       "GUID": "{00ADE3F8-B4F2-465A-9DC3-9EA55A7B3235}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
+      },
+      {
+       "Id": "3407225994",
+       "Name": "Phone_Booth",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Phone_Booth",
+       "GUID": "{180A35FE-BF4E-4BCD-8D7F-872B580E55EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3442768367",
+       "Name": "Hall_Large_Dark",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large_Dark",
+       "GUID": "{0F6A7D6D-131C-4650-9561-FC05F5C7A37B}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3451596814",
+       "Name": "Hall_Medium",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Medium",
+       "GUID": "{50286348-176A-4235-9E4C-CA5F73D87818}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3487820010",
+       "Name": "One_Tap_Half_Second",
+       "ObjectPath": "\\Effects\\Factory Effects\\Delay\\One_Tap_Half_Second",
+       "GUID": "{B8FE0D3B-7AAB-4344-89FE-177602B7BF19}",
+       "LibName": "Wwise Delay",
+       "LibId": "6946819"
+      },
+      {
+       "Id": "3491912472",
+       "Name": "Club_Music_Distant_02",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Creative EQ\\Club_Music_Distant_02",
+       "GUID": "{3E941520-4EE5-423A-A522-789936746CAD}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3491912473",
+       "Name": "Club_Music_Distant_03",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Creative EQ\\Club_Music_Distant_03",
+       "GUID": "{03297119-9BF7-4E5B-BFC2-717C1593964B}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3491912475",
+       "Name": "Club_Music_Distant_01",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Creative EQ\\Club_Music_Distant_01",
+       "GUID": "{972799F5-C6E5-4E4F-83E3-95AA307CDFD1}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3491912478",
+       "Name": "Club_Music_Distant_04",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Creative EQ\\Club_Music_Distant_04",
+       "GUID": "{9A14A831-C779-40C7-AFF7-8AF1723A90AF}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3497757918",
+       "Name": "Fast_LF_Tremolo_No_Smoothing",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Fast_LF_Tremolo_No_Smoothing",
+       "GUID": "{D972718E-231C-4DBF-9288-FCAF4BF47B50}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "3546444380",
+       "Name": "Big_Garage1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Big_Garage1",
+       "GUID": "{172402A8-22F4-40FC-BE1D-5269594CB633}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "3559982155",
+       "Name": "Hall_Stop_Screaming",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Stop_Screaming",
+       "GUID": "{8CDB5849-1E3A-4CE7-B5EB-0E90DBDF1D10}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3563901164",
+       "Name": "Halfway_There",
+       "ObjectPath": "\\Effects\\Factory Effects\\Tremolo\\Halfway_There",
+       "GUID": "{DD67F3B9-38CD-46FD-931A-19625D534C90}",
+       "LibName": "Wwise Tremolo",
+       "LibId": "8585219"
+      },
+      {
+       "Id": "3604890626",
+       "Name": "High_Pass_60Hz",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\High Pass Filters\\High_Pass_60Hz",
+       "GUID": "{F9627628-0B10-4272-BC30-D4C20423CB38}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "3614057183",
+       "Name": "_1_Frame_Delay",
+       "ObjectPath": "\\Effects\\Factory Effects\\Stereo Delay\\_1_Frame_Delay",
+       "GUID": "{B8CCC284-212D-4ADF-B8E4-BC724B40D8BD}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
+      },
+      {
+       "Id": "3673681183",
+       "Name": "Large_Bright_Chamber1",
+       "ObjectPath": "\\Effects\\Factory Effects\\Matrix Reverb\\Large_Bright_Chamber1",
+       "GUID": "{0BFA2291-5716-4759-AC24-F59D29E8F2E4}",
+       "LibName": "Wwise Matrix Reverb",
+       "LibId": "7536643"
+      },
+      {
+       "Id": "3701691487",
+       "Name": "Hall_Large_Bright",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Large_Bright",
+       "GUID": "{CB602948-2D1D-4977-A8D5-378184293E80}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3796564934",
+       "Name": "Hard_Knee_Minus_3dB_RMS",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Hard_Knee_Minus_3dB_RMS",
+       "GUID": "{D083BAE5-F9EF-426B-A311-D9DF8DFE8807}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      },
+      {
+       "Id": "3851006675",
+       "Name": "Secret_message_Distant",
+       "ObjectPath": "\\Effects\\Factory Effects\\Harmonizer\\Secret_message_Distant",
+       "GUID": "{54C3F2D2-6B8D-4873-A383-2F6F7189C076}",
+       "LibName": "Wwise Harmonizer",
+       "LibId": "9043971"
+      },
+      {
+       "Id": "3900114836",
+       "Name": "Metal_Hangar",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Huge Spaces\\Metal_Hangar",
+       "GUID": "{C4A4605C-42EF-476A-B53C-E31C7A442C24}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "3948262040",
+       "Name": "Octave_Down",
+       "ObjectPath": "\\Effects\\Factory Effects\\Pitch Shifter\\Harmonize\\Octave_Down",
+       "GUID": "{062EC4B1-5372-4D1E-917B-C757293F2B42}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      },
+      {
+       "Id": "4113267698",
+       "Name": "Hall_Guns",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Halls\\Hall_Guns",
+       "GUID": "{B35D266A-CE6E-40A1-B197-14C12F9C21B1}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      },
+      {
+       "Id": "4136714357",
+       "Name": "Few_Odd_Harm_Peaks",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Static Comb Filtering\\Few_Odd_Harm_Peaks",
+       "GUID": "{08C13A59-4200-4E97-8B9B-72CE1926B0A7}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "4143868620",
+       "Name": "Bass_Remover_11",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Bass_Remover_11",
+       "GUID": "{83B27FE7-5B7D-4380-900F-16B642F4A085}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "4143868621",
+       "Name": "Bass_Remover_10",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Shelving EQ\\Low Shelf\\Bass_Remover_10",
+       "GUID": "{287D6D72-F596-4384-9D18-757381CC5968}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "4185773483",
+       "Name": "Dual_Filters_Reset",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Band Pass Filters\\Dual_Filters_Reset",
+       "GUID": "{C89DF4F6-C035-4745-868A-D8CBDCE8D96E}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "4190220820",
+       "Name": "Voice_CenterOnly_Lowered",
+       "ObjectPath": "\\Effects\\Factory Effects\\Pitch Shifter\\Transpose\\Voice_CenterOnly_Lowered",
+       "GUID": "{179558E7-E6DF-4021-9D38-A284DF53B7E5}",
+       "LibName": "Wwise Pitch Shifter",
+       "LibId": "8912899"
+      },
+      {
+       "Id": "4202347640",
+       "Name": "Repeat_after_me",
+       "ObjectPath": "\\Effects\\Factory Effects\\Harmonizer\\Repeat_after_me",
+       "GUID": "{7A0568D0-BE8B-4233-B3E8-200344DB7AE0}",
+       "LibName": "Wwise Harmonizer",
+       "LibId": "9043971"
+      },
+      {
+       "Id": "4212217734",
+       "Name": "Personnel_Advisor",
+       "ObjectPath": "\\Effects\\Factory Effects\\Stereo Delay\\Personnel_Advisor",
+       "GUID": "{B78063AF-DC4F-4D1D-B4AB-B3487BE02D7F}",
+       "LibName": "Wwise Stereo Delay",
+       "LibId": "8847363"
+      },
+      {
+       "Id": "4236290354",
+       "Name": "Many_Odd_Harm_Peaks",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Static Comb Filtering\\Many_Odd_Harm_Peaks",
+       "GUID": "{227BF0C2-EE7F-4962-AEFD-BE4C86E48398}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "4239446561",
+       "Name": "Dual_Filters_Narrow_Bandwidth",
+       "ObjectPath": "\\Effects\\Factory Effects\\Parametric EQ\\Band Pass Filters\\Dual_Filters_Narrow_Bandwidth",
+       "GUID": "{A24607C6-04E1-4D41-B513-28C0914D138D}",
+       "LibName": "Wwise Parametric EQ",
+       "LibId": "6881283"
+      },
+      {
+       "Id": "4269441574",
+       "Name": "Heavy_Metal",
+       "ObjectPath": "\\Effects\\Factory Effects\\Flanger\\Flanging\\Heavy_Metal",
+       "GUID": "{9104321C-9E54-4879-A29A-EF8D46BE9035}",
+       "LibName": "Wwise Flanger",
+       "LibId": "8192003"
+      },
+      {
+       "Id": "4286906788",
+       "Name": "Gentle_Program_Compressor_Minus_20dB_RMS",
+       "ObjectPath": "\\Effects\\Factory Effects\\Compressor\\Gentle_Program_Compressor_Minus_20dB_RMS",
+       "GUID": "{D3F1F88E-4123-4C05-946B-1B036BAC2DFD}",
+       "LibName": "Wwise Compressor",
+       "LibId": "7077891"
+      }
+     ]
+    },
+    "Events": [
+     {
+      "Id": "4092163753",
+      "Name": "Play_Agua_costa",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Agua_costa",
+      "GUID": "{794F99F1-687D-4EDB-BD47-BB08EF240A04}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "49780458"
+       },
+       {
+        "Id": "59024045"
+       },
+       {
+        "Id": "242251079"
+       },
+       {
+        "Id": "765025347"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "307102831"
+        },
+        {
+         "Id": "472067774"
+        },
+        {
+         "Id": "545706123"
+        },
+        {
+         "Id": "646987227"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "2506310641",
+      "Name": "Play_Agua_moviendose_con_la_lluvia",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Agua_moviendose_con_la_lluvia",
+      "GUID": "{E06D67BB-291B-4FC4-A308-9503BA16E539}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "208600248"
+       },
+       {
+        "Id": "698698755"
+       },
+       {
+        "Id": "734331274"
+       },
+       {
+        "Id": "763888649"
+       },
+       {
+        "Id": "1056936071"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ]
+     },
+     {
+      "Id": "2009393964",
+      "Name": "Play_Ambiente_Lago__Agua_",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ambiente_Lago__Agua_",
+      "GUID": "{D2EFE9B3-2B9D-40CB-B24A-FC1AA5D57609}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "395929550"
+       }
+      ]
+     },
+     {
+      "Id": "578466606",
+      "Name": "Play_Ambientes",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ambientes",
+      "GUID": "{20721978-FA7E-4C2E-84C1-ADFF221A9B6F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "395929550"
+       },
+       {
+        "Id": "408231891"
+       }
+      ]
+     },
+     {
+      "Id": "2473280468",
+      "Name": "Play_Crujir_madera",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crujir_madera",
+      "GUID": "{CEF2A459-98DC-4C3C-BB73-C7DA20A86482}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "2.5916667",
+      "DurationMax": "4.565417",
+      "MediaRefs": [
+       {
+        "Id": "272991854"
+       },
+       {
+        "Id": "669324130"
+       },
+       {
+        "Id": "1050761319"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ]
+     },
+     {
+      "Id": "2565055385",
+      "Name": "Play_Generador",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Generador",
+      "GUID": "{013C3C11-F005-4A07-8392-7CE67C0AFD84}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "953593280"
+       }
+      ]
+     },
+     {
+      "Id": "1467123597",
+      "Name": "Play_Lluvia",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lluvia",
+      "GUID": "{7F2F14AF-82EC-4CAA-AB37-7C55C2F980CA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "259940948"
+       },
+       {
+        "Id": "482282263"
+       },
+       {
+        "Id": "881361910"
+       },
+       {
+        "Id": "925191881"
+       }
+      ],
+      "AuxBusRefs": [
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ]
+     },
+     {
+      "Id": "4098647122",
+      "Name": "Play_Musica_menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Musica_menu",
+      "GUID": "{8ADFE2E2-8DD0-4C37-83AB-18C0EB04F479}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "23816764"
+       },
+       {
+        "Id": "851715094"
+       }
+      ]
+     },
+     {
+      "Id": "1217000136",
+      "Name": "Play_options",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_options",
+      "GUID": "{F863BAAE-5BC1-4F7E-9A4B-900D1C54DDA2}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.6585",
+      "DurationMax": "4.6585",
+      "MediaRefs": [
+       {
+        "Id": "977907415"
+       }
+      ]
+     },
+     {
+      "Id": "4031831520",
+      "Name": "Play_Pasos",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Pasos",
+      "GUID": "{2DF0C8CF-8A23-4E4A-85E1-B0BA69928A1B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.74780405",
+      "DurationMax": "1.2412932",
+      "AuxBusRefs": [
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "1229166555",
+         "GUID": "{55FCC88D-328F-4BCF-96F7-61B7C1EF8E27}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "650755908"
+         },
+         {
+          "Id": "831842498"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "626467132",
+         "GUID": "{891847EF-8173-4945-B5C7-E8504E2B7C2C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "83601765"
+         },
+         {
+          "Id": "362835773"
+         },
+         {
+          "Id": "479739056"
+         },
+         {
+          "Id": "743073779"
+         },
+         {
+          "Id": "947320254"
+         },
+         {
+          "Id": "1019273765"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "3353045675",
+         "GUID": "{6A8A98F9-2F0A-424A-B55A-AD5014941DCB}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "243060680"
+         },
+         {
+          "Id": "564879020"
+         },
+         {
+          "Id": "622099577"
+         },
+         {
+          "Id": "935357304"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "1229166555",
+         "GUID": "{55FCC88D-328F-4BCF-96F7-61B7C1EF8E27}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "184786646"
+         },
+         {
+          "Id": "395567585"
+         },
+         {
+          "Id": "757380138"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "626467132",
+         "GUID": "{891847EF-8173-4945-B5C7-E8504E2B7C2C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "184786646"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "3353045675",
+         "GUID": "{6A8A98F9-2F0A-424A-B55A-AD5014941DCB}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "184786646"
+         },
+         {
+          "Id": "395567585"
+         },
+         {
+          "Id": "757380138"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "1229166555",
+         "GUID": "{55FCC88D-328F-4BCF-96F7-61B7C1EF8E27}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "650755908"
+         },
+         {
+          "Id": "831842498"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "626467132",
+         "GUID": "{891847EF-8173-4945-B5C7-E8504E2B7C2C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "83601765"
+         },
+         {
+          "Id": "362835773"
+         },
+         {
+          "Id": "479739056"
+         },
+         {
+          "Id": "743073779"
+         },
+         {
+          "Id": "947320254"
+         },
+         {
+          "Id": "1019273765"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "3353045675",
+         "GUID": "{6A8A98F9-2F0A-424A-B55A-AD5014941DCB}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "243060680"
+         },
+         {
+          "Id": "564879020"
+         },
+         {
+          "Id": "622099577"
+         },
+         {
+          "Id": "935357304"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "1229166555",
+         "GUID": "{55FCC88D-328F-4BCF-96F7-61B7C1EF8E27}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "184786646"
+         },
+         {
+          "Id": "395567585"
+         },
+         {
+          "Id": "757380138"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "626467132",
+         "GUID": "{891847EF-8173-4945-B5C7-E8504E2B7C2C}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "184786646"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "3026462669",
+         "Id": "3353045675",
+         "GUID": "{6A8A98F9-2F0A-424A-B55A-AD5014941DCB}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "184786646"
+         },
+         {
+          "Id": "395567585"
+         },
+         {
+          "Id": "757380138"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "3693051101",
+      "Name": "Play_Ranas",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ranas",
+      "GUID": "{29D9E10D-D2F0-419A-9461-DE1E27AAF728}",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "167040920"
+       },
+       {
+        "Id": "372738657"
+       },
+       {
+        "Id": "729495438"
+       }
+      ]
+     },
+     {
+      "Id": "2230670290",
+      "Name": "Play_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Start",
+      "GUID": "{6A01B462-0C53-44A4-B624-9C60F8E5CB09}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.9458542",
+      "DurationMax": "3.9458542",
+      "MediaRefs": [
+       {
+        "Id": "23816764"
+       },
+       {
+        "Id": "636725315"
+       },
+       {
+        "Id": "851715094"
+       }
+      ]
+     },
+     {
+      "Id": "1390663754",
+      "Name": "Play_Truenos",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Truenos",
+      "GUID": "{CCE00F4D-2E56-4A52-81B1-36912D43DE10}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "14178318"
+       },
+       {
+        "Id": "41133800"
+       },
+       {
+        "Id": "143120397"
+       },
+       {
+        "Id": "321593708"
+       },
+       {
+        "Id": "944943113"
+       },
+       {
+        "Id": "950346314"
+       }
+      ],
+      "PluginRefs": {
+       "Custom": [
+        {
+         "Id": "209334296"
+        }
+       ],
+       "ShareSets": [
+        {
+         "Id": "3043085106"
+        }
+       ]
+      },
+      "AuxBusRefs": [
+       {
+        "Id": "357718954",
+        "Name": "Delay",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Delay",
+        "GUID": "{CA42A0DC-438C-42DA-B38D-9E9F3BA49239}"
+       },
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ]
+     },
+     {
+      "Id": "470983495",
+      "Name": "Play_Viento",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Viento",
+      "GUID": "{936DF3F9-5976-4981-B42D-22A7F93B08CA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "530240178"
+       }
+      ]
+     },
+     {
+      "Id": "452547817",
+      "Name": "Stop_All",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_All",
+      "GUID": "{611EA10A-0DE2-4C3C-9435-C7A7681BB521}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ],
+    "Busses": [
+     {
+      "Id": "868840972",
+      "Name": "Personaje",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Personaje",
+      "GUID": "{2D50E9E0-CDA7-4252-94B2-34F57DA8F232}"
+     },
+     {
+      "Id": "895964156",
+      "Name": "Escena 2",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Escena 2",
+      "GUID": "{46095837-2FC8-4CEA-BC40-425E94697513}"
+     },
+     {
+      "Id": "895964159",
+      "Name": "Escena 1",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Escena 1",
+      "GUID": "{EF1DDD2A-007F-4B6C-95EE-CF2BD6E6D9F6}"
+     },
+     {
+      "Id": "1014953671",
+      "Name": "Ambientes",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Ambientes",
+      "GUID": "{8A2E3BC6-C7CD-4C7D-AB7D-0D96410F3048}",
+      "AuxBusRefs": [
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ]
+     },
+     {
+      "Id": "1730564739",
+      "Name": "Musica",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Musica",
+      "GUID": "{C5BFB265-C331-40BB-AC62-61AE232953CA}",
+      "AuxBusRefs": [
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ]
+     },
+     {
+      "Id": "2460606139",
+      "Name": "Espacial",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Espacial",
+      "GUID": "{EF4A41D7-ADC6-471F-B1C6-8133F52C78A5}",
+      "AuxBusRefs": [
+       {
+        "Id": "357718954",
+        "Name": "Delay",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Delay",
+        "GUID": "{CA42A0DC-438C-42DA-B38D-9E9F3BA49239}"
+       },
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ]
+     },
+     {
+      "Id": "2607556080",
+      "Name": "Menu",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Menu",
+      "GUID": "{9AB65A70-083F-4921-994C-37A651D526E4}",
+      "AuxBusRefs": [
+       {
+        "Id": "357718954",
+        "Name": "Delay",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Delay",
+        "GUID": "{CA42A0DC-438C-42DA-B38D-9E9F3BA49239}"
+       },
+       {
+        "Id": "3726255567",
+        "Name": "Reverb_ambiente_Bosque",
+        "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+        "GUID": "{69240D75-8433-4388-B564-808422317E29}"
+       }
+      ]
+     },
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "AuxBusses": [
+     {
+      "Id": "357718954",
+      "Name": "Delay",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Delay",
+      "GUID": "{CA42A0DC-438C-42DA-B38D-9E9F3BA49239}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "3487820010"
+        }
+       ]
+      }
+     },
+     {
+      "Id": "3726255567",
+      "Name": "Reverb_ambiente_Bosque",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb_ambiente_Bosque",
+      "GUID": "{69240D75-8433-4388-B564-808422317E29}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "48620415"
+        }
+       ]
+      }
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "2911652857",
+      "Name": "Distancia_Al_Lago",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distancia_Al_Lago",
+      "GUID": "{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3026462669",
+      "Name": "Pasos",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Pasos",
+      "GUID": "{1960A6C6-8810-49FB-948C-4E6C4146C278}",
+      "Switches": [
+       {
+        "Id": "626467132",
+        "Name": "Pasos_Madera",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Pasos\\Pasos_Madera",
+        "GUID": "{891847EF-8173-4945-B5C7-E8504E2B7C2C}"
+       },
+       {
+        "Id": "1229166555",
+        "Name": "Pasos_Tierra",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Pasos\\Pasos_Tierra",
+        "GUID": "{55FCC88D-328F-4BCF-96F7-61B7C1EF8E27}"
+       },
+       {
+        "Id": "3353045675",
+        "Name": "Pasos_Pasto",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Pasos\\Pasos_Pasto",
+        "GUID": "{6A8A98F9-2F0A-424A-B55A-AD5014941DCB}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E1017941-DB55-97DD-F3E6-1C69A5828A3B}"
+ }
+}
