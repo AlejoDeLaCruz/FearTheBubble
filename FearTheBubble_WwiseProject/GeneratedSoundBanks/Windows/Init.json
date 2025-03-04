@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{C0F8414C-53D9-003B-447F-EF3AA93B5CD1}",
+    "Hash": "{524F27A7-1BDC-5489-4C51-41AAC1EE9006}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -176,9 +176,9 @@
     ],
     "GameParameters": [
      {
-      "Id": "2911652857",
-      "Name": "Distancia_Al_Lago",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distancia_Al_Lago",
+      "Id": "2914972013",
+      "Name": "Distancia",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distancia",
       "GUID": "{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"
      }
     ],
@@ -254,6 +254,6 @@
     ]
    }
   ],
-  "FileHash": "{4DF7F3FD-5167-6DD7-5CDA-2802F17180F0}"
+  "FileHash": "{FBD54B5E-E5BE-3412-9BAA-DEEC565FF9F9}"
  }
 }

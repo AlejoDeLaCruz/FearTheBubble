@@ -74,7 +74,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID DISTANCIA_AL_LAGO = 2911652857U;
+        static const AkUniqueID DISTANCIA = 2914972013U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS

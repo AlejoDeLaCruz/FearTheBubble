@@ -68,8 +68,8 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
-							<GameParameterRef Name="Distancia_Al_Lago" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"/>
-							<Value>100</Value>
+							<GameParameterRef Name="Distancia" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"/>
+							<Value>0</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
