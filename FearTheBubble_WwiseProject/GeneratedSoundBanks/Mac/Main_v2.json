@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{865EB8C2-1DE1-4368-A597-72E7B13D1AB4}",
     "Language": "SFX",
-    "Hash": "{2E67622E-AB68-F5F8-5159-7ECCFC50EA52}",
+    "Hash": "{89D79772-CA2B-629D-C0A9-2E9A28643744}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_v2",
     "ShortName": "Main_v2",
     "Path": "Main_v2.bnk",
@@ -1890,6 +1890,75 @@
       ]
      },
      {
+      "Id": "4034250537",
+      "Name": "Play_Ambientes_con_state",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ambientes_con_state",
+      "GUID": "{3654A45F-9B89-4D28-B509-143258F1E547}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1014953671",
+         "Id": "1641284458",
+         "GUID": "{C4AC6864-C31E-4794-B9E9-F3AD066982FA}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "408231891"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1014953671",
+         "Id": "3831537582",
+         "GUID": "{D79536AD-ABF3-4704-BCF3-F034F3813009}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "395929550"
+         },
+         {
+          "Id": "408231891"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1014953671",
+         "Id": "1641284458",
+         "GUID": "{C4AC6864-C31E-4794-B9E9-F3AD066982FA}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "408231891"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1014953671",
+         "Id": "3831537582",
+         "GUID": "{D79536AD-ABF3-4704-BCF3-F034F3813009}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "395929550"
+         },
+         {
+          "Id": "408231891"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "2473280468",
       "Name": "Play_Crujir_madera",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Crujir_madera",
@@ -2523,6 +2592,34 @@
       "GUID": "{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"
      }
     ],
+    "StateGroups": [
+     {
+      "Id": "1014953671",
+      "Name": "Ambientes",
+      "ObjectPath": "\\States\\Default Work Unit\\Ambientes",
+      "GUID": "{4FE0C2FF-0FC2-45D3-AF20-B52816E60619}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Ambientes\\None",
+        "GUID": "{B93BB0FD-ED88-44B8-993E-A938F698AFBD}"
+       },
+       {
+        "Id": "1641284458",
+        "Name": "Bosque",
+        "ObjectPath": "\\States\\Default Work Unit\\Ambientes\\Bosque",
+        "GUID": "{C4AC6864-C31E-4794-B9E9-F3AD066982FA}"
+       },
+       {
+        "Id": "3831537582",
+        "Name": "Puerto",
+        "ObjectPath": "\\States\\Default Work Unit\\Ambientes\\Puerto",
+        "GUID": "{D79536AD-ABF3-4704-BCF3-F034F3813009}"
+       }
+      ]
+     }
+    ],
     "SwitchGroups": [
      {
       "Id": "3026462669",
@@ -2553,6 +2650,6 @@
     ]
    }
   ],
-  "FileHash": "{4895EFB6-3D20-F4F9-8497-F50A48535043}"
+  "FileHash": "{C79B8F45-39D3-370E-4AE3-CCDE128B676E}"
  }
 }

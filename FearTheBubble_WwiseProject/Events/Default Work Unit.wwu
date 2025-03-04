@@ -206,6 +206,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ambientes_con_state" ID="{3654A45F-9B89-4D28-B509-143258F1E547}">
+					<ChildrenList>
+						<Action Name="" ID="{006DE2A8-6E0F-456A-ADFB-D7F28EC8493A}" ShortID="14049575">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambientes con state" ID="{F298F8FC-E030-4641-A17A-4F119649A79B}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID PLAY_AGUA_MOVIENDOSE_CON_LA_LLUVIA = 2506310641U;
         static const AkUniqueID PLAY_AMBIENTE_LAGO__AGUA_ = 2009393964U;
         static const AkUniqueID PLAY_AMBIENTES = 578466606U;
+        static const AkUniqueID PLAY_AMBIENTES_CON_STATE = 4034250537U;
         static const AkUniqueID PLAY_CRUJIR_MADERA = 2473280468U;
         static const AkUniqueID PLAY_GENERADOR = 2565055385U;
         static const AkUniqueID PLAY_LLUVIA = 1467123597U;
@@ -32,6 +33,18 @@ namespace AK
 
     namespace STATES
     {
+        namespace AMBIENTES
+        {
+            static const AkUniqueID GROUP = 1014953671U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BOSQUE = 1641284458U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PUERTO = 3831537582U;
+            } // namespace STATE
+        } // namespace AMBIENTES
+
         namespace ESCENA_3
         {
             static const AkUniqueID GROUP = 1080517932U;

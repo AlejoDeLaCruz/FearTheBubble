@@ -65,15 +65,20 @@
 							<ObjectRef Name="Play_Truenos" ID="{CCE00F4D-2E56-4A52-81B1-36912D43DE10}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
 							<Position X="4" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Ambientes_con_state" ID="{3654A45F-9B89-4D28-B509-143258F1E547}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="5" Y="2"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="Distancia" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"/>
-							<Value>0</Value>
+							<Value>60</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{C96FB594-4A12-4065-ADEB-A07E842DA697}"/>
+						<CurrentStateRef Name="Bosque" ID="{C4AC6864-C31E-4794-B9E9-F3AD066982FA}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Pasos_Madera" ID="{891847EF-8173-4945-B5C7-E8504E2B7C2C}"/>

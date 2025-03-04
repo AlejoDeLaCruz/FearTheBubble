@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{E964FDE1-F6C8-DD7D-DFE6-EDC32BCD8EA7}",
+    "Hash": "{8F7B17D0-3208-6D81-ADE3-A339C87B7FC2}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -184,6 +184,32 @@
     ],
     "StateGroups": [
      {
+      "Id": "1014953671",
+      "Name": "Ambientes",
+      "ObjectPath": "\\States\\Default Work Unit\\Ambientes",
+      "GUID": "{4FE0C2FF-0FC2-45D3-AF20-B52816E60619}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Ambientes\\None",
+        "GUID": "{B93BB0FD-ED88-44B8-993E-A938F698AFBD}"
+       },
+       {
+        "Id": "1641284458",
+        "Name": "Bosque",
+        "ObjectPath": "\\States\\Default Work Unit\\Ambientes\\Bosque",
+        "GUID": "{C4AC6864-C31E-4794-B9E9-F3AD066982FA}"
+       },
+       {
+        "Id": "3831537582",
+        "Name": "Puerto",
+        "ObjectPath": "\\States\\Default Work Unit\\Ambientes\\Puerto",
+        "GUID": "{D79536AD-ABF3-4704-BCF3-F034F3813009}"
+       }
+      ]
+     },
+     {
       "Id": "1080517932",
       "Name": "Escena_3",
       "ObjectPath": "\\States\\Default Work Unit\\Escena_3",
@@ -254,6 +280,6 @@
     ]
    }
   ],
-  "FileHash": "{6EB78B29-B6D0-B6C1-A619-1B588B3D6500}"
+  "FileHash": "{32DAD9DE-F37C-516E-28B5-23F1284D739E}"
  }
 }

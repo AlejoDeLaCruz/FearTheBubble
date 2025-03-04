@@ -1,7 +1,11 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	1014953671	Ambientes			\Default Work Unit\Ambientes	
 	1080517932	Escena_3			\Default Work Unit\Escena_3	
 
 State	ID	Name	State Group			Notes
+	748895195	None	Ambientes			
+	1641284458	Bosque	Ambientes			
+	3831537582	Puerto	Ambientes			
 	748895195	None	Escena_3			
 	3536105278	Escena_On	Escena_3			
 

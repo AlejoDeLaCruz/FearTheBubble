@@ -3265,6 +3265,271 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
+						<SwitchContainer Name="Ambientes con state" ID="{F298F8FC-E030-4641-A17A-4F119649A79B}" ShortID="319850923">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Bosque" ID="{C4AC6864-C31E-4794-B9E9-F3AD066982FA}" WorkUnitID="{708382EE-012C-4064-B991-2FEEDC2A9D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambientes" ID="{8A2E3BC6-C7CD-4C7D-AB7D-0D96410F3048}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Ambientes" ID="{4FE0C2FF-0FC2-45D3-AF20-B52816E60619}" WorkUnitID="{708382EE-012C-4064-B991-2FEEDC2A9D61}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ambiente (Grillos)" ID="{5A1E2301-DDBC-4078-B065-0C07A2CB8CC4}" ShortID="83156108">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiente (Grillos)" ID="{3D766CDC-2D76-401A-9C0F-8A41B85E6183}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiente (Grillos).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="408231891"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambiente (Grillos)" ID="{3D766CDC-2D76-401A-9C0F-8A41B85E6183}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambiente Lago (Agua)" ID="{488EBE16-4772-4E91-9A4B-9BBA0264E1C0}" ShortID="266108549">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiente Lago (Agua)" ID="{C7294C9A-62C5-4181-A33D-301AE0F16535}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiente Lago (Agua).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="395929550"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{20B2ED7E-A6E5-40E3-B99B-FA3EC19B2864}" ShortID="749561733">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Distancia" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}" WorkUnitID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{061B1C6F-5D8A-4520-8494-5A8411BA54E3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-100</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambiente Lago (Agua)" ID="{C7294C9A-62C5-4181-A33D-301AE0F16535}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambiente (Grillos en el puerto)" ID="{D9671D11-F095-48E6-B446-468E0AF18E3B}" ShortID="961611317">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiente (Grillos)" ID="{16BC13CD-8786-47FB-8243-CF3ED7468D07}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiente (Grillos).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="408231891"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{657336AE-B3E6-48A5-8965-9DE38ABDBCF6}" ShortID="462675266">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Distancia" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}" WorkUnitID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{7D6991BC-63F4-484D-AC22-6297B40DC41B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>23.999</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>43.2345</XPos>
+																				<YPos>-14.10953</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>-100</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambiente (Grillos)" ID="{16BC13CD-8786-47FB-8243-CF3ED7468D07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Ambiente (Grillos)" ID="{5A1E2301-DDBC-4078-B065-0C07A2CB8CC4}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>2</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>2</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Ambiente (Grillos en el puerto)" ID="{D9671D11-F095-48E6-B446-468E0AF18E3B}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>2</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>2</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Ambiente Lago (Agua)" ID="{488EBE16-4772-4E91-9A4B-9BBA0264E1C0}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>2</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>2</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Bosque" ID="{C4AC6864-C31E-4794-B9E9-F3AD066982FA}"/>
+										<ItemList>
+											<ItemRef Name="Ambiente (Grillos)" ID="{5A1E2301-DDBC-4078-B065-0C07A2CB8CC4}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Puerto" ID="{D79536AD-ABF3-4704-BCF3-F034F3813009}"/>
+										<ItemList>
+											<ItemRef Name="Ambiente Lago (Agua)" ID="{488EBE16-4772-4E91-9A4B-9BBA0264E1C0}"/>
+											<ItemRef Name="Ambiente (Grillos en el puerto)" ID="{D9671D11-F095-48E6-B446-468E0AF18E3B}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Escena 2" ID="{85AB2241-525F-4B9A-B0C8-D21D9DFA6690}" ShortID="339337913">

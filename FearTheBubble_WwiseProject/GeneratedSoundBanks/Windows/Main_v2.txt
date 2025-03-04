@@ -12,6 +12,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2565055385	Play_Generador			\Default Work Unit\Play_Generador	
 	3693051101	Play_Ranas			\Default Work Unit\Play_Ranas	
 	4031831520	Play_Pasos			\Default Work Unit\Play_Pasos	
+	4034250537	Play_Ambientes_con_state			\Default Work Unit\Play_Ambientes_con_state	
 	4092163753	Play_Agua_costa			\Default Work Unit\Play_Agua_costa	
 	4098647122	Play_Musica_menu			\Default Work Unit\Play_Musica_menu	
 
@@ -24,9 +25,13 @@ Switch	ID	Name	Switch Group			Notes
 	3353045675	Pasos_Pasto	Pasos			
 
 State Group	ID	Name			Wwise Object Path	Notes
+	1014953671	Ambientes			\Default Work Unit\Ambientes	
 	1080517932	Escena_3			\Default Work Unit\Escena_3	
 
 State	ID	Name	State Group			Notes
+	748895195	None	Ambientes			
+	1641284458	Bosque	Ambientes			
+	3831537582	Puerto	Ambientes			
 	748895195	None	Escena_3			
 	3536105278	Escena_On	Escena_3			
 
@@ -237,8 +242,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	362835773	Pasos_Deck_3	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\62\{6205E8D9-6C75-61B4-A68F-EF77B0E358AF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Tacon madera\Pasos_Deck_3		7698
 	372738657	Ambiente lago (ranas)_01	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\07\{07168CB9-7B20-A0D1-F2C4-0165BD5EAFFA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ranas\Ambiente lago (ranas)_01		1555384
 	395567585	Movimiento ropa 3	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\54\{54F4B6D4-E5BA-2D16-969C-59A82E7BCF99}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Movimiento\Movimiento Tierra y pasto\Movimiento ropa 3		154380
-	395929550	Ambiente Lago (Agua)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\F4\{F4DB47D2-DD78-4555-9D02-A86AA0534103}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ambientes\Ambiente Lago (Agua)		7059800
-	408231891	Ambiente (Grillos)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\EB\{EBF7AC4B-68BB-2AD7-0C3A-4CB277FEF3BD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ambientes\Ambiente (Grillos)		7981304
+	395929550	Ambiente Lago (Agua)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\F4\{F4DB47D2-DD78-4555-9D02-A86AA0534103}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ambientes con state\Ambiente Lago (Agua)		7059800
+	408231891	Ambiente (Grillos)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\EB\{EBF7AC4B-68BB-2AD7-0C3A-4CB277FEF3BD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Ambientes con state\Ambiente (Grillos)		7981304
 	426321375	Pasos_Deck_6	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\41\{414EECB2-6FC5-3DCA-658C-CDBCD636B353}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Tacon madera\Pasos_Deck_6		7206
 	466502550	Pasos_Deck_4	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\E0\{E00D68C1-E570-79BB-7E5A-C75719427EAA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Punta madera\Pasos_Deck_4		30272
 	479739056	Pasos_Deck_5	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\A8\{A8801DF2-EAD7-64EE-59D7-7935AC66366E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Punta madera\Pasos_Deck_5		24958
