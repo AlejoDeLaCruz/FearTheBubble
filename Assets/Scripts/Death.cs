@@ -7,6 +7,8 @@ public class Death : MonoBehaviour
     public Transform respawnPoint;  // El GameObject vacío que define el punto de respawn
     public Canvas canvas;           // El Canvas que contiene la pantalla negra
     public Image blackScreen;       // La Image negra que cubrirá la pantalla
+    // VARIABLE NUEVA: Viñetas rojas que se mostrarán al recibir daño.
+    public Image redVignette;
     public AudioSource audioSource; // El componente AudioSource que reproducirá el sonido
     public AudioClip[] deathSounds; // Los clips de sonido que se reproducirán al chocar
     public float transitionDuration = 2f;  // Duración de la transición en segundos
@@ -19,6 +21,29 @@ public class Death : MonoBehaviour
         // Verifica si el objeto que colisionó es el jugador
         if (collision.gameObject.CompareTag("Player"))
         {
+            // LLAMADA NUEVA: Activar el efecto de cámara al recibir daño.
+            PlayerCam playerCam = collision.gameObject.GetComponent<PlayerCam>();
+            if (playerCam == null)
+            {
+                // Si no se encuentra en los hijos, intenta buscar en la escena
+                playerCam = GameObject.FindObjectOfType<PlayerCam>();
+            }
+            if (playerCam != null)
+            {
+                Debug.Log("Triggering damage shake");
+                playerCam.TriggerDamageShake();
+            }
+            else
+            {
+                Debug.LogWarning("PlayerCam no se encontró en el jugador ni en la escena.");
+            }
+
+            // LLAMADA NUEVA: Mostrar viñetas rojas alrededor de la pantalla.
+            if (redVignette != null)
+            {
+                StartCoroutine(RedVignetteEffect());
+            }
+
             // Incrementa el contador de colisiones
             collisionCount++;
 
@@ -89,5 +114,29 @@ public class Death : MonoBehaviour
 
         // Reinicia el contador de colisiones
         collisionCount = 0;
+    }
+
+    // MÉTODO NUEVO: Coroutine para mostrar y desvanecer las viñetas rojas.
+    private IEnumerator RedVignetteEffect()
+    {
+        redVignette.gameObject.SetActive(true);
+        Color initialColor = redVignette.color;
+        initialColor.a = 1f;
+        redVignette.color = initialColor;
+        float duration = 0.3f;
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float alpha = Mathf.Lerp(1f, 0f, elapsed / duration);
+            Color newColor = redVignette.color;
+            newColor.a = alpha;
+            redVignette.color = newColor;
+            yield return null;
+        }
+        Color finalColor = redVignette.color;
+        finalColor.a = 0f;
+        redVignette.color = finalColor;
+        redVignette.gameObject.SetActive(false);
     }
 }

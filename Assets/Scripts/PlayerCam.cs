@@ -46,6 +46,9 @@ public class PlayerCam : MonoBehaviour
     // Acumulador para el head bobbing (se actualiza solo cuando hay movimiento)
     private float bobbingTimer = 0f;
 
+    // VARIABLE NUEVA: Offset para el efecto de sacudida al recibir daño.
+    private Vector3 damageShakeOffset = Vector3.zero;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -96,12 +99,52 @@ public class PlayerCam : MonoBehaviour
             float bobbingOffset = Mathf.Sin(bobbingTimer) * footstepBobbingAmount;
             Vector3 newPos = initialCamPos;
             newPos.y += bobbingOffset;
-            transform.localPosition = newPos;
+            transform.localPosition = newPos + damageShakeOffset;
         }
         else
         {
             bobbingTimer = 0f;
-            transform.localPosition = initialCamPos;
+            transform.localPosition = initialCamPos + damageShakeOffset;
         }
+    }
+
+    // MÉTODO NUEVO: Se llama para activar el movimiento brusco de la cámara al recibir daño.
+    public void TriggerDamageShake()
+    {
+        StartCoroutine(ShakeCamera(0.2f, 2.5f)); // Duración y magnitud del shake
+    }
+
+    private IEnumerator ShakeCamera(float duration, float magnitude)
+    {
+        Vector3 originalRotation = transform.localEulerAngles;
+        float elapsed = 0f;
+
+        // Configuración de rotación hacia la izquierda
+        float maxRotation = -4f * magnitude; // Ajusta el -4 para cambiar la intensidad del giro
+        float pushTime = duration * 0.15f;    // 15% de la duración para el empuje brusco
+        float returnTime = duration - pushTime;
+
+        while (elapsed < duration)
+        {
+            if (elapsed < pushTime)
+            {
+                // Rotación brusca inicial (ease-out quad para efecto de "latigazo")
+                float t = elapsed / pushTime;
+                float zRot = Mathf.Lerp(0, maxRotation, Mathf.Pow(t, 0.3f));
+                transform.localEulerAngles = originalRotation + new Vector3(0, 0, zRot);
+            }
+            else
+            {
+                // Retorno suave con curva exponencial
+                float t = (elapsed - pushTime) / returnTime;
+                float zRot = Mathf.Lerp(maxRotation, 0, 1 - Mathf.Pow(1 - t, 4));
+                transform.localEulerAngles = originalRotation + new Vector3(0, 0, zRot);
+            }
+
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        transform.localEulerAngles = originalRotation;
     }
 }
