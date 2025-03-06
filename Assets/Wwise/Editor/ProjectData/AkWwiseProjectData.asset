@@ -247,7 +247,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 33ce9caac0066d49827f32da16da547a
     GuidInternal: 
-    m_lastTime: -8584604925154775808
+    m_lastTime: -8584603300994775808
     List:
     - name: Play_Agua_costa
       guid: f1994f797d68db4ebd47bb08ef240a04
@@ -453,6 +453,23 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 0
       minDuration: 0
+    - name: Play_Secuencia_del_monstruo_1
+      guid: d9d840107ca9dd489520657c3a1cc903
+      id: 1679219774
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Secuencia_del_monstruo_1
+        ObjectType: 3
+        guid: d9d840107ca9dd489520657c3a1cc903
+      Path: Events\Default Work Unit\Play_Secuencia_del_monstruo_1
+      maxAttenuation: 0
+      maxDuration: 16.364717
+      minDuration: 13.3647175
     - name: Play_Start
       guid: 62b4016a530ca444b6249c60f8e5cb09
       id: 2230670290
@@ -824,7 +841,7 @@ MonoBehaviour:
     m_lastTime: -8584605569334775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000001700000018000000190000001a0000001c0000001d000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000001700000018000000190000001a0000001c0000001d000000ad000000ae00000047010000480100007d0100007e010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

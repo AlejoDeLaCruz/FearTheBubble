@@ -77,8 +77,8 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{C96FB594-4A12-4065-ADEB-A07E842DA697}"/>
-						<CurrentStateRef Name="Bosque" ID="{C4AC6864-C31E-4794-B9E9-F3AD066982FA}"/>
+						<CurrentStateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
+						<CurrentStateRef Name="None" ID="{B93BB0FD-ED88-44B8-993E-A938F698AFBD}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Pasos_Madera" ID="{891847EF-8173-4945-B5C7-E8504E2B7C2C}"/>

@@ -217,6 +217,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Secuencia_del_monstruo_1" ID="{1040D8D9-A97C-48DD-9520-657C3A1CC903}">
+					<ChildrenList>
+						<Action Name="" ID="{51D35DDF-AB40-4BA4-84CD-B04367DDA2DB}" ShortID="324584023">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Secuencia del monstruo 1" ID="{4CD16FBC-9336-4C64-B6F5-5CA6E6CD7C63}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

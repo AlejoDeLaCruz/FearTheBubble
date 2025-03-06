@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1217000136	Play_options			\Default Work Unit\Play_options	
 	1390663754	Play_Truenos			\Default Work Unit\Play_Truenos	
 	1467123597	Play_Lluvia			\Default Work Unit\Play_Lluvia	
+	1679219774	Play_Secuencia_del_monstruo_1			\Default Work Unit\Play_Secuencia_del_monstruo_1	
 	2009393964	Play_Ambiente_Lago__Agua_			\Default Work Unit\Play_Ambiente_Lago__Agua_	
 	2230670290	Play_Start			\Default Work Unit\Play_Start	
 	2473280468	Play_Crujir_madera			\Default Work Unit\Play_Crujir_madera	
@@ -262,6 +263,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	757380138	Movimiento ropa 2	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\C2\{C21BAC49-DCF3-67BE-14F0-F82179F7F88C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Movimiento\Movimiento Tierra y pasto\Movimiento ropa 2		154464
 	763888649	Agua moviendose con la lluvia_03	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\B7\{B7BC7C97-8F2B-427E-ED13-29CB52853CC2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 2\Agua moviendose con la lluvia\Agua moviendose con la lluvia_03		4258864
 	765025347	Agua_costa	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\E5\{E5C363F5-85C6-C86D-AB15-5492FED36BE8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Agua golpeando contra el muelle\Agua costa\Agua_costa		1193700
+	786796802	Movimiento del monstruo - Burbujas Espacializadas	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\EF\{EF1F5D5B-BFE7-4B11-170C-8449E583469D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 2\Secuencia del monstruo 1\Movimiento del monstruo - Burbujas Espacializadas		567312
 	831842498	Pasos tierra	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\6D\{6DABCD00-88DC-F5AB-9F74-8C44EA6A3720}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Tierra\Pasos tierra		98408
 	851715094	Menu (loop) v2	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\23\{23A3F57C-E8DB-A0BE-A95C-1ECE67594545}.wem		\Interactive Music Hierarchy\Default Work Unit\Musica menu\Menu (loop) v2\Menu (loop) v2		7121552
 	881361910	Lluvia_Main	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\89\{894FBDF3-A034-F4EF-46DE-76C32B061290}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 2\Lluvia\Lluvia_Main		1024936
@@ -272,8 +274,10 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	950346314	Trueno_3	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\AD\{AD204D10-0013-5BED-C9D3-05EB9EC47196}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 2\Truenos\Trueno_3		1497176
 	953593280	Generador	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\AD\{AD6D7080-35DE-F695-4172-F840853D02EB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Generador\Generador		6825864
 	977907415	options	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\48\{48127442-B365-115F-4C96-F9596481D312}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\options		894528
+	982614077	Ruido de monstruo en movimiento (Se disparan a la vez)	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\C1\{C1E51E04-14DC-3489-472B-30E2C57FD1FC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 2\Secuencia del monstruo 1\Ruido de monstruo en movimiento (Se disparan a la vez)		786588
 	992015825	Pasos_Deck_2	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\E0\{E0699A5D-C216-AD75-8738-EB2F0D90F498}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Punta madera\Pasos_Deck_2		36046
 	1019273765	Pasos_Deck_1	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\DA\{DA921CDF-ABF7-A095-E073-49A0C416C8E7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Pasos\Pasos Madera\Tacon madera\Pasos_Deck_1		10408
+	1037937651	Movimiento de monstruo abajo de la esfera	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\E4\{E41C5CD5-1F6C-56FE-9344-AB1A55340E6E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 2\Secuencia del monstruo 1\Movimiento de monstruo abajo de la esfera		1020412
 	1050761319	Crujir_Madera_3	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\AD\{ADDB3009-6A52-890E-8829-818B5E3AE044}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 1\Crujir madera\Crujir_Madera_3		409696
 	1056936071	Agua moviendose con la lluvia_01	D:\GitHub\FearTheBubble\FearTheBubble_WwiseProject\.cache\67\{678D3B58-468E-0A72-9915-E004E1BAC36A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Escena 2\Agua moviendose con la lluvia\Agua moviendose con la lluvia_01		3306480
 

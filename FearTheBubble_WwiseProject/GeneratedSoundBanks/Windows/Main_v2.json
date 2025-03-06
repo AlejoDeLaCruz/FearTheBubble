@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{865EB8C2-1DE1-4368-A597-72E7B13D1AB4}",
     "Language": "SFX",
-    "Hash": "{51E257F1-DB02-8D31-100B-FEE233E548DB}",
+    "Hash": "{B8EF3F73-9C44-6C4F-4920-0986CD175E4F}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main_v2",
     "ShortName": "Main_v2",
     "Path": "Main_v2.bnk",
@@ -336,6 +336,14 @@
       "CachePath": "E5/{E5C363F5-85C6-C86D-AB15-5492FED36BE8}.wem"
      },
      {
+      "Id": "786796802",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movimiento del monstruo - Burbujas Espacializadas.wav",
+      "CachePath": "EF/{EF1F5D5B-BFE7-4B11-170C-8449E583469D}.wem"
+     },
+     {
       "Id": "831842498",
       "Language": "SFX",
       "Streaming": "false",
@@ -416,6 +424,14 @@
       "CachePath": "48/{48127442-B365-115F-4C96-F9596481D312}.wem"
      },
      {
+      "Id": "982614077",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ruido de monstruo en movimiento (Se disparan a la vez).wav",
+      "CachePath": "C1/{C1E51E04-14DC-3489-472B-30E2C57FD1FC}.wem"
+     },
+     {
       "Id": "992015825",
       "Language": "SFX",
       "Streaming": "false",
@@ -430,6 +446,14 @@
       "Location": "Memory",
       "ShortName": "Pasos_Deck_1.wav",
       "CachePath": "DA/{DA921CDF-ABF7-A095-E073-49A0C416C8E7}.wem"
+     },
+     {
+      "Id": "1037937651",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Movimiento de monstruo abajo de la esfera.wav",
+      "CachePath": "E4/{E41C5CD5-1F6C-56FE-9344-AB1A55340E6E}.wem"
      },
      {
       "Id": "1050761319",
@@ -2367,6 +2391,26 @@
       ]
      },
      {
+      "Id": "1679219774",
+      "Name": "Play_Secuencia_del_monstruo_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Secuencia_del_monstruo_1",
+      "GUID": "{1040D8D9-A97C-48DD-9520-657C3A1CC903}",
+      "DurationType": "OneShot",
+      "DurationMin": "13.3647175",
+      "DurationMax": "16.364717",
+      "MediaRefs": [
+       {
+        "Id": "786796802"
+       },
+       {
+        "Id": "982614077"
+       },
+       {
+        "Id": "1037937651"
+       }
+      ]
+     },
+     {
       "Id": "2230670290",
       "Name": "Play_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Start",
@@ -2650,6 +2694,6 @@
     ]
    }
   ],
-  "FileHash": "{159D7703-45EA-3FD7-44BA-78E2760AF503}"
+  "FileHash": "{A2B7C487-8508-8C88-5958-9431282E040C}"
  }
 }

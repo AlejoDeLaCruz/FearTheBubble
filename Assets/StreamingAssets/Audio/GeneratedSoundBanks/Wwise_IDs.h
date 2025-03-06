@@ -25,6 +25,7 @@ namespace AK
         static const AkUniqueID PLAY_OPTIONS = 1217000136U;
         static const AkUniqueID PLAY_PASOS = 4031831520U;
         static const AkUniqueID PLAY_RANAS = 3693051101U;
+        static const AkUniqueID PLAY_SECUENCIA_DEL_MONSTRUO_1 = 1679219774U;
         static const AkUniqueID PLAY_START = 2230670290U;
         static const AkUniqueID PLAY_TRUENOS = 1390663754U;
         static const AkUniqueID PLAY_VIENTO = 470983495U;
