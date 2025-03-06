@@ -9,6 +9,13 @@
 						<State Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Ambientes" ID="{4FE0C2FF-0FC2-45D3-AF20-B52816E60619}">
+					<ChildrenList>
+						<State Name="None" ID="{B93BB0FD-ED88-44B8-993E-A938F698AFBD}"/>
+						<State Name="Bosque" ID="{C4AC6864-C31E-4794-B9E9-F3AD066982FA}"/>
+						<State Name="Puerto" ID="{D79536AD-ABF3-4704-BCF3-F034F3813009}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

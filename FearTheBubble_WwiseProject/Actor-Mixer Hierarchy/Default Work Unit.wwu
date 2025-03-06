@@ -94,137 +94,6 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<BlendContainer Name="Ambientes" ID="{30F27107-BC1A-4287-B2E7-FCB1BFFE1A70}" ShortID="426573568">
-							<PropertyList>
-								<Property Name="BlendBehavior" Type="int16" Value="1"/>
-								<Property Name="OverrideOutput" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-4</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Ambientes" ID="{8A2E3BC6-C7CD-4C7D-AB7D-0D96410F3048}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Ambiente (Grillos)" ID="{5D636AED-0A1D-4B3E-A6C2-BE4081AE6F06}" ShortID="67915324">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-3</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Ambiente (Grillos)" ID="{9BBC9860-2D97-4B9F-A3AF-C4463B7F969F}">
-											<Language>SFX</Language>
-											<AudioFile>Ambiente (Grillos).wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="408231891"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Ambiente (Grillos)" ID="{9BBC9860-2D97-4B9F-A3AF-C4463B7F969F}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Ambiente Lago (Agua)" ID="{060D5CDC-8B18-48F0-A1FA-8D4238A65710}" ShortID="658293545">
-									<PropertyList>
-										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>2</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Ambiente Lago (Agua)" ID="{E132F1E6-1A43-42B0-8A33-9C0BBC27D032}">
-											<Language>SFX</Language>
-											<AudioFile>Ambiente Lago (Agua).wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="395929550"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Ambiente Lago (Agua)" ID="{E132F1E6-1A43-42B0-8A33-9C0BBC27D032}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="Escena_3" ID="{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
-										<CustomState Name="" ID="{8A8B2C14-516F-4B8D-82FD-80E7AF235C21}" ShortID="58448852">
-											<PropertyList>
-												<Property Name="Lowpass" Type="int16" Value="65"/>
-												<Property Name="Pitch" Type="int32" Value="-100"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-							<BlendTrackList>
-								<BlendTrack Name="Ambiente" ID="{38509559-D393-435A-B3D8-C209E7B79EC7}" ShortID="1006013682">
-									<PropertyList>
-										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="LayerCrossFadeControlInput">
-											<ObjectRef Name="Distancia_Al_Lago" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}" WorkUnitID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}"/>
-										</Reference>
-									</ReferenceList>
-									<BlendTrackAssocList>
-										<BlendTrackAssoc>
-											<ItemRef Name="Ambiente (Grillos)" ID="{5D636AED-0A1D-4B3E-A6C2-BE4081AE6F06}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>60.0973373786408</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-										<BlendTrackAssoc>
-											<ItemRef Name="Ambiente Lago (Agua)" ID="{060D5CDC-8B18-48F0-A1FA-8D4238A65710}"/>
-											<CrossfadingInfo>
-												<LeftEdgePos>29.3206383495146</LeftEdgePos>
-												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>100</RightEdgePos>
-												<RightFadingMode>Automatic</RightFadingMode>
-											</CrossfadingInfo>
-										</BlendTrackAssoc>
-									</BlendTrackAssocList>
-								</BlendTrack>
-							</BlendTrackList>
-						</BlendContainer>
 						<SwitchContainer Name="Pasos" ID="{AF05CF31-6021-41A1-B01A-47010DFD7CE6}" ShortID="937597070">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
@@ -266,229 +135,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Pasos Madera" ID="{837B3A0B-FFF2-4C88-BA93-0B91823C3469}" ShortID="785792537">
-									<PropertyList>
-										<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{7C59AEEF-2050-41F8-B8BD-08D47FD6FA0D}">
-														<PropertyList>
-															<Property Name="Max" Type="Real64" Value="125"/>
-															<Property Name="Min" Type="Real64" Value="-150"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="UserAuxSendVolume0" Type="Real64">
-											<ValueList>
-												<Value>-10</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-4</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{72E2CEDF-18F1-429A-B2F2-60B0B58BB64F}">
-														<PropertyList>
-															<Property Name="Min" Type="Real64" Value="-2"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
-										</Reference>
-										<Reference Name="UserAuxSend0">
-											<ObjectRef Name="Reverb_ambiente_Bosque" ID="{69240D75-8433-4388-B564-808422317E29}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Pasos_Deck_1" ID="{58183C06-C1E5-4949-8C9B-E5F7AB76CD82}" ShortID="705897354">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-3</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Pasos_Deck_1" ID="{B86447D6-97F4-4EE3-A182-F26540A2FCC5}">
-													<Language>SFX</Language>
-													<AudioFile>Pasos_Deck_1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="1019273765"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Pasos_Deck_1" ID="{B86447D6-97F4-4EE3-A182-F26540A2FCC5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Pasos_Deck_2" ID="{29FB4B96-7AC4-4054-BA51-7961B2DF0CEC}" ShortID="530083606">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-1</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Pasos_Deck_2" ID="{E2BB76E1-6E5F-4B83-9B08-8976C0573D17}">
-													<Language>SFX</Language>
-													<AudioFile>Pasos_Deck_2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="743073779"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Pasos_Deck_2" ID="{E2BB76E1-6E5F-4B83-9B08-8976C0573D17}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Pasos_Deck_3" ID="{46966759-6E2D-46D4-A10C-20348460E6B8}" ShortID="516557727">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-2</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Pasos_Deck_3" ID="{0D74BE47-DDB7-4359-A5EE-3BE23B7FFF84}">
-													<Language>SFX</Language>
-													<AudioFile>Pasos_Deck_3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="362835773"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Pasos_Deck_3" ID="{0D74BE47-DDB7-4359-A5EE-3BE23B7FFF84}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Pasos_Deck_4" ID="{06FC2373-A204-41D5-B1AC-AA2BFED8B421}" ShortID="84980337">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-4</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Pasos_Deck_4" ID="{53FB2019-1333-4FE4-B120-5DE712E0C82E}">
-													<Language>SFX</Language>
-													<AudioFile>Pasos_Deck_4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="947320254"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Pasos_Deck_4" ID="{53FB2019-1333-4FE4-B120-5DE712E0C82E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Pasos_Deck_5" ID="{DFC8EB63-D2E4-4204-B379-6DB0834A5998}" ShortID="175784080">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-2</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Pasos_Deck_5" ID="{936C76E4-4869-4721-8595-9FF856599D3D}">
-													<Language>SFX</Language>
-													<AudioFile>Pasos_Deck_5.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="479739056"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Pasos_Deck_5" ID="{936C76E4-4869-4721-8595-9FF856599D3D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Pasos_Deck_6" ID="{E32A3D05-996A-46AD-9E6C-D4A0EF0A0F62}" ShortID="608751732">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-6</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Pasos_Deck_6" ID="{2A4D9F0D-DCB2-411D-8469-19E154391F0B}">
-													<Language>SFX</Language>
-													<AudioFile>Pasos_Deck_6.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="83601765"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Pasos_Deck_6" ID="{2A4D9F0D-DCB2-411D-8469-19E154391F0B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Pasos Tierra" ID="{135E627F-ADA4-4309-8240-C6FDEF4D29AE}" ShortID="19636669">
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
@@ -529,7 +175,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-14</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -620,7 +266,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-12</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -764,17 +410,539 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Pasos Madera" ID="{B02A0BE9-F7DC-4EAE-8467-71629BC3639E}" ShortID="264253845">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.25"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Punta madera" ID="{84FAE095-8333-41F0-82B4-391CBA029541}" ShortID="243590430">
+											<PropertyList>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{D7F8F6D2-1C16-4D35-B651-635522A15651}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="125"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{2DDD2406-1608-436B-B521-34C44ECCD10F}">
+																<PropertyList>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Personaje" ID="{2D50E9E0-CDA7-4252-94B2-34F57DA8F232}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb_ambiente_Bosque" ID="{69240D75-8433-4388-B564-808422317E29}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pasos_Deck_1" ID="{A6F3A7C3-C6BA-4DC0-9435-38ECBEB744CF}" ShortID="424387997">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pasos_Deck_1" ID="{8B40F36B-949B-4293-A9B0-94916D43EA8B}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.107426243783984"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pasos_Deck_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="126217914"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pasos_Deck_1" ID="{8B40F36B-949B-4293-A9B0-94916D43EA8B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pasos_Deck_2" ID="{420B8FC0-6E32-4836-B677-C7172E93147E}" ShortID="492326555">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pasos_Deck_2" ID="{8AFF37C9-9B88-4F96-ABE7-DD6A28A43239}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0788606332798819"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pasos_Deck_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="992015825"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pasos_Deck_2" ID="{8AFF37C9-9B88-4F96-ABE7-DD6A28A43239}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pasos_Deck_3" ID="{17402C8D-02B6-40A4-900B-185CACE94F3C}" ShortID="455585776">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pasos_Deck_3" ID="{E144A87A-0559-494B-A928-C2BC3E6A9DF1}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0795816372575983"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pasos_Deck_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="611653514"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pasos_Deck_3" ID="{E144A87A-0559-494B-A928-C2BC3E6A9DF1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pasos_Deck_4" ID="{E013EC25-3CFE-40E5-801D-E2F30C18F6FB}" ShortID="224231655">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pasos_Deck_4" ID="{B8503B9F-D42A-4469-A6D5-B7AAEAA8428A}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0748245141877284"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pasos_Deck_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="466502550"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pasos_Deck_4" ID="{B8503B9F-D42A-4469-A6D5-B7AAEAA8428A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pasos_Deck_5" ID="{ACEA3CD1-4E4D-4168-9E39-0AE1A27F5E56}" ShortID="456152220">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pasos_Deck_5" ID="{63D08400-5774-4636-AACB-126A1013D093}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0864420138443475"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pasos_Deck_5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="479739056"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pasos_Deck_5" ID="{63D08400-5774-4636-AACB-126A1013D093}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pasos_Deck_6" ID="{3B3F7D28-996D-4127-B7B9-795CDE536659}" ShortID="906615447">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pasos_Deck_6" ID="{8C962E47-E0CA-4DA9-92E2-307C80BF3D39}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.073679213606329"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pasos_Deck_6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="83601765"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pasos_Deck_6" ID="{8C962E47-E0CA-4DA9-92E2-307C80BF3D39}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Tacon madera" ID="{837B3A0B-FFF2-4C88-BA93-0B91823C3469}" ShortID="785792537">
+											<PropertyList>
+												<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{7C59AEEF-2050-41F8-B8BD-08D47FD6FA0D}">
+																<PropertyList>
+																	<Property Name="Max" Type="Real64" Value="125"/>
+																	<Property Name="Min" Type="Real64" Value="-150"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="UserAuxSendVolume0" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{72E2CEDF-18F1-429A-B2F2-60B0B58BB64F}">
+																<PropertyList>
+																	<Property Name="Min" Type="Real64" Value="-2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Personaje" ID="{2D50E9E0-CDA7-4252-94B2-34F57DA8F232}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+												</Reference>
+												<Reference Name="UserAuxSend0">
+													<ObjectRef Name="Reverb_ambiente_Bosque" ID="{69240D75-8433-4388-B564-808422317E29}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Pasos_Deck_1" ID="{58183C06-C1E5-4949-8C9B-E5F7AB76CD82}" ShortID="705897354">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pasos_Deck_1" ID="{B86447D6-97F4-4EE3-A182-F26540A2FCC5}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.10742625451282"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pasos_Deck_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1019273765"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pasos_Deck_1" ID="{B86447D6-97F4-4EE3-A182-F26540A2FCC5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pasos_Deck_2" ID="{29FB4B96-7AC4-4054-BA51-7961B2DF0CEC}" ShortID="530083606">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pasos_Deck_2" ID="{E2BB76E1-6E5F-4B83-9B08-8976C0573D17}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.0793217918714376"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pasos_Deck_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="743073779"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pasos_Deck_2" ID="{E2BB76E1-6E5F-4B83-9B08-8976C0573D17}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pasos_Deck_3" ID="{46966759-6E2D-46D4-A10C-20348460E6B8}" ShortID="516557727">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pasos_Deck_3" ID="{0D74BE47-DDB7-4359-A5EE-3BE23B7FFF84}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.0791971876852469"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pasos_Deck_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="362835773"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pasos_Deck_3" ID="{0D74BE47-DDB7-4359-A5EE-3BE23B7FFF84}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pasos_Deck_4" ID="{06FC2373-A204-41D5-B1AC-AA2BFED8B421}" ShortID="84980337">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pasos_Deck_4" ID="{53FB2019-1333-4FE4-B120-5DE712E0C82E}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.0748245276981145"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pasos_Deck_4.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="947320254"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pasos_Deck_4" ID="{53FB2019-1333-4FE4-B120-5DE712E0C82E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pasos_Deck_5" ID="{DFC8EB63-D2E4-4204-B379-6DB0834A5998}" ShortID="175784080">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pasos_Deck_5" ID="{936C76E4-4869-4721-8595-9FF856599D3D}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.085739234833444"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pasos_Deck_5.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="155531695"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pasos_Deck_5" ID="{936C76E4-4869-4721-8595-9FF856599D3D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Pasos_Deck_6" ID="{E32A3D05-996A-46AD-9E6C-D4A0EF0A0F62}" ShortID="608751732">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Pasos_Deck_6" ID="{2A4D9F0D-DCB2-411D-8469-19E154391F0B}">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.0740590017777291"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Pasos_Deck_6.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="426321375"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Pasos_Deck_6" ID="{2A4D9F0D-DCB2-411D-8469-19E154391F0B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Playlist">
+											<Reference>
+												<ObjectRef Name="Tacon madera" ID="{837B3A0B-FFF2-4C88-BA93-0B91823C3469}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+											</Reference>
+											<Reference>
+												<ObjectRef Name="Punta madera" ID="{84FAE095-8333-41F0-82B4-391CBA029541}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
-									<GroupingBehavior>
-										<ItemRef Name="Pasos Madera" ID="{837B3A0B-FFF2-4C88-BA93-0B91823C3469}"/>
-									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Pasos Pasto" ID="{A5247143-EB62-4189-B7BA-E8BA2D3A9C0F}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Pasos Tierra" ID="{135E627F-ADA4-4309-8240-C6FDEF4D29AE}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Pasos Madera" ID="{B02A0BE9-F7DC-4EAE-8467-71629BC3639E}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
@@ -787,7 +955,7 @@
 									<Grouping>
 										<SwitchRef Name="Pasos_Madera" ID="{891847EF-8173-4945-B5C7-E8504E2B7C2C}"/>
 										<ItemList>
-											<ItemRef Name="Pasos Madera" ID="{837B3A0B-FFF2-4C88-BA93-0B91823C3469}"/>
+											<ItemRef Name="Pasos Madera" ID="{B02A0BE9-F7DC-4EAE-8467-71629BC3639E}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -821,14 +989,14 @@
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="20">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{BBD5901D-E22C-4FBE-AACC-DABA635F051B}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="10"/>
-													<Property Name="Min" Type="Real64" Value="-5"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -1205,7 +1373,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-8</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -1343,7 +1511,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-8</Value>
+												<Value>-10</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -1460,13 +1628,14 @@
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="20">
 									<ModifierList>
 										<ModifierInfo>
 											<Modifier Name="" ID="{50D40565-4A77-43D8-A9CD-5CBC1A684401}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -1565,7 +1734,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-3</Value>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2959,6 +3128,408 @@
 								</ObjectList>
 							</ObjectLists>
 						</RandomSequenceContainer>
+						<BlendContainer Name="Ambientes" ID="{30F27107-BC1A-4287-B2E7-FCB1BFFE1A70}" ShortID="426573568">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambientes" ID="{8A2E3BC6-C7CD-4C7D-AB7D-0D96410F3048}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ambiente (Grillos)" ID="{5D636AED-0A1D-4B3E-A6C2-BE4081AE6F06}" ShortID="67915324">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiente (Grillos)" ID="{9BBC9860-2D97-4B9F-A3AF-C4463B7F969F}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiente (Grillos).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="408231891"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambiente (Grillos)" ID="{9BBC9860-2D97-4B9F-A3AF-C4463B7F969F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambiente Lago (Agua)" ID="{060D5CDC-8B18-48F0-A1FA-8D4238A65710}" ShortID="658293545">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiente Lago (Agua)" ID="{E132F1E6-1A43-42B0-8A33-9C0BBC27D032}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiente Lago (Agua).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="395929550"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambiente Lago (Agua)" ID="{E132F1E6-1A43-42B0-8A33-9C0BBC27D032}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{9B406989-8583-42F9-B130-20FEDDAEF924}"/>
+							</PositioningInfo>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Escena_3" ID="{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
+										<CustomState Name="" ID="{8A8B2C14-516F-4B8D-82FD-80E7AF235C21}" ShortID="58448852">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="65"/>
+												<Property Name="Pitch" Type="int32" Value="-100"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<BlendTrackList>
+								<BlendTrack Name="Ambiente" ID="{38509559-D393-435A-B3D8-C209E7B79EC7}" ShortID="1006013682">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Distancia" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}" WorkUnitID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Ambiente (Grillos)" ID="{5D636AED-0A1D-4B3E-A6C2-BE4081AE6F06}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>59.9995</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+										<BlendTrackAssoc>
+											<ItemRef Name="Ambiente Lago (Agua)" ID="{060D5CDC-8B18-48F0-A1FA-8D4238A65710}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>29.8253927184466</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>60</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
+						<SwitchContainer Name="Ambientes con state" ID="{F298F8FC-E030-4641-A17A-4F119649A79B}" ShortID="319850923">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="Bosque" ID="{C4AC6864-C31E-4794-B9E9-F3AD066982FA}" WorkUnitID="{708382EE-012C-4064-B991-2FEEDC2A9D61}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambientes" ID="{8A2E3BC6-C7CD-4C7D-AB7D-0D96410F3048}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Ambientes" ID="{4FE0C2FF-0FC2-45D3-AF20-B52816E60619}" WorkUnitID="{708382EE-012C-4064-B991-2FEEDC2A9D61}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ambiente (Grillos)" ID="{5A1E2301-DDBC-4078-B065-0C07A2CB8CC4}" ShortID="83156108">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiente (Grillos)" ID="{3D766CDC-2D76-401A-9C0F-8A41B85E6183}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiente (Grillos).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="408231891"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambiente (Grillos)" ID="{3D766CDC-2D76-401A-9C0F-8A41B85E6183}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambiente Lago (Agua)" ID="{488EBE16-4772-4E91-9A4B-9BBA0264E1C0}" ShortID="266108549">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiente Lago (Agua)" ID="{C7294C9A-62C5-4181-A33D-301AE0F16535}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiente Lago (Agua).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="395929550"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{20B2ED7E-A6E5-40E3-B99B-FA3EC19B2864}" ShortID="749561733">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Distancia" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}" WorkUnitID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{061B1C6F-5D8A-4520-8494-5A8411BA54E3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>-100</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambiente Lago (Agua)" ID="{C7294C9A-62C5-4181-A33D-301AE0F16535}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambiente (Grillos en el puerto)" ID="{D9671D11-F095-48E6-B446-468E0AF18E3B}" ShortID="961611317">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambiente (Grillos)" ID="{16BC13CD-8786-47FB-8243-CF3ED7468D07}">
+											<Language>SFX</Language>
+											<AudioFile>Ambiente (Grillos).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="408231891"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="RTPC">
+											<Reference>
+												<Local>
+													<RTPC Name="" ID="{657336AE-B3E6-48A5-8965-9DE38ABDBCF6}" ShortID="462675266">
+														<PropertyList>
+															<Property Name="PropertyName" Type="string" Value="Volume"/>
+														</PropertyList>
+														<ReferenceList>
+															<Reference Name="ControlInput">
+																<ObjectRef Name="Distancia" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}" WorkUnitID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}"/>
+															</Reference>
+															<Reference Name="Curve">
+																<Custom>
+																	<Curve Name="" ID="{7D6991BC-63F4-484D-AC22-6297B40DC41B}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>23.999</XPos>
+																				<YPos>0</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>43.2345</XPos>
+																				<YPos>-14.10953</YPos>
+																				<Flags>0</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>60</XPos>
+																				<YPos>-100</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</Custom>
+															</Reference>
+														</ReferenceList>
+													</RTPC>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambiente (Grillos)" ID="{16BC13CD-8786-47FB-8243-CF3ED7468D07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Ambiente (Grillos)" ID="{5A1E2301-DDBC-4078-B065-0C07A2CB8CC4}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>2</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>2</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Ambiente (Grillos en el puerto)" ID="{D9671D11-F095-48E6-B446-468E0AF18E3B}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>2</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>2</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Ambiente Lago (Agua)" ID="{488EBE16-4772-4E91-9A4B-9BBA0264E1C0}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>2</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>2</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Bosque" ID="{C4AC6864-C31E-4794-B9E9-F3AD066982FA}"/>
+										<ItemList>
+											<ItemRef Name="Ambiente (Grillos)" ID="{5A1E2301-DDBC-4078-B065-0C07A2CB8CC4}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Puerto" ID="{D79536AD-ABF3-4704-BCF3-F034F3813009}"/>
+										<ItemList>
+											<ItemRef Name="Ambiente Lago (Agua)" ID="{488EBE16-4772-4E91-9A4B-9BBA0264E1C0}"/>
+											<ItemRef Name="Ambiente (Grillos en el puerto)" ID="{D9671D11-F095-48E6-B446-468E0AF18E3B}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Escena 2" ID="{85AB2241-525F-4B9A-B0C8-D21D9DFA6690}" ShortID="339337913">
@@ -3874,6 +4445,522 @@
 									</CustomState>
 								</CustomStateList>
 							</StateInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Secuencia del monstruo 1" ID="{4CD16FBC-9336-4C64-B6F5-5CA6E6CD7C63}" ShortID="39130872">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{526DF73E-9D98-4262-A25E-AA3886422498}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-0.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Espacial" ID="{EF4A41D7-ADC6-471F-B1C6-8133F52C78A5}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Movimiento de monstruo abajo de la esfera" ID="{1140002F-8C1F-4DA9-93C1-5F5BF6DDF116}" ShortID="735270378">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{9EA18B42-717F-40A4-9CA5-1E50B3249FDE}" ShortID="1008762261">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="30"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{F146E730-6059-4BED-8159-B7F9841E166E}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>14.89437</XPos>
+																			<YPos>-9.38643</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>30</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{DC9B730E-DF4E-476F-B1CE-50DF10280305}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>30</XPos>
+																			<YPos>100</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{3FC65A4D-8645-435E-9517-70268E7D6F94}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>19.91335</XPos>
+																			<YPos>18.19991</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>30</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Movimiento de monstruo abajo de la esfera" ID="{8E41BC4F-03AF-4EAA-86D2-558D1548B7AD}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.37052593044206"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Movimiento de monstruo abajo de la esfera.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1037937651"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{1745FC0D-5AB7-48A8-8E87-6B197247F94F}">
+											<ChildrenList>
+												<Path2D Name="Movimiento de monstruo abajo de la esfera_Path" ID="{50B07336-5339-4D5A-B845-92DD03832F36}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="2000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>36.76648</XPos>
+															<YPos>18.92655</YPos>
+															<ZPos>-60</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-51.26389</XPos>
+															<YPos>18.81949</YPos>
+															<ZPos>-26</ZPos>
+															<Flags>0</Flags>
+															<Time>2000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Movimiento de monstruo abajo de la esfera" ID="{8E41BC4F-03AF-4EAA-86D2-558D1548B7AD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Movimiento del monstruo - Burbujas Espacializadas" ID="{AD4E2D33-B0A4-40A9-AFB1-0D31229F052F}" ShortID="506225021">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+										<Property Name="HoldEmitterPositionOrientation" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<Custom>
+												<Attenuation Name="Attenuation (Custom)" ID="{184903B8-3090-4B73-B4F0-A730D98FE4A1}" ShortID="938995763">
+													<PropertyList>
+														<Property Name="RadiusMax" Type="Real64" Value="20"/>
+													</PropertyList>
+													<CurveUsageInfoList>
+														<VolumeDryUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="VolumeDry" ID="{8B822AB3-D00B-4AD4-83BB-225A4F51815F}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="3"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>10.03521</XPos>
+																			<YPos>-10.86909</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>20</XPos>
+																			<YPos>-200</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</VolumeDryUsage>
+														<VolumeWetGameUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetGameUsage>
+														<VolumeWetUserUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+														</VolumeWetUserUsage>
+														<LowPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="LowPassFilter" ID="{16CEE312-B0DF-41C6-9EA0-B6D695A01925}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="65537"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>0</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>20</XPos>
+																			<YPos>100</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</LowPassFilterUsage>
+														<HighPassFilterUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</HighPassFilterUsage>
+														<SpreadUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{E2665EDD-E1C3-49B1-A4BA-DD2772B5D993}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>9.948</XPos>
+																			<YPos>19.61031</YPos>
+																			<Flags>0</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>20</XPos>
+																			<YPos>0</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
+														</SpreadUsage>
+														<FocusUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
+													</CurveUsageInfoList>
+												</Attenuation>
+											</Custom>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Movimiento del monstruo - Burbujas Espacializadas" ID="{D114CE67-959B-4D98-9398-5B29D3AC62F0}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.88623076063745"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Movimiento del monstruo - Burbujas Espacializadas.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="786796802"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{F5224FAC-7FA2-4660-9E35-544B715379FC}">
+											<ChildrenList>
+												<Path2D Name="Movimiento del monstruo - Burbujas Espacializadas_Path" ID="{7CA15C72-06D5-4BF2-BF34-985A308B3800}">
+													<PointList>
+														<Point>
+															<XPos>35.533</XPos>
+															<YPos>-0.84746</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Movimiento del monstruo - Burbujas Espacializadas" ID="{D114CE67-959B-4D98-9398-5B29D3AC62F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ruido de monstruo en movimiento (Se disparan a la vez)" ID="{26A77787-6124-44E3-BBFB-08EB0DCB4AF2}" ShortID="1071413552">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{9FE3177E-F8A6-4E20-B7D6-EA3278951AF2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ruido de monstruo en movimiento (Se disparan a la vez)" ID="{57D8B6D1-8017-4459-B692-72BDF9BEFC23}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.87849577267965"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.21782513459523"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ruido de monstruo en movimiento (Se disparan a la vez).wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="982614077"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{8F4AD26F-9BD0-458E-9A6B-A305B87A6048}">
+											<ChildrenList>
+												<Path2D Name="Ruido de monstruo en movimiento (Se disparan a la vez)_Path" ID="{D710B4A9-D7A8-4C63-8AE3-2A65AA49DBFD}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="4000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-24.8731</XPos>
+															<YPos>9.887</YPos>
+															<ZPos>-20</ZPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+														<Point>
+															<XPos>-76.64975</XPos>
+															<YPos>10.73446</YPos>
+															<ZPos>-10</ZPos>
+															<Flags>0</Flags>
+															<Time>2000</Time>
+														</Point>
+														<Point>
+															<XPos>-88.83248</XPos>
+															<YPos>67.79661</YPos>
+															<ZPos>-60</ZPos>
+															<Flags>0</Flags>
+															<Time>4000</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="Ruido de monstruo en movimiento (Se disparan a la vez)" ID="{57D8B6D1-8017-4459-B692-72BDF9BEFC23}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Escena_3" ID="{23B755AA-9AAE-4293-9BC6-C1DE70CA5BF3}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
+										<CustomState Name="" ID="{E4B66EE3-24F4-42F1-BDB7-1CECB41FE6B6}" ShortID="978746399">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="60"/>
+												<Property Name="Pitch" Type="int32" Value="-200"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Movimiento del monstruo - Burbujas Espacializadas" ID="{AD4E2D33-B0A4-40A9-AFB1-0D31229F052F}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Movimiento de monstruo abajo de la esfera" ID="{1140002F-8C1F-4DA9-93C1-5F5BF6DDF116}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Ruido de monstruo en movimiento (Se disparan a la vez)" ID="{26A77787-6124-44E3-BBFB-08EB0DCB4AF2}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
