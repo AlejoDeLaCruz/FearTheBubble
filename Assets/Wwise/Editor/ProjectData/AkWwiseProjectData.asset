@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 27d6132842d7fc4a92f04905a18af0f0
     GuidInternal: 
-    m_lastTime: -8584605569334775808
+    m_lastTime: -8584603255200915225
     List:
     - name: Ambientes
       guid: c63b2e8acdc77d4cab7d0d96410f3048
@@ -247,7 +247,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 33ce9caac0066d49827f32da16da547a
     GuidInternal: 
-    m_lastTime: -8584603300994775808
+    m_lastTime: -8584603255207203316
     List:
     - name: Play_Agua_costa
       guid: f1994f797d68db4ebd47bb08ef240a04
@@ -263,9 +263,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: f1994f797d68db4ebd47bb08ef240a04
       Path: Events\Default Work Unit\Play_Agua_costa
-      maxAttenuation: 100
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Agua_moviendose_con_la_lluvia
       guid: bb676de01b29c44fa3089503ba16e539
       id: 2506310641
@@ -280,9 +280,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: bb676de01b29c44fa3089503ba16e539
       Path: Events\Default Work Unit\Play_Agua_moviendose_con_la_lluvia
-      maxAttenuation: 100
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Ambiente_Lago__Agua_
       guid: b3e9efd29d2bcb40b24afc1aa5d57609
       id: 2009393964
@@ -298,8 +298,8 @@ MonoBehaviour:
         guid: b3e9efd29d2bcb40b24afc1aa5d57609
       Path: Events\Default Work Unit\Play_Ambiente_Lago__Agua_
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Ambientes
       guid: 781972207efa2e4c84c1adff221a9b6f
       id: 578466606
@@ -315,8 +315,8 @@ MonoBehaviour:
         guid: 781972207efa2e4c84c1adff221a9b6f
       Path: Events\Default Work Unit\Play_Ambientes
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Ambientes_con_state
       guid: 5fa45436899b284db509143258f1e547
       id: 4034250537
@@ -332,8 +332,8 @@ MonoBehaviour:
         guid: 5fa45436899b284db509143258f1e547
       Path: Events\Default Work Unit\Play_Ambientes_con_state
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Crujir_madera
       guid: 59a4f2cedc983c4cbb73c7da20a86482
       id: 2473280468
@@ -348,9 +348,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 59a4f2cedc983c4cbb73c7da20a86482
       Path: Events\Default Work Unit\Play_Crujir_madera
-      maxAttenuation: 100
-      maxDuration: 4.565417
-      minDuration: 2.5916667
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Generador
       guid: 113c3c0105f0074a83927ce67c0afd84
       id: 2565055385
@@ -365,9 +365,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 113c3c0105f0074a83927ce67c0afd84
       Path: Events\Default Work Unit\Play_Generador
-      maxAttenuation: 100
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Lluvia
       guid: af142f7fec82aa4cab377c55c2f980ca
       id: 1467123597
@@ -383,8 +383,8 @@ MonoBehaviour:
         guid: af142f7fec82aa4cab377c55c2f980ca
       Path: Events\Default Work Unit\Play_Lluvia
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Musica_menu
       guid: e2e2df8ad08d374c83ab18c0eb04f479
       id: 4098647122
@@ -400,8 +400,8 @@ MonoBehaviour:
         guid: e2e2df8ad08d374c83ab18c0eb04f479
       Path: Events\Default Work Unit\Play_Musica_menu
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_options
       guid: aeba63f8c15b7e4f9a4b900d1c54dda2
       id: 1217000136
@@ -417,8 +417,8 @@ MonoBehaviour:
         guid: aeba63f8c15b7e4f9a4b900d1c54dda2
       Path: Events\Default Work Unit\Play_options
       maxAttenuation: 0
-      maxDuration: 4.6585
-      minDuration: 4.6585
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Pasos
       guid: cfc8f02d238a4a4e85e1b0ba69928a1b
       id: 4031831520
@@ -434,8 +434,8 @@ MonoBehaviour:
         guid: cfc8f02d238a4a4e85e1b0ba69928a1b
       Path: Events\Default Work Unit\Play_Pasos
       maxAttenuation: 0
-      maxDuration: 1.2412932
-      minDuration: 0.74780405
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Ranas
       guid: 0de1d929f0d29a419461de1e27aaf728
       id: 3693051101
@@ -450,9 +450,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 0de1d929f0d29a419461de1e27aaf728
       Path: Events\Default Work Unit\Play_Ranas
-      maxAttenuation: 100
-      maxDuration: 0
-      minDuration: 0
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Secuencia_del_monstruo_1
       guid: d9d840107ca9dd489520657c3a1cc903
       id: 1679219774
@@ -468,8 +468,8 @@ MonoBehaviour:
         guid: d9d840107ca9dd489520657c3a1cc903
       Path: Events\Default Work Unit\Play_Secuencia_del_monstruo_1
       maxAttenuation: 0
-      maxDuration: 16.364717
-      minDuration: 13.3647175
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Start
       guid: 62b4016a530ca444b6249c60f8e5cb09
       id: 2230670290
@@ -485,8 +485,8 @@ MonoBehaviour:
         guid: 62b4016a530ca444b6249c60f8e5cb09
       Path: Events\Default Work Unit\Play_Start
       maxAttenuation: 0
-      maxDuration: 3.9458542
-      minDuration: 3.9458542
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Truenos
       guid: 4d0fe0cc562e524a81b136912d43de10
       id: 1390663754
@@ -502,8 +502,8 @@ MonoBehaviour:
         guid: 4d0fe0cc562e524a81b136912d43de10
       Path: Events\Default Work Unit\Play_Truenos
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Viento
       guid: f9f36d9376598149b42d22a7f93b08ca
       id: 470983495
@@ -519,8 +519,8 @@ MonoBehaviour:
         guid: f9f36d9376598149b42d22a7f93b08ca
       Path: Events\Default Work Unit\Play_Viento
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Stop_All
       guid: 0aa11e61e20d3c4c9435c7a7681bb521
       id: 452547817
@@ -536,8 +536,8 @@ MonoBehaviour:
         guid: 0aa11e61e20d3c4c9435c7a7681bb521
       Path: Events\Default Work Unit\Stop_All
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -550,7 +550,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 2425c515fe05e24ba2e18656c6037eff
     GuidInternal: 
-    m_lastTime: -8584605569354775808
+    m_lastTime: -8584603255207203316
     List:
     - name: Distancia
       guid: ac639b4fecfe78439e880fcfcd2aff69
@@ -578,7 +578,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ee8283702c016440b9912feedc2a9d61
     GuidInternal: 
-    m_lastTime: -8584604925154775808
+    m_lastTime: -8584603255200615293
     List:
     - name: Ambientes
       guid: ffc2e04fc20fd345af20b52816e60619
