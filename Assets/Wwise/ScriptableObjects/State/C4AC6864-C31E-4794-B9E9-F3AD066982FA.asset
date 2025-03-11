@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4530569fcf656214783a28e292f73df4, type: 3}
+  m_Name: C4AC6864-C31E-4794-B9E9-F3AD066982FA
+  m_EditorClassIdentifier: 
+  objectName: Bosque
+  id: 1641284458
+  guid: C4AC6864-C31E-4794-B9E9-F3AD066982FA
+  WwiseStateGroupReference: {fileID: 11400000, guid: 3974ea87b5b9104438ab9b55f14039ad,
+    type: 2}

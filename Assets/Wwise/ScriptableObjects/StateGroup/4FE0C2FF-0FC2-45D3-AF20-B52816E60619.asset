@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10ded15e14a0e154785a0fb59a00a709, type: 3}
+  m_Name: 4FE0C2FF-0FC2-45D3-AF20-B52816E60619
+  m_EditorClassIdentifier: 
+  objectName: Ambientes
+  id: 1014953671
+  guid: 4FE0C2FF-0FC2-45D3-AF20-B52816E60619

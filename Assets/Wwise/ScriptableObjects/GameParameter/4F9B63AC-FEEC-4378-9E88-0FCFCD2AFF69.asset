@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 035901d78984c6541a977358e06b75be, type: 3}
   m_Name: 4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69
   m_EditorClassIdentifier: 
-  objectName: Distancia_Al_Lago
-  id: 2911652857
+  objectName: Distancia
+  id: 2914972013
   guid: 4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69

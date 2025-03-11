@@ -137,6 +137,7 @@
 						<Bus Name="Personaje" ID="{2D50E9E0-CDA7-4252-94B2-34F57DA8F232}"/>
 						<Bus Name="Ambientes" ID="{8A2E3BC6-C7CD-4C7D-AB7D-0D96410F3048}">
 							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
 										<Value>-6</Value>
@@ -148,6 +149,9 @@
 									<ObjectRef Name="Reverb_ambiente_Bosque" ID="{69240D75-8433-4388-B564-808422317E29}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
 								</Reference>
 							</ReferenceList>
+							<PositioningInfo>
+								<Panner Name="" ID="{0E03BDE5-3D04-4433-A5C0-02019EB01DA7}"/>
+							</PositioningInfo>
 						</Bus>
 						<Bus Name="Escena 2" ID="{46095837-2FC8-4CEA-BC40-425E94697513}"/>
 					</ChildrenList>
