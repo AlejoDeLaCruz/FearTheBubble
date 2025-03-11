@@ -170,13 +170,39 @@
     ],
     "GameParameters": [
      {
-      "Id": "2911652857",
-      "Name": "Distancia_Al_Lago",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distancia_Al_Lago",
+      "Id": "2914972013",
+      "Name": "Distancia",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Distancia",
       "GUID": "{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"
      }
     ],
     "StateGroups": [
+     {
+      "Id": "1014953671",
+      "Name": "Ambientes",
+      "ObjectPath": "\\States\\Default Work Unit\\Ambientes",
+      "GUID": "{4FE0C2FF-0FC2-45D3-AF20-B52816E60619}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Ambientes\\None",
+        "GUID": "{B93BB0FD-ED88-44B8-993E-A938F698AFBD}"
+       },
+       {
+        "Id": "1641284458",
+        "Name": "Bosque",
+        "ObjectPath": "\\States\\Default Work Unit\\Ambientes\\Bosque",
+        "GUID": "{C4AC6864-C31E-4794-B9E9-F3AD066982FA}"
+       },
+       {
+        "Id": "3831537582",
+        "Name": "Puerto",
+        "ObjectPath": "\\States\\Default Work Unit\\Ambientes\\Puerto",
+        "GUID": "{D79536AD-ABF3-4704-BCF3-F034F3813009}"
+       }
+      ]
+     },
      {
       "Id": "1080517932",
       "Name": "Escena_3",

@@ -16,12 +16,14 @@ namespace AK
         static const AkUniqueID PLAY_AGUA_COSTA = 4092163753U;
         static const AkUniqueID PLAY_AMBIENTE_LAGO__AGUA_ = 2009393964U;
         static const AkUniqueID PLAY_AMBIENTES = 578466606U;
+        static const AkUniqueID PLAY_AMBIENTES_CON_STATE = 4034250537U;
         static const AkUniqueID PLAY_CRUJIR_MADERA = 2473280468U;
         static const AkUniqueID PLAY_GENERADOR = 2565055385U;
         static const AkUniqueID PLAY_MUSICA_MENU = 4098647122U;
         static const AkUniqueID PLAY_OPTIONS = 1217000136U;
         static const AkUniqueID PLAY_PASOS = 4031831520U;
         static const AkUniqueID PLAY_RANAS = 3693051101U;
+        static const AkUniqueID PLAY_SECUENCIA_DEL_MONSTRUO_1 = 1679219774U;
         static const AkUniqueID PLAY_START = 2230670290U;
         static const AkUniqueID PLAY_VIENTO = 470983495U;
         static const AkUniqueID STOP_ALL = 452547817U;
@@ -29,6 +31,18 @@ namespace AK
 
     namespace STATES
     {
+        namespace AMBIENTES
+        {
+            static const AkUniqueID GROUP = 1014953671U;
+
+            namespace STATE
+            {
+                static const AkUniqueID BOSQUE = 1641284458U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID PUERTO = 3831537582U;
+            } // namespace STATE
+        } // namespace AMBIENTES
+
         namespace ESCENA_3
         {
             static const AkUniqueID GROUP = 1080517932U;
@@ -71,7 +85,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
-        static const AkUniqueID DISTANCIA_AL_LAGO = 2911652857U;
+        static const AkUniqueID DISTANCIA = 2914972013U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
