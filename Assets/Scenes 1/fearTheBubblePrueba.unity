@@ -30141,6 +30141,7 @@ GameObject:
   - component: {fileID: 436232414}
   - component: {fileID: 436232413}
   - component: {fileID: 436232412}
+  - component: {fileID: 436232416}
   - component: {fileID: 436232415}
   m_Layer: 0
   m_Name: Player(Esfera)
@@ -30383,6 +30384,31 @@ MonoBehaviour:
   rtpcName: Distancia_Al_Lago
   minDistance: 0
   maxDistance: 100
+--- !u!114 &436232416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 436232405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be34310c760481d49a4c4243bc79904b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 368b52e5f00bcc045be79024c3e7cc21,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!1 &437743910
 GameObject:
   m_ObjectHideFlags: 0

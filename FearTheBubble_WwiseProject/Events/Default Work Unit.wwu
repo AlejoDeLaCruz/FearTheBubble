@@ -219,10 +219,64 @@
 				</Event>
 				<Event Name="Play_Secuencia_del_monstruo_1" ID="{1040D8D9-A97C-48DD-9520-657C3A1CC903}">
 					<ChildrenList>
+						<Action Name="" ID="{BFD69808-C16F-48A0-A05E-EC74FD3F416F}" ShortID="415921155">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="GameParameterValue" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Set_Volumen" ID="{0F27CF67-9904-4116-A044-6980E0D5AC23}" WorkUnitID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{51D35DDF-AB40-4BA4-84CD-B04367DDA2DB}" ShortID="324584023">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Secuencia del monstruo 1" ID="{4CD16FBC-9336-4C64-B6F5-5CA6E6CD7C63}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F23C8398-ABD3-4B6E-BCA1-6C343424DA86}" ShortID="304187908">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="38"/>
+								<Property Name="Delay" Type="Real64" Value="15.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{81380F65-5331-4512-A8DB-91043866EB46}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="FadeInCurve" Type="int16" Value="7"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Set_Volumen" ID="{0F27CF67-9904-4116-A044-6980E0D5AC23}" WorkUnitID="{15C52524-05FE-4BE2-A2E1-8656C6037EFF}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lluvia_Metal" ID="{9FD7F620-422A-4124-B262-58D109F5F4B8}">
+					<ChildrenList>
+						<Action Name="" ID="{87892016-BCEC-4F88-A0D2-66DAD98B4BAA}" ShortID="28673320">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lluvia_Metal" ID="{4E507A0C-91C4-4D7D-9AFA-F28EFFFE37B4}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Movimientos_Barco" ID="{01F6E8F1-0341-4810-B668-26C33306EC62}">
+					<ChildrenList>
+						<Action Name="" ID="{F9305BB1-33EC-4736-951E-B2BCF9A1164F}" ShortID="357467515">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Movimientos_Barco" ID="{B17CC5C2-74AF-43DD-ACF9-2FA8E4A0027E}" WorkUnitID="{7013BC69-E6A3-4FEC-8D37-E63661D7805C}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

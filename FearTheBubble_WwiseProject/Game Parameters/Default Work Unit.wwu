@@ -10,6 +10,12 @@
 						<Property Name="Max" Type="Real64" Value="60"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Set_Volumen" ID="{0F27CF67-9904-4116-A044-6980E0D5AC23}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

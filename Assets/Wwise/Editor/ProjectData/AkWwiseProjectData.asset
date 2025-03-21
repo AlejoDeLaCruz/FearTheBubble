@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 8618a8e873745449ac5aa9ff3dec0e86
     GuidInternal: 
-    m_lastTime: -8584605569334775808
+    m_lastTime: -8584603213574775808
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 27d6132842d7fc4a92f04905a18af0f0
     GuidInternal: 
-    m_lastTime: -8584605569334775808
+    m_lastTime: -8584591249114775808
     List:
     - name: Ambientes
       guid: c63b2e8acdc77d4cab7d0d96410f3048
@@ -207,6 +207,23 @@ MonoBehaviour:
         ObjectType: 1
         guid: 750d246933848843b564808422317e29
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_ambiente_Bosque
+    - name: Reverb_Barco_metal
+      guid: c50fb395512b66418f20a1d7632cb119
+      id: 2236193873
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 27d6132842d7fc4a92f04905a18af0f0
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb_Barco_metal
+        ObjectType: 1
+        guid: c50fb395512b66418f20a1d7632cb119
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb_Barco_metal
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -219,7 +236,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: aa611f8d23395843b085614855d06864
     GuidInternal: 
-    m_lastTime: -8584604922994775808
+    m_lastTime: -8584603213574775808
     List:
     - name: Main_v2
       guid: c2b85e86e11d6843a59772e7b13d1ab4
@@ -247,7 +264,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 33ce9caac0066d49827f32da16da547a
     GuidInternal: 
-    m_lastTime: -8584603300994775808
+    m_lastTime: -8584591830174775808
     List:
     - name: Play_Agua_costa
       guid: f1994f797d68db4ebd47bb08ef240a04
@@ -385,6 +402,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_Lluvia_Metal
+      guid: 20f6d79f2a422441b26258d109f5f4b8
+      id: 2462437633
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Lluvia_Metal
+        ObjectType: 3
+        guid: 20f6d79f2a422441b26258d109f5f4b8
+      Path: Events\Default Work Unit\Play_Lluvia_Metal
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_Movimientos_Barco
+      guid: f1e8f60141031048b66826c33306ec62
+      id: 1936206616
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 33ce9caac0066d49827f32da16da547a
+      - ElementName: Play_Movimientos_Barco
+        ObjectType: 3
+        guid: f1e8f60141031048b66826c33306ec62
+      Path: Events\Default Work Unit\Play_Movimientos_Barco
+      maxAttenuation: 30
+      maxDuration: 1.7438483
+      minDuration: 0.9218021
     - name: Play_Musica_menu
       guid: e2e2df8ad08d374c83ab18c0eb04f479
       id: 4098647122
@@ -550,7 +601,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 2425c515fe05e24ba2e18656c6037eff
     GuidInternal: 
-    m_lastTime: -8584605569354775808
+    m_lastTime: -8584591830174775808
     List:
     - name: Distancia
       guid: ac639b4fecfe78439e880fcfcd2aff69
@@ -566,6 +617,20 @@ MonoBehaviour:
         ObjectType: 13
         guid: ac639b4fecfe78439e880fcfcd2aff69
       Path: Game Parameters\Default Work Unit\Distancia
+    - name: Set_Volumen
+      guid: 67cf270f04991641a0446980e0d5ac23
+      id: 490955550
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 2425c515fe05e24ba2e18656c6037eff
+      - ElementName: Set_Volumen
+        ObjectType: 13
+        guid: 67cf270f04991641a0446980e0d5ac23
+      Path: Game Parameters\Default Work Unit\Set_Volumen
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -578,8 +643,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: ee8283702c016440b9912feedc2a9d61
     GuidInternal: 
-    m_lastTime: -8584604925154775808
+    m_lastTime: -8584591830174775808
     List:
+    - name: Adentro_del_barco
+      guid: 31b5f6988b47864c8a76fe76319b3e6f
+      id: 3061862030
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: ee8283702c016440b9912feedc2a9d61
+      - ElementName: Adentro_del_barco
+        ObjectType: 9
+        guid: 31b5f6988b47864c8a76fe76319b3e6f
+      Path: States\Default Work Unit\Adentro_del_barco
+      values:
+      - name: no
+        guid: bcc42a326f19ae4380e01031d064c7ad
+        id: 1668749452
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee8283702c016440b9912feedc2a9d61
+        - ElementName: Adentro_del_barco
+          ObjectType: 9
+          guid: 31b5f6988b47864c8a76fe76319b3e6f
+        - ElementName: no
+          ObjectType: 8
+          guid: bcc42a326f19ae4380e01031d064c7ad
+      - name: None
+        guid: 1e411f41f2eb4845ab72dbf13fe038e8
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee8283702c016440b9912feedc2a9d61
+        - ElementName: Adentro_del_barco
+          ObjectType: 9
+          guid: 31b5f6988b47864c8a76fe76319b3e6f
+        - ElementName: None
+          ObjectType: 8
+          guid: 1e411f41f2eb4845ab72dbf13fe038e8
+      - name: si
+        guid: d6822233822b6141a8f417f91ed1ec69
+        id: 1584861549
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: ee8283702c016440b9912feedc2a9d61
+        - ElementName: Adentro_del_barco
+          ObjectType: 9
+          guid: 31b5f6988b47864c8a76fe76319b3e6f
+        - ElementName: si
+          ObjectType: 8
+          guid: d6822233822b6141a8f417f91ed1ec69
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Ambientes
       guid: ffc2e04fc20fd345af20b52816e60619
       id: 1014953671
@@ -708,7 +839,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: b34928d33dfdc541be65a1247731ebdb
     GuidInternal: 
-    m_lastTime: -8584605569334775808
+    m_lastTime: -8584603213574775808
     List:
     - name: Movimiento
       guid: 663ffaaf9579b04c8b79a6050e918fa5
@@ -838,10 +969,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: e9ab903c5ab5b24c8c46e76a6ed960b0
     GuidInternal: 
-    m_lastTime: -8584605569334775808
+    m_lastTime: -8584603213574775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000001700000018000000190000001a0000001c0000001d000000ad000000ae00000047010000480100007d0100007e010000
+  ExpandedWaapiItemIds: 010000000500000006000000070000001700000018000000190000001a0000001b0000001c0000001d0000001e000000ad000000ae0000000f0100001001000047010000480100007d0100007e010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
