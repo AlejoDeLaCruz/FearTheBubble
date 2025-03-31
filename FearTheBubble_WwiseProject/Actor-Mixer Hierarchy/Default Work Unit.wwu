@@ -4734,7 +4734,7 @@
 												<Property Name="Lowpass" Type="int16" Value="-47"/>
 												<Property Name="Pitch" Type="int32" Value="-750"/>
 												<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
-												<Property Name="Volume" Type="Real64" Value="-2"/>
+												<Property Name="Volume" Type="Real64" Value="-10"/>
 											</PropertyList>
 										</CustomState>
 									</CustomState>
@@ -5357,7 +5357,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-17</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>

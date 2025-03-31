@@ -84,6 +84,36 @@
 									<ObjectRef Name="Delay" ID="{CA42A0DC-438C-42DA-B38D-9E9F3BA49239}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
 								</Reference>
 							</ReferenceList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="BusVolume"/>
+									<Property Name="Highpass"/>
+									<Property Name="Lowpass"/>
+									<Property Name="Pitch"/>
+									<Property Name="UserAuxSendVolume0"/>
+									<Property Name="UserAuxSendVolume1"/>
+									<Property Name="Volume"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Adentro_del_barco" ID="{98F6B531-478B-4C86-8A76-FE76319B3E6F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="si" ID="{332282D6-2B82-4161-A8F4-17F91ED1EC69}"/>
+										<CustomState Name="" ID="{3B4D0BBC-F7F6-4E89-BBD8-F219077A9C85}" ShortID="986411426">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="no" ID="{322AC4BC-196F-43AE-80E0-1031D064C7AD}"/>
+										<CustomState Name="" ID="{F85423D3-E4DD-4C93-9C2F-5CF3F73EECE8}" ShortID="286989038"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<AuxBus Name="Reverb_ambiente_Bosque" ID="{69240D75-8433-4388-B564-808422317E29}">
 							<PropertyList>

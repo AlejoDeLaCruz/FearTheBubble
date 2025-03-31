@@ -95,7 +95,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
 						<CurrentStateRef Name="None" ID="{B93BB0FD-ED88-44B8-993E-A938F698AFBD}"/>
-						<CurrentStateRef Name="None" ID="{411F411E-EBF2-4548-AB72-DBF13FE038E8}"/>
+						<CurrentStateRef Name="si" ID="{332282D6-2B82-4161-A8F4-17F91ED1EC69}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Pasos_Madera" ID="{891847EF-8173-4945-B5C7-E8504E2B7C2C}"/>
