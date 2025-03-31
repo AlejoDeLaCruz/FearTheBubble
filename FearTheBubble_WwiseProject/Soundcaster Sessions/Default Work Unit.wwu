@@ -18,6 +18,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Secuencia_del_monstruo_1" ID="{1040D8D9-A97C-48DD-9520-657C3A1CC903}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Start" ID="{6A01B462-0C53-44A4-B624-9C60F8E5CB09}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -30,6 +34,10 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Lluvia_Metal" ID="{9FD7F620-422A-4124-B262-58D109F5F4B8}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_Musica_menu" ID="{8ADFE2E2-8DD0-4C37-83AB-18C0EB04F479}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -40,6 +48,10 @@
 						<Module>
 							<ObjectRef Name="Play_Agua_moviendose_con_la_lluvia" ID="{E06D67BB-291B-4FC4-A308-9503BA16E539}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
 							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Movimientos_Barco" ID="{01F6E8F1-0341-4810-B668-26C33306EC62}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
+							<Position X="2" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_Ambientes" ID="{20721978-FA7E-4C2E-84C1-ADFF221A9B6F}" WorkUnitID="{AA9CCE33-06C0-496D-827F-32DA16DA547A}"/>
@@ -72,13 +84,18 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="Set_Volumen" ID="{0F27CF67-9904-4116-A044-6980E0D5AC23}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Distancia" ID="{4F9B63AC-FEEC-4378-9E88-0FCFCD2AFF69}"/>
-							<Value>60</Value>
+							<Value>40</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Escena_On" ID="{F9048953-86B2-4459-8E91-2B10EB52C1B2}"/>
 						<CurrentStateRef Name="None" ID="{B93BB0FD-ED88-44B8-993E-A938F698AFBD}"/>
+						<CurrentStateRef Name="si" ID="{332282D6-2B82-4161-A8F4-17F91ED1EC69}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Pasos_Madera" ID="{891847EF-8173-4945-B5C7-E8504E2B7C2C}"/>

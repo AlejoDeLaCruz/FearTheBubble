@@ -16,6 +16,13 @@
 						<State Name="Puerto" ID="{D79536AD-ABF3-4704-BCF3-F034F3813009}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Adentro_del_barco" ID="{98F6B531-478B-4C86-8A76-FE76319B3E6F}">
+					<ChildrenList>
+						<State Name="None" ID="{411F411E-EBF2-4548-AB72-DBF13FE038E8}"/>
+						<State Name="si" ID="{332282D6-2B82-4161-A8F4-17F91ED1EC69}"/>
+						<State Name="no" ID="{322AC4BC-196F-43AE-80E0-1031D064C7AD}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

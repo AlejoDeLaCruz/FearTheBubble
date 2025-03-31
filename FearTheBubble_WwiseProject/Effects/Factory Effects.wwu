@@ -44,7 +44,7 @@
 						</Effect>
 						<Effect Name="High_Impact" ID="{2AFD6FB0-C906-4683-A377-FEEEF72967B0}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
 							<PropertyList>
-								<Property Name="AttackTime" Type="Real32" Value="0.04"/>
+								<Property Name="AttackTime" Type="Real32" Value="0"/>
 								<Property Name="Ratio" Type="Real32" Value="4"/>
 								<Property Name="ReleaseTime" Type="Real32" Value="1.09"/>
 								<Property Name="Threshold" Type="Real32" Value="-14"/>
@@ -188,6 +188,7 @@
 						</Effect>
 						<Effect Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
 							<PropertyList>
+								<Property Name="LookAhead" Type="Real32" Value="0.001"/>
 								<Property Name="Ratio" Type="Real32" Value="50"/>
 								<Property Name="ReleaseTime" Type="Real32" Value="0.02"/>
 								<Property Name="Threshold" Type="Real32" Value="-1"/>

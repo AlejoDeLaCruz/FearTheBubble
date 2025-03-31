@@ -12,6 +12,11 @@
 					<ChildrenList>
 						<Bus Name="Menu" ID="{9AB65A70-083F-4921-994C-37A651D526E4}">
 							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3840</Value>
+									</ValueList>
+								</Property>
 								<Property Name="UserAuxSendHPF0" Type="int16">
 									<ValueList>
 										<Value>15</Value>
@@ -79,8 +84,45 @@
 									<ObjectRef Name="Delay" ID="{CA42A0DC-438C-42DA-B38D-9E9F3BA49239}" WorkUnitID="{2813D627-D742-4AFC-92F0-4905A18AF0F0}"/>
 								</Reference>
 							</ReferenceList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="BusVolume"/>
+									<Property Name="Highpass"/>
+									<Property Name="Lowpass"/>
+									<Property Name="Pitch"/>
+									<Property Name="UserAuxSendVolume0"/>
+									<Property Name="UserAuxSendVolume1"/>
+									<Property Name="Volume"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Adentro_del_barco" ID="{98F6B531-478B-4C86-8A76-FE76319B3E6F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="si" ID="{332282D6-2B82-4161-A8F4-17F91ED1EC69}"/>
+										<CustomState Name="" ID="{3B4D0BBC-F7F6-4E89-BBD8-F219077A9C85}" ShortID="986411426">
+											<PropertyList>
+												<Property Name="UserAuxSendVolume0" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="no" ID="{322AC4BC-196F-43AE-80E0-1031D064C7AD}"/>
+										<CustomState Name="" ID="{F85423D3-E4DD-4C93-9C2F-5CF3F73EECE8}" ShortID="286989038"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<AuxBus Name="Reverb_ambiente_Bosque" ID="{69240D75-8433-4388-B564-808422317E29}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3584</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
@@ -98,6 +140,13 @@
 							</ObjectLists>
 						</AuxBus>
 						<AuxBus Name="Delay" ID="{CA42A0DC-438C-42DA-B38D-9E9F3BA49239}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3584</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
 									<Reference>
@@ -116,6 +165,11 @@
 						</AuxBus>
 						<Bus Name="Musica" ID="{C5BFB265-C331-40BB-AC62-61AE232953CA}">
 							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3840</Value>
+									</ValueList>
+								</Property>
 								<Property Name="UserAuxSendLPF0" Type="int16">
 									<ValueList>
 										<Value>15</Value>
@@ -126,6 +180,11 @@
 										<Value>-15</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="UserAuxSend0">
@@ -133,10 +192,31 @@
 								</Reference>
 							</ReferenceList>
 						</Bus>
-						<Bus Name="Escena 1" ID="{EF1DDD2A-007F-4B6C-95EE-CF2BD6E6D9F6}"/>
-						<Bus Name="Personaje" ID="{2D50E9E0-CDA7-4252-94B2-34F57DA8F232}"/>
+						<Bus Name="Escena 1" ID="{EF1DDD2A-007F-4B6C-95EE-CF2BD6E6D9F6}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3840</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Personaje" ID="{2D50E9E0-CDA7-4252-94B2-34F57DA8F232}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3840</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
 						<Bus Name="Ambientes" ID="{8A2E3BC6-C7CD-4C7D-AB7D-0D96410F3048}">
 							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3584</Value>
+									</ValueList>
+								</Property>
 								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
 								<Property Name="UserAuxSendVolume0" Type="Real64">
 									<ValueList>
@@ -153,8 +233,64 @@
 								<Panner Name="" ID="{0E03BDE5-3D04-4433-A5C0-02019EB01DA7}"/>
 							</PositioningInfo>
 						</Bus>
-						<Bus Name="Escena 2" ID="{46095837-2FC8-4CEA-BC40-425E94697513}"/>
+						<Bus Name="Escena 2" ID="{46095837-2FC8-4CEA-BC40-425E94697513}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3840</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{DC2DDFEE-3571-4D81-9BF2-148A54FA2169}" ShortID="751402902"/>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<AuxBus Name="Reverb_Barco_metal" ID="{95B30FC5-2B51-4166-8F20-A1D7632CB119}">
+							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>3584</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{2E1D9F62-6E16-43D4-BF7F-04EE85E10BA9}" ShortID="885585945">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+														<ObjectRef Name="Big_Garage1" ID="{172402A8-22F4-40FC-BE1D-5269594CB633}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</AuxBus>
 					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Effects">
+							<Reference>
+								<Local>
+									<EffectSlot Name="" ID="{6AA47C15-5910-40E2-851F-020DCCFB9CDE}" ShortID="445311820">
+										<ReferenceList>
+											<Reference Name="Effect" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+												<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

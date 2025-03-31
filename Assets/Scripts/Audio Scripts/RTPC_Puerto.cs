@@ -19,13 +19,11 @@ public class RTPC_Puerto : MonoBehaviour
         }
 
         float distance = Vector3.Distance(player.position, targetLocation.position);
-        Debug.Log($"Distancia al Puerto: {distance}");
 
         float normalizedDistance = Mathf.Clamp01((distance - minDistance) / (maxDistance - minDistance));
         float inverseNormalizedDistance = 1f - normalizedDistance;
         float rtpcValue = inverseNormalizedDistance * 100f; // Ajusta según el rango en Wwise
 
-        Debug.Log($"RTPC '{rtpcName}' enviado con valor: {rtpcValue}");
 
         // Envía el valor al RTPC en Wwise, asociado al jugador
         AkSoundEngine.SetRTPCValue(rtpcName, rtpcValue, player.gameObject);

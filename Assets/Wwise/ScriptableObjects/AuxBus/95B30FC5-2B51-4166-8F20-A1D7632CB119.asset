@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 746ccbe9a5fe3d94f913a2b3b23bcd0d, type: 3}
+  m_Name: 95B30FC5-2B51-4166-8F20-A1D7632CB119
+  m_EditorClassIdentifier: 
+  objectName: Reverb_Barco_metal
+  id: 2236193873
+  guid: 95B30FC5-2B51-4166-8F20-A1D7632CB119

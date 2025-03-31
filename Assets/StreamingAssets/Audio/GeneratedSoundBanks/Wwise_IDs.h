@@ -21,6 +21,8 @@ namespace AK
         static const AkUniqueID PLAY_CRUJIR_MADERA = 2473280468U;
         static const AkUniqueID PLAY_GENERADOR = 2565055385U;
         static const AkUniqueID PLAY_LLUVIA = 1467123597U;
+        static const AkUniqueID PLAY_LLUVIA_METAL = 2462437633U;
+        static const AkUniqueID PLAY_MOVIMIENTOS_BARCO = 1936206616U;
         static const AkUniqueID PLAY_MUSICA_MENU = 4098647122U;
         static const AkUniqueID PLAY_OPTIONS = 1217000136U;
         static const AkUniqueID PLAY_PASOS = 4031831520U;
@@ -34,6 +36,18 @@ namespace AK
 
     namespace STATES
     {
+        namespace ADENTRO_DEL_BARCO
+        {
+            static const AkUniqueID GROUP = 3061862030U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NO = 1668749452U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID SI = 1584861549U;
+            } // namespace STATE
+        } // namespace ADENTRO_DEL_BARCO
+
         namespace AMBIENTES
         {
             static const AkUniqueID GROUP = 1014953671U;
@@ -89,6 +103,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID DISTANCIA = 2914972013U;
+        static const AkUniqueID SET_VOLUMEN = 490955550U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
@@ -113,6 +128,7 @@ namespace AK
     {
         static const AkUniqueID DELAY = 357718954U;
         static const AkUniqueID REVERB_AMBIENTE_BOSQUE = 3726255567U;
+        static const AkUniqueID REVERB_BARCO_METAL = 2236193873U;
     } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
